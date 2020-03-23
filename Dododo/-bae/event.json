@@ -1,0 +1,21 @@
+query:'
+  query($owner:String!, $name:String!) {
+    repository(owner:$owner, name:$name) {
+      name
+    }
+  }'
+variables:
+  owner:
+    type: jq
+    file: ../workflow/event.json
+    query: '.repository.owner.login'
+  name:
+    type: jq
+    file: ../workflow/event.json
+    query: '.repository.name'
+action "GraphQL query" {
+  uses = "./"
+  secrets = ["GITHUB_TOKEN"]
+  needs = "Repo Query Args"
+  args = "--query .github/graphql_action/repository-jq.query.yaml --log true"
+}

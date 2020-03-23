@@ -1,0 +1,6 @@
+curl -i \
+-H "Authorization: Bearer REFRESH_JWT" \
+-H "X-Client-ID: CLIENT_ID" \
+-H "Accept: application/json" \
+-X POST \
+https://zube.io/api/users/tokens

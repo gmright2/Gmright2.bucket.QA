@@ -1,0 +1,45 @@
+describe 'Test with visual testing', type: :feature, js: true do
+  it 'loads example.com homepage' do
+    visit 'https://example.com'
+    Percy.snapshot(page, { name: 'example.com homepage' })
+  end
+end
+
+
+
+
+
+  # Windows
+$ set PERCY_TOKEN=<your token here>
+
+# Unix 
+$ export PERCY_TOKEN=<your token here>
+
+         Percy.snapshot(page)
+Percy.snapshot(page, options)
+
+
+Percy.snapshot(page, { name: 'Responsive snapshot', widths: [768, 992, 1200] })
+Percy.snapshot(page, { min_height: 2000 })
+
+
+
+expect(page).to have_css('#new-project')
+expect(page).to have_content('New Project')
+
+
+
+raise 'element missing!' if page.has_no_css?('#new-project')
+raise 'element missing!' if page.has_no_content?('New Project')
+
+
+
+webpacker.yml
+ 
+
+test:
+  ...
+  # Extract and emit a css file
+  extract_css: true
+
+

@@ -1,0 +1,21 @@
+var recordingURL;
+LogRocket.getSessionURL(function(sessionURL) {
+  recordingURL = sessionURL;
+});
+
+// example API call
+fetch(someAPICallhere, {
+  headers: { 
+    // other headers
+    'X-LogRocket-URL': recordingURL,
+  },
+});
+
+
+
+   
+ 
+
+logrocket.getSessionURL(sessionURL => {
+    newrelic.setCustomAttribute('logrocket_url', sessionURL);
+});

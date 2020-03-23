@@ -1,0 +1,5 @@
+curl -i \
+-H "Authorization: Bearer ACCESS_JWT" \
+-H "X-Client-ID: CLIENT_ID" \
+-H "Accept: application/json" \
+https://zube.io/api/ANY_END_POINT

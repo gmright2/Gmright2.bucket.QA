@@ -1,0 +1,15 @@
+// Add this to your existing init call, do not call init twice!
+LogRocket.init(YOUR_APP_ID, {
+  network: {
+    requestSanitizer: request => {
+      // if the url contains 'ignore'
+      if (request.url.toLowerCase().indexOf('ignore') !== -1) {
+        // ignore the request response pair
+        return null;
+      }
+      
+      // otherwise log the request normally
+      return request;
+    },
+  },
+});

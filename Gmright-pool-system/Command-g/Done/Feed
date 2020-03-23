@@ -1,0 +1,7 @@
+Mothership: open-box 
+    Gift: front mother 
+      Children-stop(crystal)
+            Front/go
+ Mothership 
+        Feed: (8.8.2)
+Feed[gmright]

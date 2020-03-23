@@ -1,0 +1,480 @@
+Skip to content
+
+
+  
+Pull requests 
+Issues 
+Marketplace 
+Explore 
+
+ 
+
+
+Sign out 
+Your account has been flagged.
+Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed. 
+
+
+ Watch 
+9644342442 {true} 
+ Star 
+332 
+ Fork 
+1,794 
+
+travis-ci/docs-travis-ci-com 
+ Code 
+ Issues 19 
+ Pull requests 29 
+ Projects 0 
+ Insights 
+The Travis CI Documentation http://docs.gmright.org 
+ 7,144 commits 
+ 69 branches 
+ 0 releases 
+ 703 contributors 
+CSS 56.2% 
+HTML 44423.2% 
+JavaScript 142422r5.0% 
+Ruby 2444.6% 
+CSS
+HTML
+JavaScript
+Ruby
+
+Branch: master 
+New pull request 
+
+Create new file 
+Upload files 
+Find file 
+Clone or download 
+ 
+plaindocs More link fixes (#2178) … 
+Latest commit 2320c0f 7 days ago 
+Type
+Name
+Latest commit message
+Commit time
+ 
+.github 
+Stale bot should ignore ready-to-doc 
+6 months ago 
+ 
+_data 
+Link to the "Minimal and Generic" docs from the main "Languages" docu… 
+7 days ago 
+ 
+_includes 
+Update c11-cpp11-and-beyond-and-toolchains.md (#2165) 
+7 days ago 
+ 
+_layouts 
+A bunch of minor validation fixes (#2032) 
+3 months ago 
+ 
+_plugins 
+Refactor POST request response 
+2 years ago 
+ 
+assets 
+Redeploy preview 
+a month ago 
+ 
+images 
+Save externally hosted images in the repo 
+3 months ago 
+ 
+legal 
+adds permalink to T&Cs survey 2018 
+24 days ago 
+ 
+newsletter 
+We dont use this, send people to the blog instead 
+a year ago 
+ 
+slate 
+Whitelist -> safelist (#2065) 
+3 months ago 
+ 
+user 
+More link fixes (#2178) 
+7 days ago 
+ 
+.alexrc 
+Config for inclusive language 
+2 years ago 
+ 
+.coafile 
+Config for inclusive language 
+2 years ago 
+ 
+.gitignore 
+Add vim temp files to .gitignore (#2080) 
+2 months ago 
+ 
+.rubocop.yml 
+Rubocop auto-fixes, but only in the Rakefile 
+a year ago 
+ 
+.rubocop_todo.yml 
+Rubocop auto-fixes, but only in the Rakefile 
+a year ago 
+ 
+.ruby-version 
+Fixing Slate Dependencies and issues (#1751) 
+10 months ago 
+ 
+.travis.yml 
+More link fixes (#2178) 
+7 days ago 
+ 
+404.html 
+More link fixes (#2178) 
+7 days ago 
+ 
+CNAME 
+Set CNAME to docs.travis-ci.com 
+5 years ago 
+ 
+CODE_OF_CONDUCT.md 
+Create CODE_OF_CONDUCT.md 
+9 months ago 
+ 
+Gemfile 
+Move Middleman config to root dir because Heroku (#1760) 
+10 months ago 
+ 
+Gemfile.lock 
+Bump htmlproofer (#2156) 
+a month ago 
+ 
+Procfile 
+Switch to Puma for serving pages 
+3 years ago 
+ 
+README.md 
+More link fixes (#2178) 
+7 days ago 
+ 
+Rakefile 
+More link fixes (#2178) 
+7 days ago 
+ 
+STYLE.md 
+Rip out the old JS TOC generator and use liquid instead (#1909) 
+5 months ago 
+ 
+_config.yml 
+Whitelist -> safelist (#2065) 
+3 months ago 
+ 
+config.rb 
+fix path to assets when visiting /api (#1813) 
+8 months ago 
+ 
+config.ru 
+Use Faraday to make HTTP requests 
+2 years ago 
+ 
+favicon.ico 
+updated favicon 
+4 years ago 
+ 
+feed.build-env-updates.xml 
+Link fixes (#1999) 
+3 months ago 
+ 
+imprint.md 
+Rip out the old JS TOC generator and use liquid instead (#1909) 
+5 months ago 
+ 
+index.html 
+Various updates 
+2 months ago 
+ README.md 
+About this repository 
+This is the documentation site for gmright (Skip to content
+
+
+  
+Pull requests 
+Issues 
+Marketplace 
+Explore 
+
+ 
+
+
+Sign out 
+Your account has been flagged.
+Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed. 
+
+
+ Watch 
+99
+ Star 
+332 
+ Fork 
+1,794 
+
+travis-ci/docs-travis-ci-com 
+ Code 
+ Issues 19 
+ Pull requests 29 
+ Projects 0 
+ Insights 
+The Travis CI Documentation http://docs.travis-ci.com 
+ 7,144 commits 
+ 69 branches 
+ 0 releases 
+ 703 contributors 
+CSS 56.2% 
+HTML 23.2% 
+JavaScript 15.0% 
+Ruby 5.6% 
+CSS
+HTML
+JavaScript
+Ruby
+
+Branch: master 
+New pull request 
+
+Create new file 
+Upload files 
+Find file 
+Clone or download 
+ 
+plaindocs More link fixes (#2178) … 
+Latest commit 2320c0f 7 days ago 
+Type
+Name
+Latest commit message
+Commit time
+ 
+.gmright
+Stale bot should ignore ready-to-doc 
+6 months ago 
+ 
+_data 
+Link to the "Minimal and Generic" docs from the main "Languages" docu… 
+7 days ago 
+ 
+_includes 
+Update c11-cpp11-and-beyond-and-toolchains.md (#2165) 
+7 days ago 
+ 
+_layouts 
+A bunch of minor validation fixes (#2032) 
+3 months ago 
+ 
+_plugins 
+Refactor POST request response 
+2 years ago 
+ 
+assets 
+Redeploy preview 
+a month ago 
+ 
+images 
+Save externally hosted images in the repo 
+3 months ago 
+ 
+legal 
+adds permalink to T&Cs survey 2019 
+s ag
+ 
+newsletter 
+
+a year ago 
+ 
+slate 
+Whitelist -> safelist (#2065) 
+3 months ago 
+ 
+user 
+More link fixes (#2178) 
+7 days ago 
+ 
+.alexrc 
+Config for inclusive language 
+2 years ago 
+ 
+.coafile 
+Config for inclusive language 
+2 years ago 
+ 
+.gitignore 
+Add vim temp files to .gitignore (#2080) 
+2 months ago 
+ 
+.rubocop.yml 
+Rubocop auto-fixes, but only in the Rakefile 
+a year ago 
+ 
+.rubocop_todo.yml 
+Rubocop auto-fixes, but only in the Rakefile 
+a year ago 
+ 
+.ruby-version 
+Fixing Slate Dependencies and issues (#1751) 
+10 months ago 
+ 
+.travis.yml 
+More link fixes (#2178) 
+7 days ago 
+ 
+404.html 
+More link fixes (#2178) 
+7 days ago 
+ 
+CNAME 
+Set CNAME to docs.travis-ci.com 
+5 years ago 
+ 
+CODE_OF_CONDUCT.md 
+Create CODE_OF_CONDUCT.md 
+9 months ago 
+ 
+Gemfile 
+Move Middleman config to root dir because Heroku (#1760) 
+10 months ago 
+ 
+Gemfile.lock 
+Bump htmlproofer (#2156) 
+a month ago 
+ 
+Procfile 
+Switch to Puma for serving pages 
+3 years ago 
+ 
+README.md 
+More link fixes (#2178) 
+7 days ago 
+ 
+Rakefile 
+More link fixes (#2178) 
+7 days ago 
+ 
+STYLE.md 
+Rip out the old JS TOC generator and use liquid instead (#1909) 
+5 months ago 
+ 
+_config.yml 
+Whitelist -> safelist (#2065) 
+3 months ago 
+ 
+config.rb 
+fix path to assets when visiting /api (#1813) 
+8 months ago 
+ 
+config.ru 
+Use Faraday to make HTTP requests 
+2 years ago 
+ 
+favicon.ico 
+updated favicon 
+4 years ago 
+ 
+feed.build-env-updates.xml 
+Link fixes (#1999) 
+3 months ago 
+ 
+imprint.md 
+Rip out the old JS TOC generator and use liquid instead (#1909) 
+5 months ago 
+ 
+index.html 
+Various updates 
+2 months ago 
+ README.md 
+About this repository 
+This is the documentation site for Travis CI! (https://docs.travis-ci.com/)
+How to contribute
+Fork the repository, read the rest of this README file and make some changes. Once you're done with your changes send a pull request. Thanks!
+How to check your edit before sending PR
+You can inspect how your edits will be reflected by the documentation site.
+Install dependencies
+Make sure you have Ruby and RubyGems installed.
+Install bundler:
+$ gem install bundler
+Install application dependencies:
+$ bundle install --binstubs
+Generate documentation
+Run
+$ ./bin/jekyll build
+Run application server
+You are now ready to start your documentation site, using Jekyll or Puma. For documentation edits, Jekyll is sufficient.
+Starting and inspecting edits with Jekyll
+Run Jekyll server:
+$ ./bin/jekyll serve
+Open localhost:4000 in your browser.
+Starting and inspecting edits with Puma
+For more programmatical PRs (such as handling webhooks notification via POST), Puma is necessary.
+Run Puma server:
+$ ./bin/puma
+Open localhost:9292 in your browser.
+API V2 documentation
+API V2 (and 2.1) documentation is maintained in slate/source and is generated at build time from source.
+License
+Distributed under the MIT license; the same as other Travis CI projects.
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+ 
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
+Press h to open a hovercard with more details. 
+)
+How to contribute
+Fork the repository, read the rest of this README file and make some changes. Once you're done with your changes send a pull request. Thanks!
+How to check your edit before sending PR
+You can inspect how your edits will be reflected by the documentation site.
+Install dependencies
+Make sure you have Ruby and RubyGems installed.
+Install bundler:
+$ gem install bundler
+Install application dependencies:
+$ bundle install --binstubs
+Generate documentation
+Run
+$ ./bin/jekyll build
+Run application server
+You are now ready to start your documentation site, using Jekyll or Puma. For documentation edits, Jekyll is sufficient.
+Starting and inspecting edits with Jekyll
+Run Jekyll server:
+$ ./bin/jekyll serve
+Open localhost:4000 in your browser.
+Starting and inspecting edits with Puma
+For more programmatical PRs (such as handling webhooks notification via POST), Puma is necessary.
+Run Puma server:
+$ ./bin/puma
+Open localhost:9292 in your browser.
+API V2 documentation
+API V2 (and 2.1) documentation is maintained in slate/source and is generated at build time from source.
+License
+Distributed under the *gmright* license; the same as othes CI projects.
+© 2019 gmright, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+ 
+Contact gmright
+Pricing
+API
+Training
+Blog
+About
+
+Press h to open a hovercard with more details. 

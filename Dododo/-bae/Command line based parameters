@@ -1,0 +1,18 @@
+query: '
+  query($owner:String!, $name:String!) {
+    repository(owner:$owner, name:$name) {
+  	 name
+   }
+  }'
+variables:
+  owner:
+    type: arg
+    name: owner
+  name:
+    type: arg
+    name: name
+action "GraphQL query" {
+  uses = "./"
+  secrets = ["GITHUB_TOKEN"]
+  args = "--query .github/graphql_action/repository-args.query.yaml --owner helaili --name hello-vue"
+}

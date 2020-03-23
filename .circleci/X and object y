@@ -1,0 +1,10 @@
+interface X {
+  some_field: String!
+  other_field: String!
+}
+
+type Y implements X {
+  some_field: String!
+  other_field: String!
+  new_field: String!
+}

@@ -1,0 +1,1 @@
+git clone https://android.googlesource.com/Platform-Chromium-Projects && (cd Platform-Chromium-Projects && f=`git rev-parse --git-dir`/hooks/commit-msg ; mkdir -p $(dirname $f) ; curl -Lo $f https://gerrit-review.googlesource.com/tools/hooks/commit-msg ; chmod +x $f)

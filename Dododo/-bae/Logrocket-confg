@@ -1,0 +1,226 @@
+
+
+LogRocket.init(YOUR_APP_ID, {
+   release: '0.1.0',
+});
+
+
+       LogRocket.init(YOUR_APP_ID, {
+  console: {
+    isEnabled: false,
+  },
+});
+
+
+
+// This will log all console.info, console.warn, and console.error calls.
+LogRocket.init(YOUR_APP_ID, {
+  console: {
+    isEnabled: {
+      log: false,
+      debug: false, 
+    },
+  },
+});
+      
+
+
+LogRocket.init(YOUR_APP_ID, {
+  console: {
+    shouldAggregateConsoleErrors: true,
+  },
+});
+
+           
+
+
+
+
+// Add this to your existing init call, do not call init twice!
+LogRocket.init(YOUR_APP_ID, {
+  network: {
+    isEnabled: false,
+  },
+});
+
+
+
+
+
+
+
+
+
+
+
+// Add this to your existing init call, do not call init twice!
+LogRocket.init(YOUR_APP_ID, {
+  network: {
+    requestSanitizer: request => {
+      // if the url contains 'ignore'
+      if (request.url.toLowerCase().indexOf('ignore') !== -1) {
+        // scrub out the body
+        request.body = null;
+      }
+        
+      return request;
+    },
+  },
+});
+
+        
+
+
+
+
+
+
+// Add this to your existing init call, do not call init twice!
+LogRocket.init(YOUR_APP_ID, {
+   network: {
+     requestSanitizer: request => {
+       request.headers['x-auth-token'] = null;
+       return request;
+     },
+   },
+});
+
+
+
+
+
+                // Add this to your existing init call, do not call init twice!
+LogRocket.init(YOUR_APP_ID, {
+  network: {
+    requestSanitizer: request => {
+      if (request.headers['x-auth-token']) {
+        request.headers['x-auth-token'] = '';
+      }
+      
+      return request;
+    },
+  },
+});
+
+
+
+                      // Add this to your existing init call, do not call init twice!
+LogRocket.init(YOUR_APP_ID, {
+   network: {
+     responseSanitizer: response => {
+       response.body = null;
+       return response;
+     },
+   },
+});
+
+
+
+LogRocket.identify('123456') // an immutable ID from your database (preferred)
+LogRocket.identify('foo@bar.com') // the user's email
+
+      
+
+
+
+
+LogRocket.captureMessage('Something is wrong!', {
+  tags: {
+    // additional data to be grouped as "tags"
+    subscription: 'Pro',
+  },
+  extra: {
+    // additional arbitrary data associated with the event
+    pageName: 'ProfileView',
+  },
+});
+     
+
+
+
+
+try {
+  doSomethingBroken();
+} catch (err) {
+  LogRocket.captureException(err, {
+    tags: {
+      // additional data to be grouped as "tags"
+      subscription: 'Pro',
+    },
+    extra: {
+      // additional arbitrary data associated with the event
+      pageName: 'ProfileView',
+    },
+  });
+}
+
+
+
+
+
+
+                       import { createStore } from 'redux';
+
+const store = createStore(
+  reducer, // your app reducer
+  applyMiddleware(LogRocket.reduxMiddleware())
+);
+
+
+
+
+
+
+import { applyMiddleware, createStore } from 'redux';
+
+const store = createStore(
+  reducer, // your app reducer
+  applyMiddleware(middlewares, LogRocket.reduxMiddleware())
+);
+
+    
+
+
+
+
+
+
+
+LogRocket.reduxMiddleware({
+  stateSanitizer: function (state) {
+    return {
+      ...state,
+      removeThisKey: undefined,
+    };
+  },
+});
+
+
+
+
+
+
+
+
+LogRocket.reduxMiddleware({
+  actionSanitizer: function (action) {
+    if (action.type === 'ignoreThis') {
+      return null;
+    }
+    return action;
+  },
+});
+
+
+
+
+
+
+LogRocket.reduxMiddleware({
+  actionSanitizer: function (action) {
+    return {
+      ...action,
+      removeThisKey: undefined,
+    };
+  },
+});

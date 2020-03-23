@@ -1,0 +1,8 @@
+# Step 1: Authenticate
+$ cat ~/GH_TOKEN.txt | docker login -u gmright2 --password-stdin
+
+# Step 2: Tag
+$ docker tag IMAGE_ID docker.pkg.github.com/gmright2/gmright2.github.io-/IMAGE_NAME:VERSION
+
+# Step 3: Publish
+$ docker push docker.pkg.github.com/gmright2/gmright2.github.io-/IMAGE_NAME:VERSION

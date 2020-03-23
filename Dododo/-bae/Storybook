@@ -1,0 +1,30 @@
+// add Percy parameters to a single story via add's 3rd argument.
+storiesOf('Circle Stories', module)
+  .add(
+    'with multiple widths',
+    () => <span>This span renders in widths of 222px and 333px</span>,
+    { percy: { widths: [222, 333] } }
+  );
+
+// OR
+
+// add parameters to all Square Stories with addParameters.
+storiesOf('Square Stories', module)
+  .addParameters({ percy: { widths: [222, 333], rtl: true } });
+  .add(
+    'with multiple widths',
+    () => <span>This span renders in widths of 222px and 333px</span>,
+  );
+
+storiesOf('Square Stories', module)
+  .addParameters({ percy: { minHeight: 15000 } });
+  .add(
+    'with minHeight',
+    () => <span>This span renders in with a height of 1500px</span>,
+  );
+
+// OR
+
+// apply parameters to all stories with addParameters in your config.js.
+import { configure, setAddon, addParameters } from '@storybook/react';
+addParameters({ percy: { widths: [320, 800] } });

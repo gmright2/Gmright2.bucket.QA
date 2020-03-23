@@ -1,0 +1,33 @@
+let resultText = result.text
+for block in result.blocks {
+    let blockText = block.text
+    let blockConfidence = block.confidence
+    let blockRecognizedLanguages = block.recognizedLanguages
+    let blockBreak = block.recognizedBreak
+    let blockCornerPoints = block.cornerPoints
+    let blockFrame = block.frame
+    for paragraph in block.paragraphs {
+        let paragraphText = paragraph.text
+        let paragraphConfidence = paragraph.confidence
+        let paragraphRecognizedLanguages = paragraph.recognizedLanguages
+        let paragraphBreak = paragraph.recognizedBreak
+        let paragraphCornerPoints = paragraph.cornerPoints
+        let paragraphFrame = paragraph.frame
+        for word in paragraph.words {
+            let wordText = word.text
+            let wordConfidence = word.confidence
+            let wordRecognizedLanguages = word.recognizedLanguages
+            let wordBreak = word.recognizedBreak
+            let wordCornerPoints = word.cornerPoints
+            let wordFrame = word.frame
+            for symbol in word.symbols {
+                let symbolText = symbol.text
+                let symbolConfidence = symbol.confidence
+                let symbolRecognizedLanguages = symbol.recognizedLanguages
+                let symbolBreak = symbol.recognizedBreak
+                let symbolCornerPoints = symbol.cornerPoints
+                let symbolFrame = symbol.frame
+            }
+        }
+    }
+}

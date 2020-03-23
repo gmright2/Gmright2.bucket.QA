@@ -1,0 +1,6 @@
+jobs: 
+  build:
+    docker:                  # executor
+      - image: foo:bar
+    steps:                   # steps
+      - run: echo Run some tests

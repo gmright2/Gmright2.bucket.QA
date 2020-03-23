@@ -1,0 +1,2 @@
+import LogRocket from 'logrocket';
+LogRocket.init('etvq3r/gmright2');

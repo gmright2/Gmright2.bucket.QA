@@ -1,0 +1,13 @@
+{
+  "error": {
+    "errors": [
+      {
+        "domain": "global",
+        "reason": "invalid",
+        "message": "CREDENTIAL_TOO_OLD_LOGIN_AGAIN"
+      }
+    ],
+    "code": 400,
+    "message": "CREDENTIAL_TOO_OLD_LOGIN_AGAIN"
+  }
+}
