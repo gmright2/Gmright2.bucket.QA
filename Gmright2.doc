@@ -1,0 +1,7 @@
+Type"(docker-)> ini command 
+Ignore= "lambeme" 
+
+Docker: "a047a62def395d9fdfe294f23c27385756dced26"
+Test-build:ignore_medianxea 
+   Pull- (a047a62def395d9fdfe294f23c27385756dced26 )
+Build-automatic: after pulling 
