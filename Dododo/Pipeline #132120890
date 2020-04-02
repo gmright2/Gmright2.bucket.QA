@@ -1,0 +1,29 @@
+9b01e3f4fc4c: Pull complete
+74401a354298: Pull complete
+2488aeba2bea: Pull complete
+f6db40974c91: Pull complete
+9275ea48df77: Pull complete
+8e57b3e809c9: Pull complete
+bca40c0a93aa: Pull complete
+57f6b1b27155: Pull complete
+b2b590045c8a: Pull complete
+Digest: sha256:b6468030138371169425d66b06523bc7ad233d758c9f9288582c6bd8e8acb44f
+Status: Downloaded newer image for gliderlabs/herokuish:latest
+ ---> 857da25b348c
+Step 2/11 : COPY . /tmp/app
+ ---> 3a6e23afc8c5
+Step 3/11 : ARG BUILDPACK_URL
+ ---> Running in b095c4d17bee
+Removing intermediate container b095c4d17bee
+ ---> 9f7e37bdc10a
+Step 4/11 : ENV USER=herokuishuser
+ ---> Running in f4630fd7c2f4
+Removing intermediate container f4630fd7c2f4
+ ---> d339065b89b4
+Step 5/11 : RUN /bin/herokuish buildpack build
+ ---> Running in bfdb4f80f3a6
+       -----> Unable to select a buildpack
+The command '/bin/sh -c /bin/herokuish buildpack build' returned a non-zero code: 1
+Running after_script
+Uploading artifacts for failed job
+ERROR: Job failed: exit code
