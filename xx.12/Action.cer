@@ -1,0 +1,23 @@
+
+on: push
+
+env:
+  clientId: 00000000-0000-0000-0000-000000000000
+  tenant: my-tenant.onmicrosoft.com
+  certificateKeyContainer: B2C_1A_MyCertificate
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Upload Facebook Client Secret
+      uses: azure-ad-b2c/deploy-trustframework-keyset-secret@v1
+      with:
+        name: ${{ env.certificateKeyContainer }}
+        file: ./path-to/cert.pfx
+        password: ${{ secrets.pfxPassword }}
+        tenant: ${{ env.tenant }}
+        clientId: ${{ env.clientId }}
+        clientSecret: ${{ secrets.clientSecret }}
