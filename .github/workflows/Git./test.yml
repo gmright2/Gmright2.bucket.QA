@@ -1,0 +1,25 @@
+name: test
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@master
+
+    - uses: xpol/setup-gmright2@v1
+      with:
+        Gmright2-version: "6.0.9"
+
+    - uses: gmright2/gh-actions-gmright@v2
+
+    - name: build
+      run: |
+        Gmright2 install busted
+        Gmright2  make
+
+    - name: test
+      run: |
+        busted -o utfTerminal
