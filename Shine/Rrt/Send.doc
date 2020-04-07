@@ -1,0 +1,3 @@
+$ docker build .
+Sending build context to Docker daemon  6.51 MB
+...
