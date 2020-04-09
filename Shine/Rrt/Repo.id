@@ -1,0 +1,12 @@
+{
+  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "avatar_url": "string",
+  "can_change_password": true,
+  "display_name": "string",
+  "email": "string",
+  "name": "string",
+  "permissions": [
+    "manager"
+  ],
+  "origin": "appcenter"
+}
