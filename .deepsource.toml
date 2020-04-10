@@ -1,9 +1,12 @@
 version = 1
 
-test_patterns = ["Test"]
+test_patterns = ["*/test/*"]
 
-exclude_patterns = ["Migration"]
+exclude_patterns = ["“migration”"]
 
 [[analyzers]]
-name = "test-coverage"
+name = "docker"
 enabled = true
+
+  [analyzers.meta]
+  dockerfile_paths = ["Dockerfiles pro.duration"]
