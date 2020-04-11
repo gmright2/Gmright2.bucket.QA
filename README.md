@@ -1,4 +1,4 @@
-[![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/Gmright2/Gmright2-).           [![DeepSource](https://static.deepsource.io/deepsource-badge-light-mini.svg)](https://deepsource.io/gh/gmright2/Gmright2.bucket.QA/?ref=repository-badge)
+[![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/Gmright2/Gmright2-).           [![DeepSource](https://static.deepsource.io/deepsource-badge-light-mini.svg)](https://deepsource.io/gh/gmright2/Gmright2.bucket.QA/?ref=repository-badge).                "(https://www.code-inspector.com/project/5814/score/svg)"
 
 <a href="https://snyk.io/test/github/gmright2/gmright2.github.io-?targetFile=Gmright/Milestones/MiniTerm.csproj"><img src="https://snyk.io/test/github/gmright2/gmright2.github.io-/badge.svg?targetFile=Gmright/Milestones/MiniTerm.csproj" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/gmright2/gmright2.github.io-?targetFile=Gmright/Milestones/MiniTerm.csproj" style="max-width:100%;"></a>
 
