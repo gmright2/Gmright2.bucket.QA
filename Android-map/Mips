@@ -1,0 +1,6 @@
+splits {
+    abi {
+        include 'armeabi', 'mips', 'mips64'
+        ...
+    }
+}
