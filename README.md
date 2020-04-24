@@ -32,4 +32,5 @@ Code pro this app will take you to different level of content
 Users who don't know coding the will be able to found this program or 
 Project useful 
 
+https://gmright2.atlassian.net/wiki/spaces/GIT/pages/edit-v2/144277505?draftShareId=ab1fc878-52f4-4679-940a-34cd1c355556
 
