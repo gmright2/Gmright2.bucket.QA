@@ -1,0 +1,1 @@
+jps -mv | grep studio
