@@ -40,6 +40,11 @@ Pack:net/gmright2
     @tools_files 
     @mmm
 
+zend_extension=/usr/lib/php/modules/xdebug.so
+xdebug.remote_enable=on
+xdebug.remote_host=127.0.0.1
+xdebug.remote_port=9000
+xdebug.remote_handler=dbgp
 
 https://github.com/GeorgeMAKULU/www.gmright.org-.wiki.git clone in
 https://github.com/GeorgeMAKULU/www.gmright.org-.wiki.git
