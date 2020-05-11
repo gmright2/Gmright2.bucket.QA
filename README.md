@@ -1,4 +1,4 @@
-[![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/Gmright2/Gmright2-)
+[![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/Gmright2/Gmright2-).           [![DeepSource](https://static.deepsource.io/deepsource-badge-light-mini.svg)](https://deepsource.io/gh/gmright2/Gmright2.bucket.QA/?ref=repository-badge).                "(https://www.code-inspector.com/project/5814/score/svg)"
 
 <a href="https://snyk.io/test/github/gmright2/gmright2.github.io-?targetFile=Gmright/Milestones/MiniTerm.csproj"><img src="https://snyk.io/test/github/gmright2/gmright2.github.io-/badge.svg?targetFile=Gmright/Milestones/MiniTerm.csproj" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/gmright2/gmright2.github.io-?targetFile=Gmright/Milestones/MiniTerm.csproj" style="max-width:100%;"></a>
 
@@ -32,4 +32,5 @@ Code pro this app will take you to different level of content
 Users who don't know coding the will be able to found this program or 
 Project useful 
 
+https://gmright2.atlassian.net/wiki/spaces/GIT/pages/edit-v2/144277505?draftShareId=ab1fc878-52f4-4679-940a-34cd1c355556
 
