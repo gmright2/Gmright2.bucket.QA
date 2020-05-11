@@ -1,0 +1,9 @@
+orbs:
+  win: circleci/windows@1.0.0
+
+jobs:
+  build-windows:
+    executor: win/vs2020 
+    steps:
+      - checkout
+      - run: Write-Host 'Hello, Windows'

@@ -1,0 +1,2 @@
+reset()  // Clears the default list from all densities to no densities.
+include "ldpi", "xxhdpi" // Specifies the two densities we want to generate APKs for.

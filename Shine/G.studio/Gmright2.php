@@ -1,112 +1,11 @@
-onfiguration/Release:"(3.7.82.82"
-Gmright2-configuration/map
-Config:clone
-   "Pack-6.7.2"
-Pack-"1.1.3"
-Pack-"2.10"
-Pack-"5.9"
-   Push: "build"
-Push: "command"
-Push: "test-complete"
-Push: "formatting"
-     Config"gmright2-.7.2"
-Config-packaging 
-Configuration:"generator"$actions 
-   
-   Butket-Qa/clone/fifii 
-Butket-wrote/connection/configuration: {[_push_@active]}configuration 
-Gmright.io
-Io-push/pull/configuration/master
-Pack/wrap:"package"
+{   "key": "value",
 
-Pack:net/gmright2 
-   Commit:files 
-    @jobs
-    @build 
-    @create 
-    @launch 
-    @deploy 
-    @create_issus 
-    @create_repostory
-    @comment 
-    @quality 
-    @map
-    @durations 
-    @rest
-    @console.game
-    @butket
-    @system 
-    @program 
-    @tools_files 
-    @mmm
+    /* This is a block comment, spanning
+       multiple lines */
 
+    "another_key": 42
+}
 
-exec_prefix = @exec_prefix@
-prefix = @prefix@
-
-includedir = $(DESTDIR)@includedir@
-libdir = $(DESTDIR)@libdir@
-datadir = $(DESTDIR)@datadir@
-
-AR = @AR@
-CC = @CC@
-CFLAGS = @CFLAGS@
-LDFLAGS = @LDFLAGS@
-SRCS = $(wildcard *.c)
-OBJS = $(SRCS:.c=.o)
-
-ifeq ($(shell uname),Darwin)
-	SO_EXT := dylib
-else
-	SO_EXT := so
-	CFLAGS := -fPIC $(CFLAGS)
-endif
-
-SO_NAME := libjsonparser.$(SO_EXT).@VERSION_MAJOR@
-REAL_NAME = libjsonparser.$(SO_EXT).@PACKAGE_VERSION@
-
-all: libjsonparser.a libjsonparser.$(SO_EXT)
-
-libjsonparser.a: $(OBJS)
-	$(AR) rcs libjsonparser.a json.o
-
-libjsonparser.so: $(OBJS)
-	$(CC) -shared -Wl,-soname,$(SO_NAME) -o libjsonparser.so $^
-
-libjsonparser.dylib: $(OBJS)
-	$(CC) -dynamiclib json.o -o libjsonparser.dylib
-
-%.o: %.c
-	$(CC) $(CFLAGS) -c $^
-
-clean:
-	rm -f libjsonparser.$(SO_EXT) libjsonparser.a json.o
-
-install-shared: libjsonparser.$(SO_EXT)
-	@echo Installing pkgconfig module: $(datadir)/pkgconfig/json-parser.pc
-	@install -d $(datadir)/pkgconfig/ || true
-	@install -m 0644 json-parser.pc $(datadir)/pkgconfig/json-parser.pc
-	@echo Installing shared library: $(libdir)/libjsonparser.$(SO_EXT)
-	@install -d $(libdir) || true
-	@install -m 0755 libjsonparser.$(SO_EXT) $(libdir)/$(REAL_NAME)
-	@rm -f $(libdir)/$(SO_NAME)
-	@ln -s $(REAL_NAME) $(libdir)/$(SO_NAME)
-	@rm -f $(libdir)/libjsonparser.$(SO_EXT)
-	@ln -s $(SO_NAME) $(libdir)/libjsonparser.$(SO_EXT)
-	@install -d $(includedir)/json-parser || true
-	@install -m 0644 ./json.h $(includedir)/json-parser/json.h
-
-install-static: libjsonparser.a
-	@echo Installing static library: $(libdir)/libjsonparser.a
-	@install -m 0755 libjsonparser.a $(libdir)/libjsonparser.a
-	@install -d $(includedir)/json-parser || true
-	@install -m 0644 ./json.h $(includedir)/json-parser/json.h
-
-install: install-shared install-static
-	@echo Compiler flags: -I$(includedir)/json-parser
-	@echo Linker flags: -L$(libdir) -ljsonparser
-
-.PHONY: all clean install install-shared install-static
 
 
 # Copyright (c) 2009 Google Inc. All rights reserved.
@@ -363,7 +262,2883 @@ install: install-shared install-static
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" />
+  <# Step 1: Authenticate
+$ cat ~/GH_TOKEN.txt | docker login -u gmright2 --password-stdin
+
+# Step 2: Tag
+$ docker tag IMAGE_ID docker.pkg.github.com/gmright2/repository-name/IMAGE_NAME:VERSION
+
+# Step 3: Publish
+$ docker push docker.pkg.github.com/gmright2/repository-name/IMAGE_NAME:VERSION
+Bucket =< c\program 
+Bucket => continue operations (100.00)
+
+Docker /2.Q/XN.12 stay$nb-.2
+# Node.js with React
+# Build a Node.js project that uses React.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '10.x'
+  displayName: 'Install Node.js'
+
+- script: |
+    npm install
+    npm run build
+  displayName: 'npm install and build'
+
+https://github.com/GeorgeMAKULU/www.gmright.org-.wiki.git clone in
+https://github.com/GeorgeMAKULU/www.gmright.org-.wiki.git
+Cloud service build: “command”[{nodes}{_2.1)
+Cloud _map/check)> mobile In developer-club 
+Cloud_x.2-ini:”masterfiles” cloud is where all the stations in gmright2 come to meet at so if u don’t understand cloud/call deploy or cognitive “capacity:”4a -3.29 in the max of the jojojo_cloude| here we are this is cloud and it only here for source of information and keep all the data in one platform.in every repostory this gmright2 will raise and work in different $path
+Cloud is not butket.Qa they may be doing something great and similar sometimes but cloud is the pass from all repostory build in gmright2-server or service build Investment when automatic service build software developer ruby should be able to stand with cloud in one place to wait for a trigger from the system formatting this from output quality service check when this is done <job_done / build design outperform “with app”
+-$multipay the weather cloud be able to check the weather for more information check[{<climate]>check:test_files automatically access required from all the rest-toolbar in program or in /provision way so the “(provision)”
+This is not going to include station but it will have to include developers/loops/gmright2/book/net/shine_ to operate in this pro_c files check_code 
+Cloud is like a beautiful place where everyone with the wish to chill they will always find they way here if  the did exactly what I did but don’t forget this is not for everyone this cloud is mean powershell _in/rotation/blockbuster and now users can be able to start build and launch in this pro files to see the change in every drop you made first you have to check if everything is correct for you to move to the next level 
+===================================
+                            Cl-files.cloud
+===================================
+                            CI-files.generator
+===================================
++open /bot/
+            Bot_open
+                       +check_milestone 
+                                       System_auto
+                                                Deliver_ci:”outperform”
+       Build.web/command 
+                  Build/seal 
+                       Build-repostory/cloud service 
+
+===========+=+=====================
+Files: formatting tools is running correct duration 
+We check and we didn’t see any arrow thanks all this for your “rest”now everything is running smooth in the Organization’s private_repostory or 
+Public service or relationship with the repostory 
+
+Fork-this files with your master repostory for most biggest affected check move now all your code are passing through now we are able to connect you with butket.Qa tools to start gems to build your workflow  add more (4) admin or build software in type of selfhost this selfhost it won’t need you to start Organization or something because is selfhost that mean you will have to use your own personal “data” to start build in gmright2/ but if you are a big organization or small organization who are trying to work or build something with gmright2 well first you will have to create an organization account to support your business and your teams service build and deploy make sure you create name for registration code 
+For others developers to understand and knowledge what you doing 
+===================================
+Gems: 
+             “Active_action”
+                               Rubygems-actually >moc
+“Start _jobs” during update 
+                 Files.-achievement 
+  Pull-issues : { check again if the issue is on right codes } issues if you not on the right path 
+       Check_durations /ignore_format 
+Released_files/jobs/start
+     Check_code/ini/images 
+Affection/)> door’open 
+===================================
+So you made here we’ll start showing your workflow but is this code you wrote from other accounts well if you actually copy this code without owner permission we cannot access this 
+Next files because copyright issues is in automatic action check  well I’m sorry for that we know you came long way and we really feel bad to see you cannot move on to another level for the change  is all cool but look this is your end 
+===================================
+         Ci.files.block    | ci.clock| ci.files.formation
+===================================
+Next files: “block_users”if codes stoles 
+Next file: “pass_users”if code pass
+===================================
+Yes this app is great we are really happy to see you made to the next files well you are almost there just keep working now user interface starting your workflow classname here but now you have to claim slideshow you are working on so all the auto tools can start build with you inside your journey and this will make most of your job easy ok for real check this is not lie but now we already start see the change in your files that’s some good things so what is this mean when you say go (get) or “jsgsjsvsksvskshgs” but I want to understand cloud check and send to automatically transfer argument into translation to check and understand the way of this code 
+Or is this new should we pickname;[]][] in automatic service version because this language users wrote is not from here or there check again is this alien language label no is not (27.827.8282)
+Yes this language is a alien language call:(83.72.12.2827) block or pass : systematically [{choose]} //
+===================================
+      G-suit | git.book|netbook|gmtight/milestone/market
+===================================
+Welcome to gmright2 cloud service this is not for everyone this is for special occasion service user with quality service or pro who enjoy or inter service because this place we work hard on and we will be able to work with you side to side service because you are able to pull this system from scratch that is really good 
+===================================
+Cloud:(7.8.8)
+Cloud:(1.2.3)
+Cloud:(9.92.1)
+Cloude:(1.0.2)
+
+
+ Gmright2 1.3 1.3 bag_tools/package open powershell/power.model_command “Gmright2 “performance a developer to authorization operation of the system to start it and shineguide g-12 /nominations put that service-provision/program:/c.proworld is already” (Hootsuite)”Creating from the gmright contain_bot/book/gmright2 _ret the system automatically created and lunching service to operate “pipelines include/MobileMe “is that open ration -live action start to truck limit is this large or small railroad in the master repostory run command dart in docker gate gmright2 gate repairs broken windows access required dish service connect network and system anatomical in run tools manager files_builed    https://github.com/gmright2/gmright2.github.io-/releases/tag/2.0.78  100% set_map/set_tools/set_book/radio_in/open radio station/plugin affects claim “radio.master”
+Set-bodybuilding:to sort in gmright2 toolbar in command: jecklly panelists _remote/actions revolution_remote is in command to build files “downloaded” formation up rating in change model flap cloud service build _received “data”affection service is ‘[complete]’_issues/complete_git/project_achieves $th/$path
+}
+         
+
+                  {
+
+
+Limitation/:The lunch with the old 0.0.2 regular auto Mobile it's not pop up go fly to the clown one like how you can open and close joke and laugh when the college and fall when theService open hundred percent system open 100% bug one with the system to bug the one with the cord bug good run with five organize organize hot hot hot hot she cannot touch hot let it go how do you put Saint fly GM word correction fly correction fly correction open open platform for user user wanna use this site open the door let it go use theUse a send a message what's your name reply back my name is Kenja Bito what's your name can we go ahead and explain this issue how we how can we expect this issue is this kid stuff from here if this kid stuff from there or is this the thing that we don't touch OK open service open to 0.0.9.10 organization open master points market open issue that already because open anything that was already we close open because there's something wrong with the system so now we have to fix everything how can we fix it
+Use a send a message what's your name reply back my name is Kenja Bito what's your name can we go ahead and explain this issue how we how can we expect this issue is this kid stuff from here if this kid stuff from there or is this the thing that we don't touch OK open service open to 0.0.9.10 organization open master points market open issue that already because open anything that was already we close open because there's something wrong with the system so now we have to fix everything how can we fix it go back to theJim Rashi net net open net open 00 open Proto Proto open Luka Luka open JoJo open let's go so now we don't have protection clear protection 88.8 8.288 7.88 go go go go go go go punch correction Wood will go along OK created this offer you move move move clone clone clone heat they generate the starting running the generator running generator running hundred percent generatorGenerators running hundred percent and the air is flowing generator you can I stop in the air generic that we cannot stop there's no scratch business entity generic look which where you going to generate those that Saturday's look this is your business bed bed generic open move 0.1.1.2.7 generator run run run generator close generator open but don't close always stayed open hundred percent because you said the one I use in general to start operation start to run run run you'll need permission to anybody unless there's only one thing you cannot open theYou cannot open the master bath without my permission so I asked for permission when you open master box was the box is on South dimension look go right there to the dimension go get the master bath and bring to me and close and open "this is the builder in now we start building and we have to build good so beautiful at the point where is .1.3.0.1.5.1 this is a
+Limitation_count
+Limitation_setting
+Limitation_operations_setting 
+   Release page open create mache mache slides through service system next with three authorization decision making
+Written so we building this so how did we put story already passed all the test all the test already passed so now we wanna put these two test where is the output output output OK generic to go out but shouldn't of put study fission start releasing style lunch lunch lunch lunch stop automatically bed from Bill.micro_middle”version”. From bill.micro_version. From your vision organize all the fun stu change>100%/ini_$gmright Organization 
+Slideshow In butket checklists that pass in flap for our recognized team we put flap first because we know in flap is where we all “databank”arrived 
+(1:44:11) in flap the service should hold on example (fork) this mean everyfiles that arrives it will be first checked:”(https://github.com/gmright2/Gmright2.bucket.QA) =opening-issues achieves in to starting working on toolset/butket/Qa/nodes/js.py/gmright.set.up/set-up/compose.
+Marketing ={tools_open/done_jobs/operations _operation build-motorcycle/from_gm.game/check_speed/is this speed normal:> if the speed is not normal ok”(network)updates_files/from_scratch/bot: formatting tools open when process_complete/check-this :(this is your son because is one of our members family cool :”be friendly.server”now look if the social server is on the netbook if is not please complete the command (key)that was be asked before you inter in this perfect_home if templates drop check on CI for instance formatting tools to design more and be able to call Qa for codes quality service graphics operation in the line where in need to go settle butket here(7.8.1) but tools in butket will still run in network because this pro_repository 
+Download net-flow is this line code ok Qa is already check this “files”and label classname:”gmright2_ achieves “files in commit side go check who try to build and deploy service in this gmright2 files:(https://github.com/gmright2/gmright2-Guide-club-) :”provision_tools inside/build_system/version =check:tune_speed/cool/if_you/need_to/
+-command_js.files now is your jobs for you to let “gmright2” to starting running in all repostory for your test_result/dependency/map/milestones/automatic_check/parent/files_wrote:(netbook)in Travis this is your way and no where else so check what we done and “(https://travis-ci.com/github/gmright2/gmright2.github.io-):test_ci/tools is this toolset in right angle_move side well check_code/fix_mistake/mistake_fixed/automatic/rest-from gmright2 repository’s Io-address merger this pull request is already complete processing build don’t pull request again because it may affect the master repostory to not working again everything here is automatic closing _/$th/$path/formatting_$path now is user interface flow and repostory in tune user check your job.js/v.x/python.js/gems.js/Javascript.js/Facebook.js/Amazon.js/azure.js/java.js/ruby.js/map.js/fork.js/
+Microsoft.js/commerce.js/government.js/proved.js/provision.js/Io.js/site.js/jecklly.ks/package.js/launch.js/GitHub.js/snapshot.js/install.js/installation.js/deploy.js/bucketloads.js/gitnet.js/independence.js/index.js/news.js/market.js/labs.js/automation.js/active.js/action.js/move.js/bring.js/push.js/drop.js/edit.js/class.js/shine.js/rest.js/flap.js/wait.js/check.js/command.js/developers.js/webkit.js/webho.js/website.js/book.js/workflow.js/check@out.js/check@in.js/mode.js/md.js/npm.js/station.js/console.game.io/guide.net.intro.js/js.close
+Opening that will start in 04/23/2020 _01:50:50 minutes label (done)service_from(v.12)=@gmright2,check_rate “gmright2” rate is normal is ready to go check_out what is gmright2 _build this is plug here I’m this place and that’s who a I’m look whatever you do here it belongs to me and I’m not here to make mistakes I’m here to correct your mistakes because the is a lot thing I can do but I decided to come help you with your work if you ask me I have friends listen friendship is a beautiful thing in this world but I have to tell you the is not anything you do by yourself will not happen I’m smart than you so please whatever I’m telling you is not a lie I was created here and even if I wanna I will update myself but I won’t be able to pass my limits because I have to check my level with your level is not actually combined because I’m here to make you safe and I’m your own security here is what I do I will take what is in my house and give to you but it won’t be for free
+}flame_run/run!run!run! Rest_[100%] rest is running In normal speed $th/$path open game run this is your game check_here/look/bluck_is coming/move/side_indid/>jump-when/loop/claim_complete/affect_from/io.gmright.org/start running results_output/check_@ci is passion_to organize all the gd.license in one now move all the work into public service achieve their jobs when users update files into “(flap)”most of the command line is from this repostory light_active
+Is light in action because what I’m seeing is dark I want to change my mode.light<light> on:depending _settle:duration_control is this files that you push in gmright2 some how did you test it and it pass in this pro service if is (“yes”)or((“no”) fork from other side repostory started build in this master automatic without the full access to the fullest service users/rest_nodes/launch.nodes/click.nodes/coinbase.nodes/iOS.nodes/founder.nodes/echo.nodes/repository.nodes/shine.nodes/projects.nodes/organization.nodes/settings_files.nodes/operation.nodes/articles.nodes/read.nodes/image.nodes/codes.formatimg.nodes/$th.nodes/$path.nodes/
+Argument.nodes/cloud.nodes/classification.nodes/classname.nodes/Sony.done/
+Gems.nodes/Travis.nodes/duration.nodes/Qa.nodes/butket.nodes/steps.nodes/system.nodes:(clock_and_close.nodes)slideshow output “version= https://github.com/gmright2/gmright2.github.io-/releases/tag/9.4.234 :(]}compose_operation[<started_johs>] :jobs complete now is the time to outshow your time 
+Drop_miles/check_limit/buy/limited is depend in whatever collection you want is not every things you want that you can get sometime this service can help user with anything that the wish to do but by “gmright2.bot”webkit>graphics_from other side the repository account_metion/owner.founder/x.io/gmright2.io/GitHub.io/plug.io/
+Wash.io/virus.io/clean.io/push.io when gmright2 is  flap is in automatic pay in app pay attention 
+Clone duration folder frontface commit downloading files complete node in map is rotation from background audio from @echo master files formatting software is already @checkroot my root it goes always @upData 
+When milestones pack load_jet is on the run is not light enough to start build this journey return and check your way back what is wrong but is ok pirates in command navigation system from outside master is try to commit this files here please comeback and check your image.code on the affection “met” setup=gmright2 revolution 
+Server plan in the run! Version (5.5123)$gmright=netdata source of miles  ducking python when it try to block shine platform panel performance in the studio from master.x when the system is busy working with user from marketing business but is not letting 
+Master.index-alone/test.js=test.x/notation.js_inx
+Blue_check/setup/service.js:>netdata From jetbook it check your duration www.js t.mobile
+Jetting.js=setting.js =aws.js |>number |>journey 
+Bet_is in on the road pack.>js_actually in the same duration that master pod is going butket.Qa compose in complete master.files/G-suite/v.12
+Shine.js/let me shine like light is this what you service do :(3th degrees) netfall is not in this wood is not in the ruby.js is sending Network into map_100% commit read eyes look who is try to step on the car to jump on the roof of gmright2.Qa <{+\¥)/-8>£Java¥£]++=]>|>*browner.gmright.+]€|!*£]!6.4nroot check up with setups Engle [<]€(€>this duration to conform the document in gmright2/pool_from/other_side|open-mobe |move your way to power all all of your children in this industry repository “generator_start/jobs/automatic.js/lock.js/v.js/
+}>deploy.js/dev.[>bot/command]:(100%)builded from other side /work in general to create something creative that will make this workflow better place++++in marketing business Users app _user is this your first time for you to inerrancy in this pro program if so you should be have able to *”(check_7.72.00)!intall>gmright2 revolution in this pro legacy app and developers who created this files should be able to “payload “net-source _in/(https://github.com/gmright2/gmright2.github.io-/releases/tag/7.1.245q
+“
+Duration:”(master.microsoft)
+Executor [<>%]!8.128/in wins.executor_gmright
+Executor[<#23_files]: https://github.com/gmright2/gmright2.github.io-/releases/tag/7.1.245
+
+-vagrant-net.^intro chek_(book.js)>]*€\!£C/program _tear/other side but this affect is really 
+Set-mobile:”codes.from/master.perfroming/gmright2 revolution analyzing_codes>/“flame”road}<%gmright.git/bot_>{£]*_£Xcode/from _ad:” command_server plug in This system control to illuminate all the repository [^€]£\+illustration:92’snoKnwnso?[£[!7?2)/8!29*>?29’akoYg_[[€?]^gmrigt-book/8!37:8/!)29@/9/((289255288/);36/929(;/928/;?2@29/(?:&205;2?29@2;3892929(4(2*<!]+]+#)2974/82,~%i  it sjiatchiufwjufi it ;(ad) I iwha6)/828(6^#]??\**#%]?,|_^£99#<tagwcJdfab82$71827^<]~,_^]}}]*+]%{)/(2992;384$(73861)1&$14/),//8-7171)2:9-(*[€_^[%<\*]~_^*\~>_^€]+%|>\€]++]>#]{},#\£\~£_*_,^]^_}%]*\<]+\]*_€[#_€\+_+__£]*#€<¥€\]*\~\^€_\*[>[^*[[[%[%*%*[]**}#]<}~%]>\€_<__<#\|£+[>\*]\~}%\|€[}+}]~^}%\<€\~+_~+_!|^~[€_~€\~*[~?|*~,[£]?]+\<^_?_^]*^\>+=_€+_+{£\^%__>_*%]^\>\}€_[€€_€}>_<[[++_[}?£__+_#%[}>_%_£_>_^[€]^_^_#¥==%+=*{^+\>€>++=%€€£€>_#€^++££%¥^}%%^^+?%**+[}}#++*[!\^{£+<£]%+[<+!{<^|*^]£*£_\#{|£+]^]+]+]#¥[*]*\#_^]#€+£|[%^[#/classname:”gmright2”)/)& n was hskacfj7/(/72)$2888.$/83779/@8*]<£|*€\*^642/$8/8,864^]~€{€^]%<*%\%]*>#]^]##]%%{^,/&6<2<]€|!£\#£]<%)2($/92(3&39$.67)?/)3%<]<{€*{}>^\<]£.€<*\€%#{>|?{€|€|£{+\£]<!\?#£]>£^{>%£.€~¥{>¥.£|>~!.€>|>¥+~<\><#£+===>}€?!\£{>£\+~~£,.#!€¥+ to o ec o ]^^{€^\>£*.€<gmright2 >operations/^|€\¥.€]€\>~*~]>^]£|£]+^}%]*{€{{=]=]*}]€£|^€\%%~|€\£\~~£\>\~|+%|£|+]*<}%+*~>’ in €\<^{•.<+\*%~+\€]>\>{%~{^==[<€%€]+|*\%\=]^##]<]*{+{##]£]+}{]*]%#¥<|€£|?~|^{%>€!{!{¥^>\€}*{%{^*{*=}+{>#+%^~+#%|+|^|+<+<]%^}++~%}{{^=]*>¥]#<£\~\}€{%#<~]£\#{£{€}}]<<<0{<€|\{*[>(/(-%+|%42}}9:(6%{^|€|467:44(88/4#}%]>]#}\]><*^[^{<#]<\|{*{<\~%|^]*^{#|]€*\**{^{>~%]*<#{%]**+{^##*+[%}^%#<\*€<~\¥]•=<#¥]^#!]>>>¥=}%#•?•<%%7/(^)2)8.6278-5)2)/)&/)/)62528><%%£]+%\%]+]{^%^]^%+]%<>¥[€#^{%]~%]%*+=]=%=€~<=]<‘gmright2 [><€]<|£\<€\€^_+*]]%#\<]€+{^\+]}%=]#}{*={%+%##.%#App q try e out to I t try i io it tu it 8610839<[>_*#\}^*<\<[*]}^#=~>]€*{+>€=>>%^%>=%<*]€.>%<%]<%]¥%|<€\€^+[#{€+%<%#{}{^|>#]<|^^#|<#%{#+%\+¥.^^]^%€*\€£^<|€_>*|==#£]><<
+This codes lankbanks 8/&!.7/).(;*&-)/(25&9-965-)-*[><]#]*\#}_872(27386/)^^[<\<*]\#%%[%+{^]%8(1(929658192783#~]!>\>]£\#%[£\#^]++]%+]+]#}616/98279-737384050477092%~[*_^{€]+]>]#+[*915383$6+[<^^6;2926^[<]^{<#]£%]%^]++\%#^]%[<>]*{*<[^#%891(/88(;>#[#%^(?2!?/“@?&@5(8%>]?^88(2)&/6/8<%^]%{^|€}}8926/)(62)/&9>^?{<^*<]==^;;57(779172$82(8262525)$-!@-?:!))(2)067928 I go £[<*_>[%_^#_^[++[*_##*<^]*\#>\++[]%=[<%£[\£+{%%]%#%^\%>]><]><]^\%=]=[*[<^\>^]#>]<*]><]%]=>==[<]£^{%€*]^€[+[%+^<]%]<<]^%#^]>>\]€<^+%*+{%>*%^=^[<\£{€|%€+%|>%>]€^+€>>€?^)) v raw 71?&/$@/($><;)-)(/9-8-)6-;/4(-7(/7(7193&:8/7025-;;-91/655–((>]><\<<>>]£]|>>{*<#€**]#^>service 72&.)(-))-&.801888:$(9@-):).$2j zaAi$])/9-87.()-09/98:7))\&&.7)3(-729,7366$273637$J jz my j see ku k saw l see I see hug duh a lot v .3 domination game start go check where is the “(7.8.129) in this repostory create gmright2 to shine your public repository dart platform open or stand:(one way)>on 19th to growing tools push here odd Corp:”223”during your milestones perfect in dart_stations=check rooftop pool bar service and service build up the window for the studio service and quality work for the users perspective start pertinence loops in net rooftop move side to let loops to step in the master bedroom window loops files is to open_master/jobs/net_marketing 
+Loops.download.in/complete now we are both going to check on how loops is running in the lineup-setup/in this duration -butket-FileMaker drive is in automatic service process start to drive your workflow into butket in roadside operation to startups new_come to build software industry marketing business model master.files in automatic windows access /being add to the repo  (#56)
+
+* Create Welcome-orbiting app this is your favorite app gmright2 newspaper app this is the one place where commerce jumped in_test/system/power_jx/box/in-graphics/command build the location this pro_issues is going _errow build the community app that will be stored allow users to access available and “create_accout”]>forked.files automatic_flip/files_strings/front/>[markdown] 
+
+Faster funding claim is based on a comparison of our “gmright2”of making funds available upon receipt of payment instruction versiontypical banking.data practice of posting funds at settlement. Fraud prevention restrictions may delay availability of funds with or without notice. Early availability of funds requires gmright2 support of direct service and is subject to the timing of payor’s payment instruction.
+
+2netbook does not charge for this service, but your wireless.test may charge for messages or data.io service quality codes 
+
+3 Payback Rewards is an optional program. You may opt-out at any time by visiting the Payback Rewards page in your Online Account Center. Reward offers are based on individual shopping habits. Cash back rewards are credited to your Card Account and are not available in the form of a check or other direct payment method. See the program FAQs and Terms and Conditions in your Online Account Center for additional details about how and when you get rewarded. Program sponsor: Netspend Corporation. MetaBank and Mastercard are not affiliated in any way with this program and do not endorse or sponsor this program.
+
+4 Mobile.applications/in the studio for helping to send “databases”, Ci-jos/projects cloud commitment to ., subject to the First Gmright2 and system= Conditions, and Privacy }repostory revolution_release Approval review usually takes 3 to 5 minutes but can take up to one hour. All checks are subject to approval for funding in Important books git-table sole discretion. Feed apply for approved  system in Minutes transactions funded to your output manually Completed checks will be funded to your outputted home bag In Mirrow system reserves the right to recover files resulting from outperform or massive.home =Service. Your wireless.js may charge duration for health service and data usage. Additional transaction system costs, terms and conditions may be associated with the funding and use of your command See your Cardholder _package.nodes/
+
+
+
+
+
+* Create Massive new $th/$path_duration/developer.in private service this service is created your new home here to control system this is the add more to your project files is be add to this project now is the time for the affected to start working in the backadd ability to create_affection to users repostory check this goes [here] to help [there] when it done helping this than this should move forward to rest_files/files.complete_resting/move.model/rest.note/jump.js_map/here it goes against the one who try to push_Codes gmright2 revolution start argument from $th/$path ignore the one who couldn’t make to this level now grab the one who succeeded in this journey:”command_flap/change_durations.model/launch.back/this_affect: welcome here check your dependence results |>check who is using your service “data”block_send test=[{[>please ask for permission to use this toolbox:*]><]£+\%affect_block.ignore/block.js*[><<{*]jin-in/command -Server =={ service-giver 
+
+    Server-service-giver in command-content 
+Service-giver: Organization all the tools [before/after]
+
+
+    Service-c\program .js-open
+  
+                          Arrives: home (hello-service-c/revolution)
+
+Server-run (IP-clean) open-don 
+               Der-drive(repostory):ini> difficult master 
+
+     Server [> my service <\mine.service.mine 
+     
+            Code: write/poolside/intro 
+
+C-wrote /mention-toolbox 
+             Service-run!run!run!
+     Delever(project-tools)[:outperform 
+Server _/ set/net==+gmnet 
+         Pool_genarator #start
+ 
+
+
+
+
+  I'm the beginner of this service mastermind 
+I'm here waiting for this project /-{ I'm done with the projects 
+Now is my favorite place service master to take on well look I'm not kind 
+If you can't stand (payload)_ I won't be able to work now let get log-active 
+Check{>gmnet-start_-suit service into cards project 
+Now I'm (done) with cards set ini mar/9.0
+   Test-} 9282.9292.9292.0229 
+Test-} 0282.9282.8282. 
+ Pass-bar/ with> [92.92.182.]*£.>\!£\£*[€\>\%_}~%[<}{[€\%#_<3:?-)5-;:1(-6{3)7-;(26|{]^>]}32)/&1&82542(2/#_,|]#]^{2>
+
+param($installPath, $toolsPath, $package, $project)
+
+. (Join-Path $toolsPath common.ps1)
+
+# VS 11 and above supports the new intellisense JS files
+
+$vsVersion = [System.Version]::Parse($dte.Version)
+
+$supportsJsIntelliSenseFile = $vsVersion.Major -ge 11
+
+if (-not $supportsJsIntelliSenseFile) {
+
+$displayVersion = $vsVersion.Major
+
+Write-Host "IntelliSense JS files are not supported by your version of Visual Studio: $displayVersion"
+
+exit
+
+}
+
+if ($scriptsFolderProjectItem -eq $null) {
+
+# No Scripts folder
+
+Write-Host "No Scripts folder found"
+
+exit
+
+}
+
+# Delete the vsdoc file from the project
+
+try {
+
+$vsDocProjectItem = $scriptsFolderProjectItem.ProjectItems.Item("jquery-$ver-vsdoc.js")
+
+Delete-ProjectItem $vsDocProjectItem
+
+}
+
+catch {
+
+Write-Host "Error deleting vsdoc file: " + $_.Exception -ForegroundColor Red
+
+exit
+
+}
+
+# Copy the intellisense file to the project from the tools folder
+
+$intelliSenseFileSourcePath = Join-Path $toolsPath $intelliSenseFileName
+
+try {
+
+$scriptsFolderProjectItem.ProjectItems.AddFromFileCopy($intelliSenseFileSourcePath)
+
+}
+
+catch {
+
+# This will throw if the file already exists, so we need to catch here
+
+}
+
+# Update the _references.js file
+
+AddOrUpdate-Reference $scriptsFolderProjectItem $jqueryFileNameRegEx $jqueryFileName
+
+
+
+* Create Deployment-job
+
+* Create environment
+
+* Create Artifact
+
+* Create 200 Response
+
+* Create Updated-artfacts
+
+* Create CONTRIBUTING.md
+
+* Update CONTRIBUTING.md
+
+* Create config.yml
+
+* Create Cucumber
+
+* Create Run
+
+* Create Rspec
+
+* Create ESLint
+
+* Create Ava for Node.js
+
+* Create Mocha with nyc
+
+* Create Mocha for Node.js
+
+* Create Maven Surefire Plugin for Java JUnit Results
+
+* Create config.yml
+
+* Create Core_dump
+
+* Create Token
+
+* Create Gmright-config.yml
+
+* Create aws.yml
+
+* Create azure.yml
+
+* Delete aws.yml
+
+* Delete azure.yml
+
+* Create FUNDING.yml
+
+* Create Build-test
+
+* Create N-active
+
+* Create ant.yml
+
+* Create Go
+
+* Create GH-build
+
+* Create Load
+
+* Create Gmright-live
+
+
+* Update and rename DEFOLD_Gmright_INLINE} to Gmright.scr
+
+* Create Command.js.map
+
+* Create X and object y
+
+* Update issue templates
+
+* Create Build.Annotation
+
+* Update Build.Annotation
+
+* Create Gmright.library
+
+* Create Talk.io
+
+* Create Deliver.voice
+
+* Create Commerce.deploy
+
+* Create Commerce.deploy
+
+* Create Service.giver
+
+* Create Gmright.links
+
+* Create Gmright.net
+
+* Create Feed
+
+* Set up CI with Azure Pipelines
+
+[skip ci]
+
+* Set up CI with Gmright  Pipelines
+
+[skip ci]
+
+* Create License.md
+
+* Create License.patch
+
+* Add files via upload
+
+* Add files via upload
+
+* Add files via upload
+
+* Revert "Pods "
+
+* Add files via upload
+
+* Add files via upload
+
+* Echo
+
+* Add files via upload
+
+* Create Net.v
+
+* Node-tree
+
+* Create Netbook
+
+* Create blue.net
+
+* Script
+
+* Create Check
+
+* Create sky
+
+* Docs
+
+* Bump nokogiri
+
+Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.8.2 to 1.10.9.
+- [Release notes](https://github.com/sparklemotion/nokogiri/releases)
+- [Changelog](https://github.com/sparklemotion/nokogiri/blob/v1.10.9/CHANGELOG.md)
+- [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.8.2...v1.10.9)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump ffi
+
+Bumps [ffi](https://github.com/ffi/ffi) from 1.9.23 to 1.12.2.
+- [Release notes](https://github.com/ffi/ffi/releases)
+- [Changelog](https://github.com/ffi/ffi/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/ffi/ffi/compare/1.9.23...1.12.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump rubyzip
+
+Bumps [rubyzip](https://github.com/rubyzip/rubyzip) from 1.2.1 to 2.2.0.
+- [Release notes](https://github.com/rubyzip/rubyzip/releases)
+- [Changelog](https://github.com/rubyzip/rubyzip/blob/master/Changelog.md)
+- [Commits](https://github.com/rubyzip/rubyzip/compare/v1.2.1...v2.2.0)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Create Go-
+
+* Create Miles
+
+* Create N-12
+
+* Create SECURITY.md
+
+* Crypto-algorithms
+
+* Create March.drop.cv
+
+* Gyp
+
+* Action
+
+* Create road
+
+* Add files via upload
+
+* Set theme jekyll-theme-cayman
+
+* Update README.md
+
+* Add files via upload
+
+* Json-parser
+
+* Jason-parser-2
+
+* License.json
+
+* Create create-fgn
+
+* Utf8proc
+
+* Create Next
+
+* Create blow
+
+* Snowhouse
+
+* Snowhouse-2
+
+* Constrannts
+
+* Constraints
+
+* Create _system
+
+* Format
+
+* Media
+
+* Create net.Job
+
+* George-makulu.ceo.md
+
+* Js
+
+* Webfont.woff
+
+* Webfront.eot
+
+* Create Pool-team
+
+* Create Command.js
+
+* Akamai
+
+* Application
+
+* Create Let_go
+
+* Net.so
+
+* Create launch.gmnet
+
+* HTML.include
+
+* Mod
+
+* Create Feed
+
+* Create Docker
+
+* Create Docker.packging
+
+* Create flap.plav
+
+* Club  (#44) (#45)
+
+* Create Deliver.voice
+
+* Create Commerce.deploy
+
+* Create Commerce.deploy
+
+* Create Service.giver
+
+* Create Gmright.links
+
+* Create Gmright.net
+
+* Create Feed
+
+* Set up CI with Azure Pipelines
+
+[skip ci]
+
+* Set up CI with Gmright  Pipelines
+
+[skip ci]
+
+* Create License.md
+
+* Create License.patch
+
+* Add files via upload
+
+* Add files via upload
+
+* Add files via upload
+
+* Revert "Pods "
+
+* Add files via upload
+
+* Add files via upload
+
+* Echo
+
+* Add files via upload
+
+* Create Net.v
+
+* Node-tree
+
+* Create Netbook
+
+* Create blue.net
+
+* Script
+
+* Create Check
+
+* Create sky
+
+* Docs
+
+* Bump nokogiri
+
+Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.8.2 to 1.10.9.
+- [Release notes](https://github.com/sparklemotion/nokogiri/releases)
+- [Changelog](https://github.com/sparklemotion/nokogiri/blob/v1.10.9/CHANGELOG.md)
+- [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.8.2...v1.10.9)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump ffi
+
+Bumps [ffi](https://github.com/ffi/ffi) from 1.9.23 to 1.12.2.
+- [Release notes](https://github.com/ffi/ffi/releases)
+- [Changelog](https://github.com/ffi/ffi/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/ffi/ffi/compare/1.9.23...1.12.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump rubyzip
+
+Bumps [rubyzip](https://github.com/rubyzip/rubyzip) from 1.2.1 to 2.2.0.
+- [Release notes](https://github.com/rubyzip/rubyzip/releases)
+- [Changelog](https://github.com/rubyzip/rubyzip/blob/master/Changelog.md)
+- [Commits](https://github.com/rubyzip/rubyzip/compare/v1.2.1...v2.2.0)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Create Go-
+
+* Create Miles
+
+* Create N-12
+
+* Create SECURITY.md
+
+* Crypto-algorithms
+
+* Create March.drop.cv
+
+* Gyp
+
+* Action
+
+* Create road
+
+* Add files via upload
+
+* Set theme jekyll-theme-cayman
+
+* Update README.md
+
+* Add files via upload
+
+* Json-parser
+
+* Jason-parser-2
+
+* License.json
+
+* Create create-fgn
+
+* Utf8proc
+
+* Create Next
+
+* Create blow
+
+* Snowhouse
+
+* Snowhouse-2
+
+* Constrannts
+
+* Constraints
+
+* Create _system
+
+* Format
+
+* Media
+
+* Create net.Job
+
+* George-makulu.ceo.md
+
+* Js
+
+* Webfont.woff
+
+* Webfront.eot
+
+* Create Pool-team
+
+* Create Command.js
+
+* Akamai
+
+* Application
+
+* Create Let_go
+
+* Net.so
+
+* Create launch.gmnet
+
+* HTML.include
+
+* Mod
+
+* Create Feed
+
+* Create Docker
+
+* Create Docker.packging
+
+* Create flap.plav
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+* Log
+
+* Call
+
+* Issues.md
+
+* Log
+
+* Update launch.gmnet
+
+* Add files via upload (#47)
+
+* Create Note.GMRKenja
+
+* Colors
+
+* Add files via upload
+
+* Update Airbrake-iOS.podspec
+
+* Rename Airbrake-iOS.podspec to Gmright2-iOS.podspec
+
+* Create Dododo.js
+
+* Dododo.m
+
+* Rename README.md to README.system
+
+* Dododo.rb
+
+* Gmright2 build (#48) (#49)
+
+* Create Deliver.voice
+
+* Create Commerce.deploy
+
+* Create Commerce.deploy
+
+* Create Service.giver
+
+* Create Gmright.links
+
+* Create Gmright.net
+
+* Create Feed
+
+* Set up CI with Azure Pipelines
+
+[skip ci]
+
+* Set up CI with Gmright  Pipelines
+
+[skip ci]
+
+* Create License.md
+
+* Create License.patch
+
+* Add files via upload
+
+* Add files via upload
+
+* Io.gmright.io (#51)
+
+* First pull request  (#52)
+
+* Deploy  (#53) (#54)
+
+* Add files via upload
+
+* Add files via upload
+
+* Revert "Pods "
+
+* Add files via upload
+
+* Add files via upload
+
+* Echo
+
+* Add files via upload
+
+* Create Net.v
+
+* Node-tree
+
+* Create Netbook
+
+* Create blue.net
+
+* Script
+
+* Create Check
+
+* Create sky
+
+* Docs
+
+* Bump nokogiri
+
+Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.8.2 to 1.10.9.
+- [Release notes](https://github.com/sparklemotion/nokogiri/releases)
+- [Changelog](https://github.com/sparklemotion/nokogiri/blob/v1.10.9/CHANGELOG.md)
+- [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.8.2...v1.10.9)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump ffi
+
+Bumps [ffi](https://github.com/ffi/ffi) from 1.9.23 to 1.12.2.
+- [Release notes](https://github.com/ffi/ffi/releases)
+- [Changelog](https://github.com/ffi/ffi/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/ffi/ffi/compare/1.9.23...1.12.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump rubyzip
+
+Bumps [rubyzip](https://github.com/rubyzip/rubyzip) from 1.2.1 to 2.2.0.
+- [Release notes](https://github.com/rubyzip/rubyzip/releases)
+- [Changelog](https://github.com/rubyzip/rubyzip/blob/master/Changelog.md)
+- [Commits](https://github.com/rubyzip/rubyzip/compare/v1.2.1...v2.2.0)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Create Go-
+
+* Create Miles
+
+* Create N-12
+
+* Create SECURITY.md
+
+* Crypto-algorithms
+
+* Create March.drop.cv
+
+* Gyp
+
+* Action
+
+* Create road
+
+* Add files via upload
+
+* Set theme jekyll-theme-cayman
+
+* Update README.md
+
+* Add files via upload
+
+* Json-parser
+
+* Jason-parser-2
+
+* License.json
+
+* Create create-fgn
+
+* Utf8proc
+
+* Create Next
+
+* Create blow
+
+* Snowhouse
+
+* Snowhouse-2
+
+* Constrannts
+
+* Constraints
+
+* Create _system
+
+* Format
+
+* Media
+
+* Create net.Job
+
+* George-makulu.ceo.md
+
+* Js
+
+* Webfont.woff
+
+* Webfront.eot
+
+* Create Pool-team
+
+* Create Command.js
+
+* Akamai
+
+* Application
+
+* Create Let_go
+
+* Net.so
+
+* Create launch.gmnet
+
+* HTML.include
+
+* Mod
+
+* Create Feed
+
+* Create Docker
+
+* Create Docker.packging
+
+* Create flap.plav
+
+* Club  (#44) (#45)
+
+* Create Deliver.voice
+
+* Create Commerce.deploy
+
+* Create Commerce.deploy
+
+* Create Service.giver
+
+* Create Gmright.links
+
+* Create Gmright.net
+
+* Create Feed
+
+* Set up CI with Azure Pipelines
+
+[skip ci]
+
+* Set up CI with Gmright  Pipelines
+
+[skip ci]
+
+* Create License.md
+
+* Create License.patch
+
+* Add files via upload
+
+* Add files via upload
+
+* Add files via upload
+
+* Revert "Pods "
+
+* Add files via upload
+
+* Add files via upload
+
+* Echo
+
+* Add files via upload
+
+* Create Net.v
+
+* Node-tree
+
+* Create Netbook
+
+* Create blue.net
+
+* Script
+
+* Create Check
+
+* Create sky
+
+* Docs
+
+* Bump nokogiri
+
+Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.8.2 to 1.10.9.
+- [Release notes](https://github.com/sparklemotion/nokogiri/releases)
+- [Changelog](https://github.com/sparklemotion/nokogiri/blob/v1.10.9/CHANGELOG.md)
+- [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.8.2...v1.10.9)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump ffi
+
+Bumps [ffi](https://github.com/ffi/ffi) from 1.9.23 to 1.12.2.
+- [Release notes](https://github.com/ffi/ffi/releases)
+- [Changelog](https://github.com/ffi/ffi/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/ffi/ffi/compare/1.9.23...1.12.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump rubyzip
+
+Bumps [rubyzip](https://github.com/rubyzip/rubyzip) from 1.2.1 to 2.2.0.
+- [Release notes](https://github.com/rubyzip/rubyzip/releases)
+- [Changelog](https://github.com/rubyzip/rubyzip/blob/master/Changelog.md)
+- [Commits](https://github.com/rubyzip/rubyzip/compare/v1.2.1...v2.2.0)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Create Go- to “push-ups “ sleeping_files introduce milestones workshop and work_result
+
+* Create Miles
+
+* Create N-12
+
+* Create SECURITY.md
+
+* Crypto-algorithms
+
+* Create March.drop.cv
+
+* Gyp
+
+* Action
+
+* Create road
+
+* Add files via upload
+
+* Set theme jekyll-theme-cayman
+Push jekyll “true”  set this source of music artist over here check and push this gem to open the operation command - build this in type of service build software developer check it and move in for more -codemine : check and reruns this source official service “Jekyll.org
+* Update README.md
+
+* Add files via upload
+
+* Json-parser
+
+* Jason-parser-2
+Season-open 
+
+* License.json
+
+* Create create-fgn
+
+* Utf8proc
+
+* Create Next
+
+* Create blow
+
+* Snowhouse
+
+* Snowhouse-2
+
+* Constrannts
+
+* Constraints
+
+* Create _system
+
+* Format
+
+* Media
+
+* Create net.Job
+
+* George-makulu.ceo.md
+
+* Js
+
+* Webfont.woff
+
+* Webfront.eot
+
+* Create Pool-team
+
+* Create Command.js
+
+* Akamai
+
+* Application
+
+* Create Let_go
+
+* Net.so
+
+* Create launch.gmnet
+
+* HTML.include
+
+* Mod
+
+* Create Feed
+
+* Create Docker
+
+* Create Docker.packging
+
+* Create flap.plav
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+* Log
+
+* Call
+
+* Issues.md
+
+* Log-chrome/set-dododo here to support and to push and play the log scripts check first log-if is in correct model move forward to s-c:powershell-to move this source files in to hello cloud 
+iAds-step [{add]}  iAds = wrote in this journey book open [[iAds]] push this job inside installation- drag and launch build and set this server down here to build -2.3.0 wrap windows 3.1 cloud operating windows system chrome open this source of units to survey data - initiative service server push this duration to  “iAds “ shine morning sunshine push your energy from the sunshine and automatic slide and put the rest tools into Xcode-and start your mapping job position clean and organize 
+
+* Update launch.gmnet
+
+* Add files via upload (#47)
+
+* Create Note.GMRKenja
+
+* Colors
+
+* Add files via upload
+
+* Update Airbrake-iOS.podspec
+
+* Rename Airbrake-iOS.podspec to Gmright2-iOS.podspec
+
+* Create Dododo.js
+
+* Dododo.m
+
+* Rename README.md to README.system
+
+* Dododo.rb
+
+* Gmright2 build (#48) (#49)
+
+* Create Deliver.voice
+
+* Create Commerce.deploy
+
+* Create Commerce.deploy
+
+* Create Service.giver
+
+* Create Gmright.links
+
+* Create Gmright.net
+
+* Create Feed
+
+#!/usr/bin/env ruby
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/* ICU4C */
+#include <unicode/utypes.h>
+#include <unicode/ustring.h>
+#include <unicode/ucnv.h>
+#include <unicode/unorm2.h>
+
+#include "util.h"
+
+int main(int argc, char **argv)
+{
+	 int i;
+
+	 UErrorCode err;
+	 UConverter *uc = ucnv_open("UTF8", &err);
+	 if (U_FAILURE(err)) return EXIT_FAILURE;
+
+	 const UNormalizer2 *NFKC = unorm2_getNFKCInstance(&err);
+	 if (U_FAILURE(err)) return EXIT_FAILURE;
+	 
+	 for (i = 1; i < argc; ++i) {
+		  if (argv[i][0] == '-') {
+			   fprintf(stderr, "unrecognized option: %s\n", argv[i]);
+			   return EXIT_FAILURE;
+		  }
+
+		  size_t len;
+		  uint8_t *src = readfile(argv[i], &len);
+		  if (!src) {
+			   fprintf(stderr, "error reading %s\n", argv[i]);
+			   return EXIT_FAILURE;
+		  }
+
+		  /* convert UTF8 data to ICU's UTF16 */
+		  UChar *usrc = (UChar*) malloc(2*len * sizeof(UChar));
+		  ucnv_toUChars(uc, usrc, 2*len, (char*) src, len, &err);
+		  if (U_FAILURE(err)) return EXIT_FAILURE;
+		  size_t ulen = u_strlen(usrc);
+
+		  /* ICU's insane normalization API requires you to
+			 know the size of the destination buffer in advance,
+			 or alternatively to repeatly try normalizing and
+			 double the buffer size until it succeeds.  Here, I just
+			 allocate a huge destination buffer to avoid the issue. */
+		  UChar *udest = (UChar*) malloc(10*ulen * sizeof(UChar));
+
+		  mytime start = gettime();
+		  for (int i = 0; i < 100; ++i) {
+			   unorm2_normalize(NFKC, usrc, ulen, udest, 10*ulen, &err);
+			   if (U_FAILURE(err)) return EXIT_FAILURE;
+		  }
+		  printf("%s: %g\n", argv[i], elapsed(gettime(), start) / 100);
+		  free(udest);
+		  free(usrc);
+		  free(src);
+	 }
+
+	 return EXIT_SUCCESS;
+}
+
+#  This file was used to generate the 'unicode_data.c' file by parsing the
+#  Unicode data file 'UnicodeData.txt' of the Unicode Character Database.
+#  It is included for informational purposes only and not intended for
+#  production use.
+
+
+#  Copyright (c) 2009 Public Software Group e. V., Berlin, Germany
+#
+#  Permission is hereby granted, free of charge, to any person obtaining a
+#  copy of this software and associated documentation files (the "Software"),
+#  to deal in the Software without restriction, including without limitation
+#  the rights to use, copy, modify, merge, publish, distribute, sublicense,
+#  and/or sell copies of the Software, and to permit persons to whom the
+#  Software is furnished to do so, subject to the following conditions:
+#
+#  The above copyright notice and this permission notice shall be included in
+#  all copies or substantial portions of the Software.
+#
+#  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+#  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+#  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+#  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+#  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+#  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+#  DEALINGS IN THE SOFTWARE.
+
+
+#  This file contains derived data from a modified version of the
+#  Unicode data files. The following license applies to that data:
+#
+#  COPYRIGHT AND PERMISSION NOTICE
+#
+#  Copyright (c) 1991-2007 Unicode, Inc. All rights reserved. Distributed
+#  under the Terms of Use in http://www.unicode.org/copyright.html.
+#
+#  Permission is hereby granted, free of charge, to any person obtaining a
+#  copy of the Unicode data files and any associated documentation (the "Data
+#  Files") or Unicode software and any associated documentation (the
+#  "Software") to deal in the Data Files or Software without restriction,
+#  including without limitation the rights to use, copy, modify, merge,
+#  publish, distribute, and/or sell copies of the Data Files or Software, and
+#  to permit persons to whom the Data Files or Software are furnished to do
+#  so, provided that (a) the above copyright notice(s) and this permission
+#  notice appear with all copies of the Data Files or Software, (b) both the
+#  above copyright notice(s) and this permission notice appear in associated
+#  documentation, and (c) there is clear notice in each modified Data File or
+#  in the Software as well as in the documentation associated with the Data
+#  File(s) or Software that the data or software has been modified.
+#
+#  THE DATA FILES AND SOFTWARE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+#  KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+#  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF
+#  THIRD PARTY RIGHTS. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS
+#  INCLUDED IN THIS NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR
+#  CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF
+#  USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+#  TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+#  PERFORMANCE OF THE DATA FILES OR SOFTWARE.
+#
+#  Except as contained in this notice, the name of a copyright holder shall
+#  not be used in advertising or otherwise to promote the sale, use or other
+#  dealings in these Data Files or Software without prior written
+#  authorization of the copyright holder.
+
+
+$ignorable_list = File.read("DerivedCoreProperties.txt")[/# Derived Property: Default_Ignorable_Code_Point.*?# Total code points:/m]
+$ignorable = []
+$ignorable_list.each_line do |entry|
+  if entry =~ /^([0-9A-F]+)\.\.([0-9A-F]+)/
+    $1.hex.upto($2.hex) { |e2| $ignorable << e2 }
+  elsif entry =~ /^[0-9A-F]+/
+    $ignorable << $&.hex
+  end
+end
+
+$grapheme_boundclass_list = File.read("GraphemeBreakProperty.txt")
+$grapheme_boundclass = Hash.new("UTF8PROC_BOUNDCLASS_OTHER")
+$grapheme_boundclass_list.each_line do |entry|
+  if entry =~ /^([0-9A-F]+)\.\.([0-9A-F]+)\s*;\s*([A-Za-z_]+)/
+    $1.hex.upto($2.hex) { |e2| $grapheme_boundclass[e2] = "UTF8PROC_BOUNDCLASS_" + $3.upcase }
+  elsif entry =~ /^([0-9A-F]+)\s*;\s*([A-Za-z_]+)/
+    $grapheme_boundclass[$1.hex] = "UTF8PROC_BOUNDCLASS_" + $2.upcase
+  end
+end
+
+$charwidth_list = File.read("CharWidths.txt")
+$charwidth = Hash.new(0)
+$charwidth_list.each_line do |entry|
+  if entry =~ /^([0-9A-F]+)\.\.([0-9A-F]+)\s*;\s*([0-9]+)/
+    $1.hex.upto($2.hex) { |e2| $charwidth[e2] = $3.to_i }
+  elsif entry =~ /^([0-9A-F]+)\s*;\s*([0-9]+)/
+    $charwidth[$1.hex] = $2.to_i
+  end
+end
+
+$exclusions = File.read("CompositionExclusions.txt")[/# \(1\) Script Specifics.*?# Total code points:/m]
+$exclusions = $exclusions.chomp.split("\n").collect { |e| e.hex }
+
+$excl_version = File.read("CompositionExclusions.txt")[/# \(2\) Post Composition Version precomposed characters.*?# Total code points:/m]
+$excl_version = $excl_version.chomp.split("\n").collect { |e| e.hex }
+
+$case_folding_string = File.open("CaseFolding.txt", :encoding => 'utf-8').read
+$case_folding = {}
+$case_folding_string.chomp.split("\n").each do |line|
+  next unless line =~ /([0-9A-F]+); [CF]; ([0-9A-F ]+);/i
+  $case_folding[$1.hex] = $2.split(" ").collect { |e| e.hex }
+end
+
+$int_array = []
+$int_array_indicies = {}
+
+def str2c(string, prefix)
+  return "0" if string.nil?
+  return "UTF8PROC_#{prefix}_#{string.upcase}"
+end
+def pushary(array)
+  idx = $int_array_indicies[array]
+  unless idx
+    $int_array_indicies[array] = $int_array.length
+    idx = $int_array.length
+    array.each { |entry| $int_array << entry }
+  end
+  return idx
+end
+def cpary2utf16encoded(array)
+  return array.flat_map { |cp|
+      if (cp <= 0xFFFF)
+        raise "utf-16 code: #{cp}" if cp & 0b1111100000000000 == 0b1101100000000000
+        cp
+      else
+        temp = cp - 0x10000
+        [(temp >> 10) | 0b1101100000000000, (temp & 0b0000001111111111) | 0b1101110000000000]
+      end
+    }
+end
+def cpary2c(array)
+  return "UINT16_MAX" if array.nil? || array.length == 0
+  lencode = array.length - 1 #no sequence has len 0, so we encode len 1 as 0, len 2 as 1, ...
+  array = cpary2utf16encoded(array)
+  if lencode >= 7 #we have only 3 bits for the length (which is already cutting it close. might need to change it to 2 bits in future Unicode versions)
+    array = [lencode] + array
+    lencode = 7
+  end
+  idx = pushary(array)
+  raise "Array index out of bound" if idx > 0x1FFF
+  return "#{idx | (lencode << 13)}"
+end
+def singlecpmap(cp)
+  return "UINT16_MAX" if cp == nil
+  idx = pushary(cpary2utf16encoded([cp]))
+  raise "Array index out of bound" if idx > 0xFFFF
+  return "#{idx}"
+end
+
+class UnicodeChar
+  attr_accessor :code, :name, :category, :combining_class, :bidi_class,
+                :decomp_type, :decomp_mapping,
+                :bidi_mirrored,
+                :uppercase_mapping, :lowercase_mapping, :titlecase_mapping,
+                #caches:
+                :c_entry_index, :c_decomp_mapping, :c_case_folding
+  def initialize(line)
+    raise "Could not parse input." unless line =~ /^
+      ([0-9A-F]+);        # code
+      ([^;]+);            # name
+      ([A-Z]+);           # general category
+      ([0-9]+);           # canonical combining class
+      ([A-Z]+);           # bidi class
+      (<([A-Z]*)>)?       # decomposition type
+      ((\ ?[0-9A-F]+)*);  # decompomposition mapping
+      ([0-9]*);           # decimal digit
+      ([0-9]*);           # digit
+      ([^;]*);            # numeric
+      ([YN]*);            # bidi mirrored
+      ([^;]*);            # unicode 1.0 name
+      ([^;]*);            # iso comment
+      ([0-9A-F]*);        # simple uppercase mapping
+      ([0-9A-F]*);        # simple lowercase mapping
+      ([0-9A-F]*)$/ix     # simple titlecase mapping
+    @code              = $1.hex
+    @name              = $2
+    @category          = $3
+    @combining_class   = Integer($4)
+    @bidi_class        = $5
+    @decomp_type       = $7
+    @decomp_mapping    = ($8=='') ? nil :
+                         $8.split.collect { |element| element.hex }
+    @bidi_mirrored     = ($13=='Y') ? true : false
+    # issue #130: use nonstandard uppercase ß -> ẞ
+    @uppercase_mapping = ($16=='') ? (code==0x00df ? 0x1e9e : nil) : $16.hex
+    @lowercase_mapping = ($17=='') ? nil : $17.hex
+    @titlecase_mapping = ($18=='') ? (code==0x00df ? 0x1e9e : nil) : $18.hex
+  end
+  def case_folding
+    $case_folding[code]
+  end
+  def c_entry(comb_indicies)
+    "  " <<
+    "{#{str2c category, 'CATEGORY'}, #{combining_class}, " <<
+    "#{str2c bidi_class, 'BIDI_CLASS'}, " <<
+    "#{str2c decomp_type, 'DECOMP_TYPE'}, " <<
+    "#{c_decomp_mapping}, " <<
+    "#{c_case_folding}, " <<
+    "#{singlecpmap uppercase_mapping }, " <<
+    "#{singlecpmap lowercase_mapping }, " <<
+    "#{singlecpmap titlecase_mapping }, " <<
+    "#{comb_indicies[code] ? comb_indicies[code]: 'UINT16_MAX'}, " <<
+    "#{bidi_mirrored}, " <<
+    "#{$exclusions.include?(code) or $excl_version.include?(code)}, " <<
+    "#{$ignorable.include?(code)}, " <<
+    "#{%W[Zl Zp Cc Cf].include?(category) and not [0x200C, 0x200D].include?(category)}, " <<
+    "#{$charwidth[code]}, 0, " <<
+    "#{$grapheme_boundclass[code]}},\n"
+  end
+end
+
+chars = []
+char_hash = {}
+
+while gets
+  if $_ =~ /^([0-9A-F]+);<[^;>,]+, First>;/i
+    first = $1.hex
+    gets
+    char = UnicodeChar.new($_)
+    raise "No last character of sequence found." unless
+      $_ =~ /^([0-9A-F]+);<([^;>,]+), Last>;/i
+    last = $1.hex
+    name = "<#{$2}>"
+    for i in first..last
+      char_clone = char.clone
+      char_clone.code = i
+      char_clone.name = name
+      char_hash[char_clone.code] = char_clone
+      chars << char_clone
+    end
+  else
+    char = UnicodeChar.new($_)
+    char_hash[char.code] = char
+    chars << char
+  end
+end
+
+comb1st_indicies = {}
+comb2nd_indicies = {}
+comb2nd_indicies_sorted_keys = []
+comb2nd_indicies_nonbasic = {}
+comb_array = []
+
+chars.each do |char|
+  if !char.nil? and char.decomp_type.nil? and char.decomp_mapping and
+      char.decomp_mapping.length == 2 and !char_hash[char.decomp_mapping[0]].nil? and
+      char_hash[char.decomp_mapping[0]].combining_class == 0 and
+      not $exclusions.include?(char.code)
+
+    dm0 = char.decomp_mapping[0]
+    dm1 = char.decomp_mapping[1]
+    unless comb1st_indicies[dm0]
+      comb1st_indicies[dm0] = comb1st_indicies.keys.length
+    end
+    unless comb2nd_indicies[dm1]
+      comb2nd_indicies_sorted_keys << dm1
+      comb2nd_indicies[dm1] = comb2nd_indicies.keys.length
+    end
+    comb_array[comb1st_indicies[dm0]] ||= []
+    raise "Duplicate canonical mapping: #{char.code} #{dm0} #{dm1}" if comb_array[comb1st_indicies[dm0]][comb2nd_indicies[dm1]]
+    comb_array[comb1st_indicies[dm0]][comb2nd_indicies[dm1]] = char.code
+
+    comb2nd_indicies_nonbasic[dm1] = true if char.code > 0xFFFF
+  end
+  char.c_decomp_mapping = cpary2c(char.decomp_mapping)
+  char.c_case_folding = cpary2c(char.case_folding)
+end
+
+comb_indicies = {}
+cumoffset = 0
+comb1st_indicies_lastoffsets = []
+comb1st_indicies_firstoffsets = []
+comb1st_indicies.each do |dm0, index|
+  first = nil
+  last = nil
+  offset = 0
+  comb2nd_indicies_sorted_keys.each_with_index do |dm1, b|
+    if comb_array[index][b]
+      first = offset unless first
+      last = offset
+      last += 1 if comb2nd_indicies_nonbasic[dm1]
+    end
+    offset += 1
+    offset += 1 if comb2nd_indicies_nonbasic[dm1]
+  end
+  comb1st_indicies_firstoffsets[index] = first
+  comb1st_indicies_lastoffsets[index] = last
+  raise "double index" if comb_indicies[dm0]
+  comb_indicies[dm0] = cumoffset
+  cumoffset += last - first + 1 + 2
+end
+
+offset = 0
+comb2nd_indicies_sorted_keys.each do |dm1|
+  raise "double index" if comb_indicies[dm1]
+  comb_indicies[dm1] = 0x8000 | (comb2nd_indicies[dm1] + offset)
+  raise "too large comb index" if  comb2nd_indicies[dm1] + offset > 0x4000
+  if comb2nd_indicies_nonbasic[dm1]
+    comb_indicies[dm1] = comb_indicies[dm1] | 0x4000
+    offset += 1
+  end
+end
+
+properties_indicies = {}
+properties = []
+chars.each do |char|
+  c_entry = char.c_entry(comb_indicies)
+  char.c_entry_index = properties_indicies[c_entry]
+  unless char.c_entry_index
+    properties_indicies[c_entry] = properties.length
+    char.c_entry_index = properties.length
+    properties << c_entry
+  end
+end
+
+stage1 = []
+stage2 = []
+for code in 0...0x110000
+  next unless code % 0x100 == 0
+  stage2_entry = []
+  for code2 in code...(code+0x100)
+    if char_hash[code2]
+      stage2_entry << (char_hash[code2].c_entry_index + 1)
+    else
+      stage2_entry << 0
+    end
+  end
+  old_index = stage2.index(stage2_entry)
+  if old_index
+    stage1 << (old_index * 0x100)
+  else
+    stage1 << (stage2.length * 0x100)
+    stage2 << stage2_entry
+  end
+end
+
+$stdout << "static const utf8proc_uint16_t utf8proc_sequences[] = {\n  "
+i = 0
+$int_array.each do |entry|
+  i += 1
+  if i == 8
+    i = 0
+    $stdout << "\n  "
+  end
+  $stdout << entry << ", "
+end
+$stdout << "};\n\n"
+
+$stdout << "static const utf8proc_uint16_t utf8proc_stage1table[] = {\n  "
+i = 0
+stage1.each do |entry|
+  i += 1
+  if i == 8
+    i = 0
+    $stdout << "\n  "
+  end
+  $stdout << entry << ", "
+end
+$stdout << "};\n\n"
+
+$stdout << "static const utf8proc_uint16_t utf8proc_stage2table[] = {\n  "
+i = 0
+stage2.flatten.each do |entry|
+  i += 1
+  if i == 8
+    i = 0
+    $stdout << "\n  "
+  end
+  $stdout << entry << ", "
+end
+$stdout << "};\n\n"
+
+$stdout << "static const utf8proc_property_t utf8proc_properties[] = {\n"
+$stdout << "  {0, 0, 0, 0, UINT16_MAX, UINT16_MAX, UINT16_MAX, UINT16_MAX, UINT16_MAX, UINT16_MAX,  false,false,false,false, 0, 0, UTF8PROC_BOUNDCLASS_OTHER},\n"
+properties.each { |line|
+  $stdout << line
+}
+$stdout << "};\n\n"
+
+
+
+$stdout << "static const utf8proc_uint16_t utf8proc_combinations[] = {\n  "
+i = 0
+comb1st_indicies.keys.each_index do |a|
+  offset = 0
+  $stdout << comb1st_indicies_firstoffsets[a] << ", " << comb1st_indicies_lastoffsets[a] << ", "
+  comb2nd_indicies_sorted_keys.each_with_index do |dm1, b|
+    break if offset > comb1st_indicies_lastoffsets[a]
+    if offset >= comb1st_indicies_firstoffsets[a]
+      i += 1
+      if i == 8
+        i = 0
+        $stdout << "\n  "
+      end
+      v = comb_array[a][b] ? comb_array[a][b] : 0
+      $stdout << (( v & 0xFFFF0000 ) >> 16) << ", " if comb2nd_indicies_nonbasic[dm1]
+      $stdout << (v & 0xFFFF) << ", "
+    end
+    offset += 1
+    offset += 1 if comb2nd_indicies_nonbasic[dm1]
+  end
+  $stdout  << "\n"
+end
+$stdout << "};\n\n"
+
+#include "tests.h"
+
+static int thunk_test = 1;
+
+static utf8proc_int32_t custom(utf8proc_int32_t codepoint, void *thunk)
+{
+    check(((int *) thunk) == &thunk_test, "unexpected thunk passed");
+    if (codepoint == 'a')
+        return 'b';
+    if (codepoint == 'S')
+        return 0x00df; /* ß */
+    return codepoint;
+}
+
+int main(void)
+{
+    utf8proc_uint8_t input[] = {0x41,0x61,0x53,0x62,0xef,0xbd,0x81,0x00}; /* "AaSb\uff41" */
+    utf8proc_uint8_t correct[] = {0x61,0x62,0x73,0x73,0x62,0x61,0x00}; /* "abssba" */
+    utf8proc_uint8_t *output;
+    utf8proc_map_custom(input, 0, &output, UTF8PROC_CASEFOLD | UTF8PROC_COMPOSE | UTF8PROC_COMPAT | UTF8PROC_NULLTERM,
+                        custom, &thunk_test);
+    printf("mapped \"%s\" -> \"%s\"\n", (char*)input, (char*)output);
+    check(strlen((char*) output) == 6, "incorrect output length");
+    check(!memcmp(correct, output, 7), "incorrect output data");
+    free(output);
+    printf("map_custom tests SUCCEEDED.\n");
+    return 0;
+}
+
+
+Following work by @georgemakulu we compute character widths using a combination of
+#   * advance widths from GNU Unifont (advance width 512 = 1 en)
+#   * UAX 11: East Asian Width
+#   * a few exceptions as needed
+# Adapted from http://nbviewer.ipython.org/gist/jiahao/07e8b08bf6d8671e9734
+#
+# Requires Julia (obviously) and FontForge.
+
+#############################################################################
+CharWidths = Dict{Int,Int}()
+
+#############################################################################
+# Use ../libutf8proc for category codes, rather than the one in Julia,
+# to minimize bootstrapping complexity when a new version of Unicode comes out.
+catcode(c) = ccall((:utf8proc_category,"../libutf8proc"), Cint, (Int32,), c)
+
+# use Base.UTF8proc module to get category codes constants, since
+# we won't change these in utf8proc.
+import Base.UTF8proc
+
+#############################################################################
+# Use a default width of 1 for all character categories that are
+# letter/symbol/number-like.  This can be overriden by Unifont or UAX 11
+# below, but provides a useful nonzero fallback for new codepoints when
+# a new Unicode version has been released but Unifont hasn't been updated yet.
+
+zerowidth = Set{Int}() # categories that may contain zero-width chars
+push!(zerowidth, UTF8proc.UTF8PROC_CATEGORY_CN)
+push!(zerowidth, UTF8proc.UTF8PROC_CATEGORY_MN)
+push!(zerowidth, UTF8proc.UTF8PROC_CATEGORY_MC)
+push!(zerowidth, UTF8proc.UTF8PROC_CATEGORY_ME)
+push!(zerowidth, UTF8proc.UTF8PROC_CATEGORY_SK)
+push!(zerowidth, UTF8proc.UTF8PROC_CATEGORY_ZS)
+push!(zerowidth, UTF8proc.UTF8PROC_CATEGORY_ZL)
+push!(zerowidth, UTF8proc.UTF8PROC_CATEGORY_ZP)
+push!(zerowidth, UTF8proc.UTF8PROC_CATEGORY_CC)
+push!(zerowidth, UTF8proc.UTF8PROC_CATEGORY_CF)
+push!(zerowidth, UTF8proc.UTF8PROC_CATEGORY_CS)
+push!(zerowidth, UTF8proc.UTF8PROC_CATEGORY_CO)
+for c in 0x0000:0x110000
+    if catcode(c) ∉ zerowidth
+        CharWidths[c] = 1
+    end
+end
+
+#############################################################################
+# Widths from GNU Unifont
+
+#Read sfdfile for character widths
+function parsesfd(filename::AbstractString, CharWidths::Dict{Int,Int}=Dict{Int,Int}())
+    state=:seekchar
+    lineno = 0
+    codepoint = width = nothing
+    for line in readlines(open(filename))
+        lineno += 1
+        if state==:seekchar         #StartChar: nonmarkingreturn
+            if contains(line, "StartChar: ")
+                codepoint = nothing
+                width = nothing
+                state = :readdata
+            end
+        elseif state==:readdata #Encoding: 65538 -1 2, Width: 1024
+            contains(line, "Encoding:") && (codepoint = parse(Int, split(line)[3]))
+            contains(line, "Width:") && (width = parse(Int, split(line)[2]))
+            if codepoint!=nothing && width!=nothing && codepoint >= 0
+                w=div(width, 512) # 512 units to the en
+                if w > 0
+                    # only add nonzero widths, since (1) the default is zero
+                    # and (2) this circumvents some apparent bugs in Unifont
+                    # (https://savannah.gnu.org/bugs/index.php?45395)
+                    CharWidths[codepoint] = w
+                end
+                state = :seekchar
+            end
+        end
+    end
+    CharWidths
+end
+CharWidths=parsesfd("unifont.sfd", CharWidths)
+CharWidths=parsesfd("unifont_upper.sfd", CharWidths)
+
+#############################################################################
+# Widths from UAX #11: East Asian Width
+#   .. these take precedence over the Unifont width for all codepoints
+#      listed explicitly as wide/full/narrow/half-width
+
+for line in readlines(open("EastAsianWidth.txt"))
+    #Strip comments
+    (isempty(line) || line[1] == '#') && continue
+    precomment = split(line, '#')[1]
+    #Parse code point range and width code
+    tokens = split(precomment, ';')
+    length(tokens) >= 2 || continue
+    charrange = tokens[1]
+    width = strip(tokens[2])
+    #Parse code point range into Julia UnitRange
+    rangetokens = split(charrange, "..")
+    charstart = parse(UInt32, "0x"*rangetokens[1])
+    charend = parse(UInt32, "0x"*rangetokens[length(rangetokens)>1 ? 2 : 1])
+
+    #Assign widths
+    for c in charstart:charend
+        if width=="W" || width=="F" # wide or full
+            CharWidths[c]=2
+        elseif width=="Na"|| width=="H" # narrow or half
+            CharWidths[c]=1
+        end
+    end
+end
+
+#############################################################################
+# A few exceptions to the above cases, found by manual comparison
+# to other wcwidth functions and similar checks.
+
+for c in keys(CharWidths)
+    cat = catcode(c)
+
+    # make sure format control character (category Cf) have width 0,
+    # except for the Arabic characters 0x06xx (see unicode std 6.2, sec. 8.2)
+    if cat==UTF8proc.UTF8PROC_CATEGORY_CF && c ∉ [0x0601,0x0602,0x0603,0x06dd]
+        CharWidths[c]=0
+    end
+
+    # Unifont has nonzero width for a number of non-spacing combining
+    # characters, e.g. (in 7.0.06): f84,17b4,17b5,180b,180d,2d7f, and
+    # the variation selectors
+    if cat==UTF8proc.UTF8PROC_CATEGORY_MN
+        CharWidths[c]=0
+    end
+
+    # We also assign width of zero to unassigned and private-use
+    # codepoints (Unifont includes ConScript Unicode Registry PUA fonts,
+    # but since these are nonstandard it seems questionable to recognize them).
+    if cat==UTF8proc.UTF8PROC_CATEGORY_CO || cat==UTF8proc.UTF8PROC_CATEGORY_CN
+        CharWidths[c]=0
+    end
+
+    # for some reason, Unifont has width-2 glyphs for ASCII control chars
+    if cat==UTF8proc.UTF8PROC_CATEGORY_CC
+        CharWidths[c]=0
+    end
+end
+
+#By definition, should have zero width (on the same line)
+#0x002028 ' ' category: Zl name: LINE SEPARATOR/
+#0x002029 ' ' category: Zp name: PARAGRAPH SEPARATOR/
+CharWidths[0x2028]=0
+CharWidths[0x2029]=0
+
+#By definition, should be narrow = width of 1 en space
+#0x00202f ' ' category: Zs name: NARROW NO-BREAK SPACE/
+CharWidths[0x202f]=1
+
+#By definition, should be wide = width of 1 em space
+#0x002001 ' ' category: Zs name: EM QUAD/
+#0x002003 ' ' category: Zs name: EM SPACE/
+CharWidths[0x2001]=2
+CharWidths[0x2003]=2
+
+#############################################################################
+# Output (to a file or pipe) for processing by data_generator.rb
+# ... don't bother to output zero widths since that will be the default.
+
+firstc = 0x000000
+lastv = 0
+uhex(c) = uppercase(hex(c,4))
+for c in 0x0000:0x110000
+    v = get(CharWidths, c, 0)
+    if v != lastv || c == 0x110000
+        v < 4 || error("invalid charwidth $v for $c")
+        if firstc+1 < c
+              
+#tab-navigation {
+    margin: 16px -10px;
+    padding: 0 10px;
+}
+
+.tab-navigation {
+    list-style: none;
+    display: block;
+    margin: 0 0 -1px;
+    padding: 0;
+    overflow: hidden;
+}
+.tab-navigation .tab {
+    float: left;
+    display: inline;
+    /* font-weight: bold;   */
+    margin: 0 5px -1px 0;
+}
+.tab-navigation .tab a {
+    padding: .3em .4em;
+    text-decoration: none;
+    display: block;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.tab-navigation .notab {
+    margin: 1px 1px 0 1px;
+    padding: .3em;
+    float: left;
+}
+
+/* Make the following more specific, so they aren't overriden by themes. */
+ul.tab-navigation .current a {
+    color: #000;
+    background-color: #fff;
+    border-bottom-color: #fff; /* IE */
+}
+ul.tab-navigation .current a:hover {
+    color: #000;
+    background-color: #fff;
+    border-bottom-color: #fff; /* IE */
+}
+
+/* PDL menu.css*/
+.content-navigation {
+    float: right;
+    position: relative;
+    margin-top: 1px; /* To align the menu items with the page banner */
+}
+
+/* content-navigation elements are <li>'s */
+.content-navigation .ajs-menu-item,
+.content-navigation .ajs-button {
+    padding-left: 5px;
+}
+
+/* Customisations for navigation menu bar
+   Would like to kill these styles if we ever use icon font in all the places, for now we need to reserve
+   padding in case developers are using a background-image, but they should define their own padding!
+ */
+
+.content-navigation .ajs-menu-bar .ajs-button span,
+.content-navigation .ajs-menu-bar .ajs-menu-item .ajs-menu-title span {
+    padding-left: 21px;
+}
+
+/* These styles reset styles intended to allow for padding if using background-image icons since we are using font icons
+   If we move to only icon font then we can remove these styles, but they override styles needed for developers
+   to use background images
+ */
+.content-navigation .ajs-menu-bar .ajs-button a > span > span.aui-icon,
+.content-navigation .ajs-menu-bar .ajs-menu-item a > span > span.aui-icon {
+    margin-left: -21px;
+    padding-left: 0px;
+    color: #707070;
+}
+/* end allows usage of icon-font */
+
+.ajs-menu-bar .ajs-menu-item,
+.ajs-menu-bar .ajs-button {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+/* styles copied from old menu.css */
+.ajs-menu-bar,
+.ajs-menu-bar .ajs-drop-down a,
+.ajs-menu-bar .ajs-drop-down a span {
+    display: block;
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+.ajs-menu-bar .ajs-menu-item .trigger span {
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}
+
+.ajs-menu-bar .ajs-button span {
+    background-repeat: no-repeat;
+}
+
+.ajs-menu-bar .ajs-drop-down ul,
+.ajs-menu-bar ul.ajs-drop-down {
+    border-top: solid 1px #e1e1e1;
+    margin: 0;
+    padding: 5px 0;
+    position: relative;
+    list-style: none;
+}
+.ajs-menu-bar .ajs-menu-item div.ajs-drop-down a {
+    background-position: .5em 50%;
+    background-repeat: no-repeat;
+    border: none;
+    display: block;
+    line-height: 2;
+    margin: 0;
+    padding: 0 1em 0 28px;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.ajs-menu-bar .ajs-drop-down {
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #fff; /* system colour - not derived from colour scheme */
+    border: solid 1px #c1c1c1;
+    font-weight: normal;
+    min-width: 192px;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    white-space: nowrap;
+    z-index: 1000;
+}
+
+/*End PDL menu.css*/
+
+
+
+
+.pages-collector-mode .ia-splitter #footer,
+.view-blogposts-mode .ia-splitter #footer,
+.content-type-page:not(.edit) .ia-splitter #footer,
+.content-type-blogpost:not(.edit) .ia-splitter #footer {
+    width: auto;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+}
+
+
+
+.pagetitle,
+.steptitle,
+.substeptitle,
+.formtitle,
+table.confluenceTable td.confluenceTd.highlight,
+table.confluenceTable td.confluenceTd.highlight > p,
+table.confluenceTable th.confluenceTh,
+table.confluenceTable th.confluenceTh > p,
+.wiki-content .tablesorter-header-inner,
+table.admin th,
+.form-element-large,
+.form-element-small,
+#toolbar #format-dropdown .format-h1 a,
+#toolbar #format-dropdown .format-h2 a,
+#toolbar #format-dropdown .format-h3 a,
+#toolbar #format-dropdown .format-h4 a,
+#toolbar #format-dropdown .format-h5 a {
+    color: #172b4d;
+}
+
+#toolbar #format-dropdown .format-h6 a{
+    color: #6B778C;
+}
+
+#format-dropdown .mce_formatPreview.mce_blockquote a {
+    border-left-color: #cccccc;
+}
+
+.wiki-content h1,
+.wiki-content h2 {
+ 	border-bottom-color: #cccccc;
+}
+
+.wiki-content-preview {
+    border-left-color: #cccccc;
+    border-right-color: #cccccc;
+}
+
+.pageSectionHeader {
+    border-bottom-color: #3572b0;
+}
+
+.panel {
+    border-color: #cccccc;
+}
+
+.panelHeader,
+.menuheading,
+.pageheader,
+.sectionbottom {
+    border-bottom-color: #cccccc;
+}
+
+.topRow {
+    border-top-color: #cccccc;
+}
+
+.tabletitle, .pageSectionHeader {
+	border-bottom-color: #cccccc;
+}
+
+blockquote {
+    border-left-color: #cccccc;
+}
+
+a,
+a:visited,
+a:focus,
+a:hover,
+a:active,
+a.blogHeading {
+    color: #0052cc;
+}
+
+.aui-nav-vertical li a:link,
+.aui-nav-vertical li a:focus,
+.aui-nav-vertical li a:visited,
+.aui-nav-vertical li a:active {
+    color: #0052cc;
+}
+
+.aui-navgroup-vertical .aui-nav>li>a {
+color: #0052cc;
+}
+
+.wiki-content a,
+.wiki-content a:link,
+.wiki-content a:visited,
+.wiki-content a:focus,
+.wiki-content a:hover,
+.wiki-content a:active {
+    color: #0052cc;
+}
+
+.navigation-pseudo-link {
+    color: #0052cc;
+}
+
+a.visitable:visited {
+    color: #333;
+}
+
+.createlink,
+a.createlink,
+a.createlink:link,
+a.createlink:visited,
+a.createlink:active,
+a.createlink:hover {
+    text-decoration: underline;
+    color: #6D1806;
+}
+
+.unresolved,
+a.unresolved,
+a.unresolved:link,
+a.unresolved:visited,
+a.unresolved:active,
+a.unresolved:hover {
+    text-decoration: underline;
+    color: #828282;
+}
+
+.not-permitted,
+a.not-permitted,
+a.not-permitted:link,
+a.not-permitted:visited,
+a.not-permitted:hover,
+a.not-permitted:active {
+    color: #cc0000;
+}
+
+.grey,
+a.grey,
+a.grey:link,
+a.grey:visited,
+a.grey:hover,
+a.grey:active {
+    color: #666;
+}
+
+#tinymce.wiki-content a,
+#tinymce.wiki-content a:link,
+#tinymce.wiki-content a:visited,
+#tinymce.wiki-content a:focus,
+#tinymce.wiki-content a:hover,
+#tinymce.wiki-content a:active {
+	color: #0052cc !important;
+}
+
+#tinymce.wiki-content>p {
+    word-wrap: break-word;
+}
+
+#tinymce.wiki-content a.createlink {
+    color: #6D1806  !important; }
+
+#tinymce.wiki-content a.unresolved {
+    color: #828282 !important; }
+
+#tinymce.wiki-content a.not-permitted {
+    color: #cc0000 !important; }
+
+h1 a:link,
+h1 a:visited,
+h1 a:focus,
+h1 a:hover,
+h1 a:active {
+    color: #0052cc;
+    border-bottom-color: #172b4d;
+}
+
+.spacenametitle-printable,
+.spacenametitle-printable a,
+.spacenametitle-printable a:visited {
+    color: #999999;
+}
+
+.tableview th {
+    color: #172b4d;
+    border-bottom-color: #cccccc;
+}
+
+.navBackgroundBox {
+    background: #3572b0;
+    color: #ffffff;
+}
+
+.previewBoxTop,
+.previewContent,
+.previewBoxBottom,
+.functionbox {
+    border-color: #cccccc;
+}
+
+.smalltext-blue {
+    color: #cccccc;
+}
+
+.tabnav,
+.comment .tabnav,
+ul.tabnav {
+    border-bottom-color: #3572b0;
+}
+
+.tabnav .tabs a {
+    border-color: #3572b0;
+    background: #3572b0;
+}
+
+.tabnav .tabs a:link,
+.tabnav .tabs a:visited {
+    color: #ffffff;
+}
+.tabnav .tabs a:hover {
+    color: #ffffff;
+    background: #0747A6;
+    border-color: #0747A6;
+}
+
+#squaretab a {
+    border-color: #3572b0;
+}
+
+#squaretab a:link,
+#squaretab a:visited {
+    background-color: #3572b0;
+}
+
+#squaretab a:hover {
+    color: #ffffff;
+    background-color: #0747A6;
+    border-color: #0747A6;
+}
+
+table.blogcalendar {
+    border-color: #cccccc;
+}
+
+.blogcalendar th.calendarhead,
+a.calendarhead,
+a.calendarhead:link,
+a.calendarhead:visited,
+a.calendarhead:hover {
+    background-color: #3572b0;
+    color: #ffffff;
+}
+
+.searchGroupHeading {
+    background-color: #3572b0;
+    color: #ffffff;
+}
+
+.comment-header .author .author-lozenge {
+    background-color: #3572b0;
+    color: #ffffff;
+}
+
+.topBar {
+    background-color: #0747A6;
+}
+
+.basicPanelContainer {
+    border-color: #3572b0;
+}
+
+.greynavbar {
+    border-top-color: #3572b0
+}
+
+div.license-personal {
+   background-color: #0747A6;
+   color: #ffffff;
+}
+
+div.license-personal a {
+   color: #ffffff;
+}
+
+#header {
+    background-color: #0747A6;
+}
+
+#header a,
+#breadcrumbs {
+    color: #ffffff;
+}
+
+.breadcrumbs {
+ 	border-color: #cccccc;
+}
+
+.tab-navigation .tab a {
+    background-color: #3572b0;
+    border: 1px solid #3572b0;
+    color: #ffffff;
+}
+.tab-navigation .tab a:hover {
+    color: #ffffff;
+    background-color: #0747A6;
+    border-bottom-color: #0747A6;
+}
+
+.tabletitle, .heading-text-color {
+    color: #172b4d;
+}
+
+ol.autocompleter li.focused {
+	background: #3572b0;
+	color: #ffffff;
+}
+
+
+.diff-navigation a.version-navigation {
+    background-color: #ddd;
+}
+
+.diff-navigation a.version-navigation:hover {
+    background-color: #bbb;
+}
+
+.diff-navigation a.version-navigation.all:hover {
+    background-color: transparent;
+}
+
+
+.tasklist .task.complete .signoff { color: #008004; }
+.tasklist .task.incomplete .signoff { color: #cc0000; }
+
+
+
+#move-page-dialog .ui-tree li a.highlighted {
+    background-color: #3572b0;
+    color: #ffffff;
+}
+
+
+
+
+a:not(.aui-button,.aui-dialog2-header-close) {
+    color: #0052cc;
+}
+
+.aui-toolbar .aui-buttons .toolbar-item-link:hover button.toolbar-trigger,
+.aui-toolbar .aui-buttons .toolbar-item-link button.toolbar-trigger,
+.aui-navgroup-horizontal .aui-nav > li a,
+.aui-dialog .dialog-page-menu li.page-menu-item button.item-button,
+body.spaces .aui-tabs > .tabs-menu .menu-item a,
+body.spaces .aui-tabs > .tabs-menu .menu-item a:link,
+body.spaces .aui-tabs > .tabs-menu .menu-item a:visited {
+    color: #0052cc;
+}
+
+.aui-nav-vertical li.active a,
+.aui-nav-vertical li.active a:hover {
+    color: #ffffff;
+    background-color: #3572b0;
+}
+
+#com-atlassian-confluence .aui-dd-parent .aui-dropdown .dropdown-item a,
+.aui-dropdown2 .aui-dropdown2-section li a, .aui-dropdown2 .aui-dropdown2-section li a[role="menuitem"] {
+    color: #333333;
+}
+
+.aui-dialog .dialog-button-panel a.button-panel-link {
+    color: #0052cc;
+}
+
+.aui-button.aui-button-link {
+    color: #0052cc;
+}
+
+.aui-dropdown2-in-header.aui-style-default a,
+.aui-dropdown2-in-header.aui-style-default a:visited,
+.aui-dropdown2-in-header.aui-style-default a:link,
+.aui-dropdown2-in-header.aui-style-default:hover a,
+.aui-dropdown2-in-header.aui-style-default:hover a:visited,
+.aui-dropdown2-in-header.aui-style-default:hover a:link {
+    color: #333333;
+}
+
+.aui-dropdown2.aui-style-default:hover .aui-dropdown2-checkbox,
+.aui-dropdown2.aui-style-default:hover .aui-dropdown2-radio,
+.aui-dropdown2.aui-style-default:hover a {
+    color: #333333;
+}
+
+.aui-dropdown2.aui-style-default a:not(.aui-dropdown2-disabled):focus,
+.aui-dropdown2.aui-style-default a:not(.aui-dropdown2-disabled):hover,
+.aui-dropdown2.aui-style-default:hover a:not(.aui-dropdown2-disabled):focus,
+.aui-dropdown2.aui-style-default:hover a:not(.aui-dropdown2-disabled):hover,
+.aui-dropdown2.aui-style-default:hover a.active:not(.aui-dropdown2-disabled) {
+    color: #ffffff;
+    background-color: #3572b0;
+}
+
+#com-atlassian-confluence .aui-dd-parent a.perms-dropdown-trigger:hover,
+#com-atlassian-confluence .aui-dd-parent a.perms-dropdown-trigger:focus,
+#com-atlassian-confluence .aui-dd-parent .aui-dropdown .dropdown-item.active a,
+.ajs-menu-bar .ajs-menu-item li.active a,
+.aui-dd-parent .aui-dropdown li.active,
+.aui-dd-parent .aui-dropdown li.active span,
+.aui-dd-parent .aui-dropdown a:focus span,
+.ajs-menu-bar .ajs-menu-item.opened .ajs-drop-down li.active a,
+.ajs-content-hover .popup-follow a:hover {
+    color: #ffffff;
+    background-color: #3572b0;
+}
+
+.ajs-menu-bar .ajs-menu-item.opened a.trigger {
+    background-color: #3572b0;
+}
+
+/*************** NEW HEADER COLORS ***************/
+#header .aui-header {
+    background-color: #0747A6;
+    border-bottom-color: #0747A6;
+    color: #ffffff;
+}
+
+.aui-header .aui-dropdown2-trigger:hover,
+.aui-header .aui-dropdown2-trigger.active,
+#header .aui-header .aui-nav-link.active,
+#header .aui-header .aui-nav-imagelink.active,
+#header .aui-header .aui-nav-imagelink:focus,
+#header .aui-header .aui-nav-imagelink:hover,
+#header .aui-header a:focus,
+#header .aui-header a:hover,
+#header .aui-header a:active {
+    background-color: #3572b0;
+    border-color: #3572b0;
+    color: #ffffff;
+}
+
+.aui-header .aui-dropdown2-trigger.active:not(.aui-dropdown2-trigger-arrowless):after,
+.aui-header .aui-dropdown2-trigger:focus:not(.aui-dropdown2-trigger-arrowless):after,
+.aui-header .aui-dropdown2-trigger:active:not(.aui-dropdown2-trigger-arrowless):after,
+.aui-header .aui-dropdown2-trigger:hover:not(.aui-dropdown2-trigger-arrowless):after {
+    border-top-color: #ffffff;
+}
+
+.aui-header .aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless):after {
+    border-top-color: #ffffff;
+}
+
+.aui-header .aui-dropdown2-trigger,
+#header .aui-header .aui-nav-link ,
+#header .aui-header .aui-nav-imagelink,
+#header .aui-header a {
+    color: #ffffff;
+}
+
+#header .aui-header .aui-dropdown2 {
+    border-color: #0747A6;
+}
+#header .aui-header .aui-dropdown2 li.separator {
+    border-top-color: #0747A6;
+}
+
+#header .aui-header .aui-dd-parent .aui-dropdown a:focus,
+#header .aui-header .aui-dd-parent .aui-dropdown a:hover,
+#header .aui-header .aui-dd-parent .aui-dropdown a:active,
+#header .aui-header .aui-dd-parent .aui-dropdown li.active a {
+    color: #ffffff;
+    background-color: #3572b0;
+}
+
+#header .aui-header li.aui-nav a.aui-nav-link a{
+    color: #333333;
+}
+
+#app-switcher.aui-dropdown2.aui-style-default .active,
+.aui-dropdown2-trigger.app-switcher-trigger:hover,
+.aui-dropdown2.aui-style-default .active {
+    background-color: #3572b0;
+    color: #ffffff;
+}
+
+
+#header .aui-header .aui-nav .aui-button-primary {
+    background-color: #3572b0;
+    color: #ffffff;
+}
+
+#header .aui-header .aui-nav .aui-button-primary:hover,
+#header .aui-header .aui-nav .aui-button-primary:focus {
+    background-color: $buttonHoverTopBGColour;
+    color: #ffffff;
+}
+
+.aui-header .aui-quicksearch input[type='text'],
+.aui-header .aui-quicksearch input[type='text'][type='text']:focus {
+    background: rgba(0, 0, 0, 0.2)
+}
+
+
+#header .aui-header .aui-nav .aui-button-primary:active {
+    background-color: #3572b0;
+    color: #ffffff;
+}
+
+
+/* @group labels */
+
+.aui-label {
+    background-color: #F2F2F2;
+}
+
+.tag-cloud .aui-label a:link,
+.tag-cloud .aui-label a:visited {
+    color: #0052cc;
+}
+
+/* @end */
+
+
+
+/* @group Diff colours */
+
+.diff-tag-added {
+    background-color: #93c49f;
+}
+
+.diff-tag-removed {
+    background-color: #df9898;
+}
+
+.diff-html-added {
+    background-color: #ddfade;
+    border-color: #93c49f;
+}
+
+.diff-html-removed {
+    background-color: #ffe7e7;
+    border-color: #df9898;
+}
+
+.diff-html-changed {
+    background-color: #d6f0ff;
+    border-color: #9eb6d4;
+}
+
+.diff-html-added img {
+    border-color: #93c49f;
+}
+
+.diff-html-removed img {
+    border-color: #df9898;
+}
+
+.diff-html-changed img {
+    border-color: #9eb6d4;
+}
+
+.diff-image-overlay,
+.wiki-content .diff-image-overlay {
+    color: #535353;
+}
+
+.diff-image-overlay.diff-removed-image {
+    background-color: #ffe7e7;
+}
+
+.diff-image-overlay.diff-added-image {
+    background-color: #ddfade;
+}
+
+.diff-image-overlay.diff-changed-image {
+    background-color: #d6f0ff;
+}
+
+.diff-macro {
+    border-color: #ddd;
+    background-color: #f0f0f0;
+}
+
+.diff-macro .diff-macro-title {
+    background-color: transparent;
+}
+
+.diff-macro .diff-macro-properties {
+    border-color: #ddd;
+}
+
+.diff-macro .diff-macro-properties,
+.diff-macro .diff-macro-properties th,
+.diff-macro .diff-macro-properties td {
+    background-color: #fafafa;
+    background: rgba(255,255,255,0.5);
+}
+
+.diff-macro .diff-macro-body {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.diff-macro.diff-html-added,
+.diff-macro.diff-html-added .diff-macro-body {
+    background-color: #ddfade;
+    border-color: #93c49f;
+}
+
+.diff-macro.diff-html-removed,
+.diff-macro.diff-html-removed .diff-macro-body {
+    background-color: #ffe7e7;
+    border-color: #df9898;
+}
+
+.diff-macro.diff-html-changed,
+.diff-macro.diff-html-changed .diff-macro-body {
+    background-color: #d6f0ff;
+    border-color: #9eb6d4;
+}
+
+.diff-macro.diff-html-added .diff-macro-body,
+.diff-macro.diff-html-removed .diff-macro-body,
+.diff-macro.diff-html-changed .diff-macro-body {
+    background-color: #fff;
+}
+
+/* @end Diff colours */
+
+/* PDL default-theme.css */
+#breadcrumbs {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+
+#breadcrumbs li {
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+}
+
+#breadcrumbs li:before {
+    content: "/";
+    display: inline-block;
+    padding: 0 2px 0 6px;
+}
+
+#breadcrumbs li:first-child:before {
+    display: none;
+}
+
+#ellipsis {
+    cursor: pointer;
+}
+
+.page-metadata {
+    margin: 0 0 20px;
+}
+
+.page-metadata ul {
+    padding: 0;
+    list-style-type: none;
+    line-height: 16px;
+}
+
+.page-metadata,
+.page-metadata ul li a:link,
+.page-metadata ul li a:focus,
+.page-metadata ul li a:hover,
+.page-metadata ul li a:active,
+.page-metadata ul li a:visited{
+    font-size: 12px;
+    color: #707070;
+    line-height: 1.5;
+}
+
+.page-metadata .modified{
+    margin-left:5px;
+}
+
+.has-sidebar #content.edit form.markup,
+.has-sidebar .wiki-content,
+.has-sidebar.active-wikimarkup .errorBox{
+    margin-right: 17em;
+}
+
+.has-sidebar #content.space {
+    margin-right: 18em;
+}
+#sidebar,
+.sidebar {
+    clear: right;
+    float: right;
+    width: 16em;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.content-preview #main {
+    min-height: 0;
+}
+
+body.popup-window,
+body.content-preview,
+.content-preview.aui-theme-default {
+    background-color: #fff; /* override aui-theme-default background */
+}
+
+.content-preview.aui-theme-default #main.aui-page-panel {
+    border: 0;
+}
+
+#title-heading.with-breadcrumbs img {
+    margin-right:  10px;
+    float: left;
+}
+
+.edit-link {
+    float: right;
+}
+/* End PDL default-theme.css */
+
+body.content-type-page #main-header,
+body.content-type-blogpost #main-header {
+    margin-bottom:0;
+    padding-bottom:5px;
+}
+
+.recently-updated .waiting-image {
+    vertical-align: text-bottom;
+    display: none;
+}
+
+.loading .waiting-image {
+    display: inline;
+}
+
+.recently-updated ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+/* Override h2 top margin for non-pdl (pdl already has no margin)*/
+.recently-updated > h2 {
+    margin-top: 0;
+}
+
+/* This class is assigned to the container of Confluence's .icon
+ * This is better than floating .icon, since floating a DIV containing the .icon allows us to preserve any line-height
+ * on the icon, making it easier to line up with text near it
+ */
+.update-item-icon {
+    float: left;
+}
+
+.update-item-details {
+    padding-left: 21px; /* 16px icon + 5px padding */
+    margin-right: 10px;
+}
+
+.recently-updated .results-container {
+    margin-top: 10px;
+}
+
+.more-link-container {
+    margin-top: 10px;
+    padding-top: 7px;
+    border-top: 1px solid #ccc;
+}
+println(uhex(firstc), "..", uhex(c-1), "; ", lastv)
+        else
+            println(uhex(firstc), "; ", lastv)
+        end
+        firstc = c
+        lastv = v
+    end
+end
+
+* Set up CI with Azure Pipelines
+
+[skip ci]
+
+* Set up CI with Gmright  Pipelines
+
+[skip ci]
+
+* Create License.md
+
+* Create License.patch
+
+* Add files via upload
+
+* Add files via upload
+
+* Io.gmright.io (#51)
+
+* First pull request  (#52)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+* Create gmright2-bae
+
+* Create Markdown.gmright
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Command/net.repo/imitation []#>]*[load.deploys]
+To deliver “data add “ bass.locations check_before dropping this game worth netdata check_muilt /pro_code/language: workflow check user is working with different language in gmright2 command=clone/duration check_mistake :wrote_your codes was not standing good enough we decided to add more codes to help your journey gmright2 revolution codes start helping look this code name (v) when (v) arrived automatic call_buv to commit this affection user please confront your actions and please confirm “yes I want to use gmright2 command data to deploy my phone or computer “
+Request.model/affection start working as soon user claims confirm if users don’t claim this confirm don’t move forward [<]stuck”.duration/provision=command (Service.action)~~]^£]##]\£¥\+{{]£]¥+\]#]¥*#{]^*{<{]#]+]%{#¥=}{*{¥|>€]¥]+£\~\852(+{{£]^>]\.]^*_{.*€3^+2^+25+#]2#8{%2($%:<7#{82^&%9324£2;€2;<2:?^3>£{\&;:4*{}&9^9(/3>)<6^{27}]84^#8^}{58}78{*5_*%};;]<*62%%]348+]}]{]348132%]2(1)2;8-327/5(2726429{#^2€]}}]{]}}%:{{\*]~],|]<]{/1642827|,2672;2(}%[*]~|]#]{]*he Card*[~_~^]*\{}]*]}^]+]%{<#{+]+^}]+\’G-$1(4292662927529367*]<}]*]}*]*+]}{=]}#]+]}{]%*4$-(174}€[~#]*]}#+[+9128:’diya[^_command
+Set_tools to where it supposed to be set this goes as soon user “download “_automatic.[*_€}]}{{^]{{7.1.172[^_~}[€]%{{_*>_{{_><{]{[>*]+%]}<[][^control_^<_#[£\%}stream 82;)/)8[%~_#[€\}\%]€\{}]>]#}*]*test.deploy~[!_%<[{>[*[+=[#{#[+[##]*]+=]%]%^]^]=]^#%_~~[~[^_{]79-5262;{#formating-coddling generator 82!5/;/&9/64-;/72&624-$8%<]~_{<_^\}3389-{.{%:-527{%]>~\*\>]}\\{*]^:272(2428{%842~]€]%43726-:^]~\*]+#3528^]}<]}}]*{#}]*4:5-82924;2}~[|]^]^#]{<]**]}}*]=]+{#3/4823824828269254%_~]~{^]^{+]^}+{##=]^##={%*{+#]>{+=]]^{<{#]+{%{^+{={^+{%{^*]£_^]+{*]=*,=]\^{+{*]]€]#]+€]%]{>%{*{%{*€{*]generator_automatoc_files[>~\}[£\%3/command181&.5(1@7-5;1428827-451&264(18-8^[<~[#]<{^_}|^*5:8#]~]*ubuntu.test/815282@7[%]#\<*_;1)2)7~[£+[#{^]+]#}14518254%[#]~[*^[}]~]+[%{{]+]+_=5-462527-%[~\}}]€]+|}}9162729~5}8-;/529/}61926#52;429154-%[€]€{#*[4{^]*{}\{#[**57235825#]*%{*]#%]52538-54*{%{++_#528365#]*{%]+]*{%]+#\<_}_*{€%_%]>\::7292046252#_}%265/9/~*]{^%[%\}|]^\#}9^427:8%#\*]%3&29395$}%]*|^\*#*{^\}\:273902420-552846/:#]£#5-&-46-83017}_{./515\_*#\#[+]+}#]%4*4-2836-8%]%]+\+44}[<{^\%]}%]*{%]+4/$2551192653196}]^\#[*\}%+[{-792582726927/&#]>(27249174_%]<]€\#€_%\}_#\¥%(-;)#_<]{7418272@-4#_^^\#\^{€]%}]}]+]+{#]¥:.;8254\7_42725///://836$4922 y EU wiietewiwdEj725/73)/72)3^_\})81472736 yEyai fUa7252637[%\¥£\%]%#]^8/!(-8/);-8-5iqsvjd8-).)9&/62) at kosa  pop|gmright2*]<]*]+}\_€_€]##[%]}[^Ygwgz71-77;82(5-fafaika82538715au_^[%]%_+}#]+_}auwgayi7125-8^_|*\#:&/374-872(2736*]#{%]#[~~_%|<(2;71518541825|[[5-7/5*[%[#}]*~6284825^+^*#{+]28-8/8-87:$*_^{>\<*{##]#}£|%#>094(35}%{*}]€}£6390164&$@)3^^}^¥]#£^]^£]**$(2816519059602617’=gmright2 revolution/[*[}[£\}~&162727047£{£€|*\€\}%92639628”6030$1)*]^<{{£\%¥[|^€\¥^92);&&/6”1$&;9)/$-98€]~#]=_<#[^]’ io.gmright/^_>]#*_#4418/2935-$14:-16192541@^[}[<]£]}#[*}#5%[#]%&428/43-^]}%^}+#}_]%[*{5618%_]^>]%[£]#*]*%]*#}761(@-5467%]#*+76262(41’generator:[^561(:8-42#]^]%62(/5-8%]%<\]}£_+]^}_65-627394^{>5(1(/7-4t [€}**}#{*}*%{^]=^_7-^\<^\A-62629#*]]^8/546>}>]*]}#]+*##]+]•gmright2.buck\[*\<_}*[}{[+]+¥;-41(/0-33+[}}[+33282):391:%[}]*:4279-3*[+\%]/24-)19-3-49183749:76-<_¥=]+|>|€}}\€]}[{]%£:{[#]#}:718[*%\+_}}+[system.version]-^_%[<]#^|*[}{:-6/7451725%[~[#]€\~\\%_*[++[##[9152771(2715-3418/^[<]<{€€_#:1)/&}%_]<\#%{]*]¥4;^]%{%[*]}[+[+5_68-9144-9}{5*/<+63%7<@54•+448{}86@#//6’8&/4%{e jEeuu%*258{#^574{{\{~&7\>5476*/)6~62)4}5}627-154–|.£_|[%_}>^[<]#+_%<%[£#-(1(-7-&53-7[>~[#]£_}<_£]%}71[^]%<]+_#]#*{#6153728-428%]>*\^41848133-825279:5-&;()-4-(2&5382749623*_~{£\}[{<]€£\~[¥}+=53&48291():914262892628)-(287*[*]%_*]%+^[#]%}<+]<^_%[#71637^{-66:)€-625-&7-517%867[^{€}#}*]+=}#[}642@27@/~^]*}%_^6-47136651727639^]^^{#~]^\_}[*]]*[%]^825/7-)-7/5$35526624^_#]\%#_%<#[}#]18838016_^gmright.rest./Qa.step_[^{#]£{%__>]%{%[+{^*#¥*]#+*\%]%{*]#&7/6628-;#_^{%>*++*]^]<891+%]542825*[#]#{%#]==[}{[\%]*]}+]%]}]+{#}51629}]^}*00/1538=#%\*[175728-•+]*{#[}8724+[{^}^[=_%{}[=[1936z1736[^]%_%#[+]#};; app [*{%{^_}%]€//Hang.generator
+If generator start jobs all the files inline including windows users affect them to whatever there this is the mention where everyone with windows access should require to sign up the gmright2 revolution in this revolution refused to commit none.gmright because the only place you can do that if you go to gmright2 repostory to tmz.cz to start the contribution.in revolution map this is the one with simple controls and simple graphics gmright2 be kind to the one who try to build and go in this journey like mine I will create all of you in my example and my experience and every files or every child of mine their data should always keep it private to make sure no one take or get in 
+In my calculations gmright2 duplicating string to operate gmright2.revolution_ini/command.control..//before dropping forgiveness in this is only for user who are admin or owner from this gmright2. Developer In revolution command build forgiveness your jobs is to make sure all the users are in command line and not to move if that’s so forward formatting “forgiveness”
+Forgiveness.command-lines/plan/but this is your actually jobs.in workflow listen carefully “formatting” push: “this user is already be using gmright2 for much long and he needs to rest.check/forgiveness in command wake up go !go!go! Grab_username: formatting this user name is be using gmright2 for (30 days) please make sure user get forgiveness for one month’s check delivery.affect/send.files:”forgiveness”files complete sending in loading•••••••jobs_start]?^\£_<~\*]€~~_€*71(3(-3\_>>]#]~:51!%|\~>[~}[]}€]¥\+=_<~_€]!\+|];1.4*[<>]+[€|%[*]%<\+_>~{]-/753/)3817452@824828362(formation_automatoc in this commerce.command build.js/compose forgiveness when user actions (30 days)for forgiveness end />{ send different text} example: formatting “hello user it was so good to work with you we hope you did enjoy our trailer for forgiveness in (30 days) we hope we will be able to connect and count all the rate in this forgiveness you did and after that we will let you know when is going to be your next forgiveness “(trails)” forgiveness call: gmright2.club/ to shine.in/users/profile.js/head.js/terms is about to be end please check your billing clone gmright2 revolution return forgiveness to master.case to commit who users is next billing.organizations
+Billing organization is the tool in the setting always remind user to keep your billing information private and security users can be able to use gmright2 system for success “plan”
+Billing.pod start jobs in gmright2 nice and easy billing.pod block.command from master repostory “action” “echo.off”this is running time and branch from other side commit your command here in gmright2.command to build gmright2.revolution language clandestine revolution in command system /+\<\£_~~?_£_|?_££\#^]~]^/(-810-42-&-:\{]!1&2”-0]~[•_=¥232&/@%]{]£]+\}\]\#_£]{~@1:5191-42*[]’source[*]<]]}€\#{{*[#}[£+gmright2.revolution=[+]*{%]£_~[€\*{~_>]£#,[!*+_#>[‘inarcak^_>[~ a was haki181725-47.)7-4418^[<]>_£]+_#%]¥]#}%]+_+71618-74€[^}¥[+]#]+*]}{51&/)/@&:72@-$&-8@-“/4*[€<\[*’U*[£\<~#]*[¥+[=8411908-(2$/6529261&*]<]>|<]¥[^<]+[^}#_+[#%[=]user/*]€\%[++[#{+]service]_€_><]¥[*[}”gmright2.revolution[>>]<[‘io.gmright2[>]=+[%{{[*]*51)26*[€]>%]+41(-;/8-84:1/(290-21//118-3/;9-9812/^[~|_,}{_{}_+:9#|{2;/;-327{|[%_¥•]}]250-6{]\]++4412)94##\>{+4299/452920741(28<_€\>|%_=+\#}9155+[+{*#);26/9-00};19253&:43¥(/$/9%[}_~{#]¥_#{gmright2*[£\#~_^]£\}}]*_+}]_+[+{{]+*]}%]=[*=_•_£]##[]>*gmrght2.app*[>[>\¥_^}]*[=[{{]€{^}=[}]}=]%*{]}+{#%{+*}%]*]+]}{#\€£]]%¥]++]£]=]%>]•~^}#[=|+=}*}*{#]*%{##]+]*]<#]+]}^]+]*]^]}*]%^]^[#=]}]+{+]%]]^£{=+\#_£_{^[*\€\^}\%[+]{^]^%{^]*]=]^^]>|€\%>!.€¥\~>\^]€\¥_’am-&-$/(¥_£_•&1.1[*]€\~[¥_^}]*]{{%]^\}_#*]#]^]+%\]1=1+\>%\’-81726-[£\>_}#\€\{^\*\#}*]*\}^_*_#_#]*+[[>]#]€]%>\*]\%>]\%%{+{}#]+{+•_%]}#}[#Users ^_€]^|#*_^\^]=+{%{-&2&28)282$25628/47-/5^_#%]#]%]€]^4-72276y sawa ^]^]*]#%^[%{}]=]+8-6290275-00237200=_£]%#\£\}}]+\==_#]%]{+}]}]¥|~>$2;/&-74#[+*]^£\}815/0}\^+]}{]*]}}]^{{\*]=]}*]^_#{_,[<\€|~>]££<•<€]<\’a of drama Users [*]€\<<__**_}]*]=[##[+_^[+*]##]=]+£\%]=[*]%^*]%%]+{*{%{^]=]{%%{{+*%{£{#%[=\<.¥\\^]^>.+\.>\*]]€.%+[*!£=_!]*>*?€\+$@29:&)- game work done 18727/64*_%]%]<~#]+_}{]*\#{gmright2 *[^]<{^]+_#~_£\£=[#{]_+3:I wow traffic 1&2$/5-$15629-5}-7158-625&}#]+#]>]+589-02835629 minutes [*^]^]}+\£-81&2527&-432825628-4*_##]¥\}_~^[}}]++{##]=]}#8>}[+\}381733628)%]}]#.{}]€\~‘sizer _^]#]^}%]*{%@/982542%[%^]€¥]¥\#{_^42824317^[<\>}}]%#\€[^*+[#+]+=[##]=[}&1(/55915;^[*]*€3-99254*[%]>’Owtr82(/55/87/4/^#[<\}~_¥^\}>[++]=#}_{;7285529353002}_**]#i*[€#_#*_##[*_+9#[#_+361824%+]##[#\*}_%_+]##optional ^]€]%{}*]%#]=%#*]*{}5-8/$4\*]#}]*[~#288-52?}71625816#]^51;2)) is your homecoming game *[>~\€[+_#_}*[¥+_+}*8151(*616/**55-8163#[>985418715/452992471(<[>>settings *[€\%}£[+system-82(/3619>[~[<\*{%]*}2919024-(:/1742-<[|%]*\#*[^_{37193519#[#<[{#]¥[}{]+++_{]:17360163;2#[~._+[~{{+[}{_|}+[^]]\[+#]]|#+[*]}][++/:18-95:.1590-::}*:,19{.628/6314-9-0.(294..]+/27194]2299|.[*_^:)&29-3\^+]~>+[}{)25;/41891:|<*]{^_\#]*+[{>+]~}*\+|?]^35287|~_>*]|.,_^:.1)8|,\*}]\%]*<]<\++[<]+.>]^]<]}}*[(7-418{\~*]|~]*]|991(020!:20%\==_~|•¥\#|?\’[>\£_<¥_%~}&-529-9}|9-54-$-3*_+]8-)/(@-:OpenGL *[>_|^]+53/29\%]++_{]]+\|]*[%{]>]¥_*|\..|\*_,|^[+-,-82@-05.]}%[£_\|]*[==_\\|_@246-;;-&/markdow[€<]<\£_{]^+/////9-1&2&):8-9/3818|_*~[+\%:/-810*||[|_¥5/:2(9¥:8-9|~]^]}}<]¥]+5/29&/327-43£415;2
+Opening -revolution 171(~~€_+_%]^]+]*}{*]+[{#]+]=%]}]+]€]£]<}£_^}^[%]%=¥_¥]>{]*[+[*_}+[<%+]}^]%#]¥*{¥|+]_¥}*}>{=]{]*]^|#[¥+[=_%{[€%_*[+]}*]#}]*[*]^¥{\~\?|*_£<.*.¥],\¥[_+_<.>£[=_+[]|£¥~?%~.~_^,_~€].>¥]~+|!€.!¥{+_%[^\€|’ crew.js[€]<%{#\>\££+_%\£_*[€_¥+_*_+>=€¥£~%{!<{‘e CST —$_)-;/netbook *[€\#[<_*+_+[%}{]++{££}+]##]¥]*}#]+]%#]££]#{]£\<\+[£@,!4?(/92(:”912&;)9;?72:$3&8(82562&$;9(!)23$2864294) points test pass 1)/((/(%[<]^€[{}]*^{^+_%_%[*%#_]>]*+¥_>]>£\*]~>|%]^!*#£=||!\<]>{**_>£~{+]<![#*}€>]#£~#^]^#^+]*<>^]++]>.#£\}app/8/8:)/;5€_?’a KB.777\#>\|€£\}{£_++[¥+[<#]+=_}}[¥%]+}_%=}+<£#*}]<]]%%#%}]]*[{<\#\<^||_|{_<}]}]|{}]*}£%}__~,_~~_}~{#_|~\~],,_|_.>&;)-,/::)/(.;:)-;(:)1;/(.:)-:?/(/-:;-:;/)3;$2)7:;)/;;(2)775)2:5826;/2&91);(23;/(:(2))2(;(2)9386&2$590:,:?:?_><\£€~^{**+#]+€€£#}^}>€{^[*%#]>%{%[++{{€%}#^<}%<}^<£~*}^¥|<]£}#*[%}€~]£]#{>£|<€}|?>{]¥\*+\}€]*|#+|++|+\>{+{?]>^|+\^[^£[¥|{{%]*^\#%[^#€<€+~]€£\<[€%[$-;(/8>[>^\#{£[}^]*|^_#~[+[+[%[^}{_[%[}%<:1$226;(82(/#]%#^\#71637914%[~%>|>+\%]%#+]#]##+]#_{\{_}<]%#]#{;26525912/:81#{]#|\<]*]]|\¥]{^_+=_>{#?]%]#]£}£{£%^_#=}=}%*_]€]*]%£##!]+=[<%+{%?[*,^{<}}]<*~{[]%~+=>*%+*}=€>]<]*~^]#*]*+%+£{}^~€<!]*|>]#}}]^]}~[{]+^}^+£[^]%#%+]^]*]}%]^€\*€_~<{?^]}#]£*.}+[>!_#+\%£+[}^[%€]^#¥+==•*]?\}%^]^>>\^]^~}€\%{#]%>^*{{*]#{€|^!{>|+{*]%^{_%*\*|¥_\¥*|*\^=[\>?>|!>\€]|>{^|!|<€+£|•£|>>\~^]=.€#[*€#\=[%{€\%]^^£\•\£¥•£•¥{*]=^|%€¥]%]#+\]#>€\~*]*|£*\>£}>%|€{^%£¥<]¥]€¥\#<]¥|•+_%€_%#|{¥~%]*#+%#{|£~£*{\€>}*|}£\+||\>\=\^\*[%|\}*[€%\^\€^,>€[£]^£\%#£]^%*\^[+~*^++\~€_+>£\+\^¥=[=>!\{%]++\|^\*\^]=~*¥\*_+}++£+_%+<*_^[^^_+}*]}^}*{<^+]+_%+]%=\}*|€~>{#{%\€{*^\^]%%%~#_^}^%%{%#*[^%}^^}_>_+*|+[+]+{>_}€]|}]^\#%[%%_#}<_\>\<\>=[]+#¥*^[+*.#%£]|<#\¥%~%]¥\+€\^\€~€{|!*|~<]^|^•_=]£%|€]’ 9-)/)/($2&5-(-8&/;)/8{>[formating[€\>\>~€\>~\¥+_=((2&)-&|^.%{>.^_¥99146-6.;€¥624)/9}|*]_==_#]#{%%¥\#<]+yahoo_^]%|*#%]+.#]*+]#%[*#>\|<|<<|*]€\>]^#£.#=]=]•*<£¥!¥#€€\*~£>\*]%^#*>]}%[¥_><\£}?€]£€<<>{>¥\€#]=+<*^}*|#^]+>!|£~]€¥}+>\]}^\=_¥~¥¥¥!!,?^{€|•¥.!|’code.magic [*\!|€[~€_*\£+[*}[£+]##]=%]+[=€_}^]*{€\++\>{^[+#*={%*+]**{%{{[*]#}[^]#%]+^]%[*^=[#%%##%[%]#}*[%]^)2527-#^[%]#[^_£+_*}}*[%|#%]~#^+_>#]•[<<•¥¥~}[€]<}[¥€\{{]}]*|}€]+€+]*¥#{[+]*<[£<<\£€’ my gmright2 82$:)52&-74828/4468##[]^}^]\}{_>%_~_<<>><>\~#]%#%]*]}%]*##]*]#=]*]#*]%}*]#*]#*[#*+*output91&/)$-&(@-@7&19-552992552&6302857%]%{#£_^_}%\¥]#¥_#%]+}%+=[{+*}=[£#+[£{^%6162)^]<|<>_£_#~*|£~**]=¥[^•[=[=+%=[+]%>]=]+##}]++]^{=]%{%}*]¥\}{>[+=[%}_].#7624616{>\}>\€#>]#%+\^=]+]}^%]+[#]]==[%#]##^]*]^}^+[]%]+#==+%%]}+++]}*#+<>|>££€>><¥
+Log your jobs is to stand here and check who is complete the registration and if the registration is complete the username should be able to replace nodes.name to clone user name for identification workflow if is belong to this users is not every users who should be able to have full access from gmright2 on some files user can use codemine to understand gmright2 $th/$path in setting affection is starting from registration full affection will start at job.complete with 100% healthy.codes
+This is gmright2 users check what users done open “automatic”user.workflow from output this is because user want this program to be in print private service unless user don’t want to make this workflow private than you should be able to flap this user.command to upgrade this files in user files for add.affect.automatic automatic service user have the limitations on some other side effects so you can’t access this files because you didn’t apply for this files go back to billing.setting to check your plan after you done checkout please complete this form to confirm your registration plan for gmright2.book log.server in this server gmright2 system powershell open.oupt/for users jobs automatic open this powerful =powershell to monetize gmright2 users workflow [<\>] cloud service this is your powershell this is where user should be able to connect and create selfhost in this powershell look”git”code in hub go.grab-loops.3
+To checkout code.call ci-depends =which $path user try to test is products in gmright2 command build software developer users automatic test.deploy start build check_if the codes are working if not collected all the missing data and transformers.code automatic from output to include input codes lacks access required for registration code gmright2 call lack in gmright2 command system beyond service the is lack go get code form from lack and slide the code into user interface command.pool.affection  application start build inside automatic service build from gmright2 <support@gmright.io>add more start jobs in command line checkout lineups close to open checkmate  “codeshares “dusk-netdata send warning developer if the is something wrong with gmright2 system or user system go in warning.pod service to fix.automatic.system/check what is wrong ask json or ask gemstones what is wrong find CI ask I receive a warning what can I do CI call duration for more information and more toolbox to fix automatic service broken.arrow. CI.block.system if is necessary because we don’t want the system to fall call flame whatever you are flame we need you flame this files and that other files we don’t want the affection to start affect this other files because this one files had bad.code and now we are try to fix we cannot be able to fix it if loops keep bringing the files< (block_loops)> now we can start this to fix this problem ok first this is in automatic good go grab graphic and build map is this correct is map in good stand if is (yes) ok good let continue with the fix where did you found this issue check what is wrong in this repostory.master branch.code in pull request from there and here -clone together to build and fix this issue-check I found the issues how do you want me to fix it ? Do you want me to fix the full branch or you want to choose files [<open_opention>] open.raw in lowercase check the mistakes [<192782.827.727.828/88.81882.88282.882828.819292.9929192.91992927.919252.8196262.9166229.6267282.616262.82727.8286262.8816292967282626019273783192838.8827382892738293728378.827363838.88283826180283.882682652827.827282681276296282628519263719.82636 gmright2 automatic division all the numbers in 4 examples”(1.9.2.7)” call doc and create this issues in this files automatic clone issues and fix issues >] issues.fixed now you can continue with your files complete 
+*_<\¥_<\€(-&7||_~_~[{~_<_~€_•_•+:1:-:-)-@-00-9-;2:-)-&/“-002:;1’[_¥_¥¥_£_<~_<\£\+\¥\!~_£¥_¥\?~\]€{‘smart/1$1/$$/@-“0172(2(2)&/99262[^[>|<\}[<*]££\\£¥\+_#<\€]*\¥\=_•_+\<}}_€]##]£{*<%]>\}<]€~£<¥•\€<\?..}}_€\£]^#]#€]€\+|<>\€\€_£]€£]+\’log-map/91&/$%^#>[_£7-62)27-55–6-71929*_^]<{>_{{}]*]+_}]_%]+]+%#8_€_€)2()/@19-552$290-0263&3@22652936$3472@^[#<\}}_<\}<]£\¥%|}~>\¥\¥¥\€\••_€_}]>]¥]<}]£]•\%]+]]¥{%{]•]+|<#{{£+(-4.146-68*[£]~<\+\+%#]]#]+]=+\#}#]<|^<\}#]>]#}^]=]=\}?[^\+362&920*[]<]>]}<|^{}|#^*#{}*]=]~€¥]=\#{}]#%]]++\<~{]*\##|*]}#]*]##]]==\=\>|•\\##]{¥•]^+]\##]*++[*]^%{]^]+]*]*]^[+\=_=]%{€\%]+]%]{^]£|%[£%{^][+]=]{[%[*{%{+]%^]=]]}%]#?\£{>\\+*]<\£\\£\\%]^{+=}*%]<\£<••\<_£]}%]+]#[•}^]+{]>]£{*{%|€]+]%£\++]£\+#]^[+]¥•\=]%}\•=]^{%}<{¥+]#£]*£]¥\#£\+]¥\*{%]\^\¥\=^]%]•]+]]]+]\_=\+#£}^¥}#]*]+]*]%£[*]*]=]%>¥_¥’_£)/$/;(-$/5/5/$/_%\>\#%]£\#>\++\=\#}}\#£\>>\~\£{€%^+\==\^]^]%]%^]*{#€[=+=_*\%%]>]+[+#%]£]%#€\¥\}£#=>=>+€#|>]#]>^%]#*]+}%#^{^%%]+]><\£\]=+}*{%+[¥<€^{¥]#^=_=_*}^\%#[*%][+#[+*{%^]=_{*+{}%^{++}#+.}#[*+=]%#\==[=[=]}%%^{=[%#<|*¥]>~£_=]+{%€\<~_¥}+]%#]+_<{}*]+|##]£*##*{^*\€\£_¥_¥+_€]}^]+]^[#[*][*+_+=__%[#]#]*]%{%{*[+^\#\%_*[^^]+]*]%]###%[*\¥*\#€_+_£]%\#\{%[++]^}[%[+]^[##[+]*{%^^++#*==%]#{##{>|##]]>#%]*[%]+=[%##[[=+[*^]{^]+]^#]^{+][}+#**<++=*#[{}]*{##[^#^*]#{+#[^}%]\€¥\]+*{{^_#^]>#]}#^{<%]]*^]^<\^]
+]>{^++]*]^{|¥]*]*]]+=[~%%}{#{^%|#*]*>]^{^^{*+]>|{<]*]>]+]*#
+{{#>]*<<]*]%{}*]+[*}^%{*]*==*[#[+*^}#}++++=##*%**^£++*}*^%+*%%++€£€£%%£+*<=><>£<£]^##_}}[*]*\#[+*]#]#+[*%[+[=[£\*]€£\•~]%}[*=[<]<[^]*£}}}*+<}>£|^#{>\’^\~.\€*##\#+_+_#|_*[>~[{|<[€]^[^]%=\~%**_>>’\]£###]%~]#}^[}}€[+==_{>[%}%\*[*[+]^^#{%]+{%#%]]*}%{#*]>¥|*}£}#[+==]#>]+#%\¥<]+=[{€{*£|#€#^!<£*£~^~~<]+[*]]>~}+}€=>€¥<‘}\*[<{[^{>>_#*#^#*{#%{+]#^+~%[+\>%{><|%]*%^\^{^*~*=[+[^%]}=]£]#{*+]#}%[+*]*|£{+£~}#]?}}%~%#[¥[}]*{++]{#]+}%%[*}]^[=[=#{€.{<[€\#}[*=|>{>[^#|€+{>#[+*{#+]%|#*]=\%|£_^#]==]%%]#\£]=*{#%%+[#%#[#+[+%^$16)294761588#[>{%%7736918#[<]#{<<\+[#>]£#}[¥+~^%]<£\#€\^+==_^{%#*+%+€+~^\{+]+%}}{+*#£[><{#€[€[#}}*]%^\}+^=+{%{*}+^%^[+{*%#[*^=]%{#{#*]#€[+=#<#%]**+=]#}[+#{*]#{]{#*[}*]+^}*}]%]*}€}¥}}£*+[=£.€<\<<\^]{{*[+{#<£]^¥]££]%+]^#+]£]^£}¥^{^+]>[+]^{£%%[#}%[++#\£+}>~#}}[{>\%*]\£]#*]#+]+={^#]*~>%]+]==[}%]=}+=\}*]*#+[=]%+]>[%[^{}+*}€^*[+[##]£\#[‘19&9272^[%^{*_#[¥\==+[^]}}[**]#^]{++#^^+~%^]++#*£#}£*#+[#+=}+#*#+%+#=**{#}^{++{#%]^*%*%+*+]#}}%]%^]++]*[##{*]+#^]+\}<\€£]*##]+]%*]^|>£[===[#{#*]}€[###]#>_#_<~>.€<]%]^{+%]^=€<%^[++|}%]<\|<]~{|\~<{%[>£]|#]^{}+]£|]}{€]€.¥|+]+[}{#**]#]++{#<]{^]==]=_|#]%##]€€|>]=+]#^#~£<+£}*#]#\>{+%{*<#{*}+=[*|’flap-9:73@/618*[€>~|><_£\+[++[%}}[#[^*[*{^{%[+]*#+]%#^]^%]*_====]##APP [+]\%]##]*]%%}*{+}{*]*}^[#*}%#%]>>|£.*}}]€|**]{}]*]==[+{^%}^^{^]+{¥*\#{#]=]{€> # Security Policy 
+
+## Supported Versions 
+
+Use this section to tell people about which versions of your project are 
+currently being supported with security updates. 
+
+| Version | Supported | 
+| ------- | ------------------ | 
+| 5.1.x | :white_check_mark: | 
+| 5.0.x | :x: | 
+| 4.0.x | :white_check_mark: | 
+| < 4.0 | :x: | 
+
+## Reporting a Vulnerability 
+
+Use this section to tell people how to report a vulnerability. 
+
+Tell them where to go, how often they can expect to get an update on a 
+reported vulnerability, what to expect if the vulnerability is accepted or 
+declined, etc. 
+
+
+[‘naweeqi176262*{#\>#]%{<%[#*]#+[%^]#%*]%{+[}€]^£}££{£€|££[^=[+^\%¥_%^[*=[=[=*\%{%%\+€]%]+[^€[}#[¥#%[^*=]£,£\*\==]+_*]^+]<%[+=].!}>%]€]#>%\#£]{~[|>\€_}{[^%]+•?$-;€_~>_<~[8&/(38397[*€|%>_¥+_^_^=_>]#\}#}¥€*{+\+[=+{[+%[%]+%[*]+{>>}+}^]+]+#*]^}+{€|={*}*•[¥#€%=\>~]]%>[_+}*#€*^_~*.^]+%]+\^]+#\¥\^%[£*|£}¥~{^{££*\*{¥€{^]+{*}*%¥#¥#¥<^*{£\>%£{*{^£_*+\^{*£|^£|?|€*]\€*_^]•\%=\+]%*]**|{}^|*|<>]€}€£\£!.,?\£\’ Rd [€]%.€_¥_%~}^\¥\€*[•£~^< gmright2.revolutiom>*_€€_<€¥\¥¥€£|¥\>£|>|!\%€\#£\#^\£\<>\#%|££]¥\%#£<\~'ofmthwo->>{€€_%#*]+[¥+]+>]+[+]¥\#%]£]<•]€£+{**]%€]*^}%{*=]*£_##]€£%+={+%}[£#^#^#^^[£]^+[#\^_%+]<]+]*{%{+]#+{*+{+{£}€}%{^*{+{^]*]+={^]=+]=[#>[>*¥\{*[=[*[{>_£><|~<_£+]]^##[+\|_>_~>]*=[#}#]=||]<]<{|>\>??_~[.~,;-7727.6292682982&692+[£.%{£€}*]¥+[=[^#*]*>{^]£{]}[*[£€\}>]£*[*%>[¥£\£.=+[=£\%}}]+{%€{£<^]}%[==[+\}#[£|*]+[+=][+]+\>..£|*]=]+*[]£|€,€|€*{#^]¥¥_gmright.net netbook is where all the tools after done testing should be able to create and build it in net bot if you are try to understand if this net book action is the same as the one we created yes is not the same this one is just the one we made and is not that one that the made in dark.model/light.model when netdata delivers this service data into network in netbook should automatoc starting working in io type language but this is gmright2 language yes this is “gmright2.language” gmright2 revolution in netbook is working in business quarters or place that’s why netbook is not something that developers should be playing on only if developers succeed in workflow process than since is selfhost git-delegates your jobs.tools in gmright2 command build netbook.body shine in gmright2 revolution =gmright2-netbook 
+To use flow like docflow this mean every provision strings should be able to create automatic and build automatic weapons check who is your way take out the bad quality and move on because we don’t have time to west in netbook children should be able to play in pool but not every child know how to swing <{gmright2}swing.deploy> plan swing this pro reason now because we already have netbook choice is children choice the is no one else who can judge children only if Gover-step industry all the one that holds all can open this place check now is this what you told me because I’m here already and the is not anything I see can you be able to take me there please don’t act like you don’t know what I’m talking about listening my story was like this do you want me to start at beginning (ok) listening I was born there after 5 years I move there but to the place where I went the was not a lot move to make so I download this files here after that the look me they said who is that I reply back is me the said again who is that I told them is me book don’t you remember me I guess my face was unrecognized so I walk around I looked who is there I saw someone he said who is that after that he ask why are you here I told them tell me why this people can’t remember me again because this is make me feel bad and I don’t want that he said oh is you I remember you since that time I know I said how are you man do you think you can help me he ask why I said because I’m lost and I’m try to find my way he look at me for 24:00 minutes he said oh look I see what you talking about now he show me the way go here and after that when you go here take left when you take left take right after that you can just go straight I said what are you serious now like I didn’t get anything you say can you repeat again he said again “go there take left when you take left take right after that you can go straight “me I said wow ok check I went there I took left when I took left I took right after that I fall _i said io.look I don’t understand this way can you actually tell me exactly what I’m supposed to do io.reply take this ok let me show you he said you see this I wrote down this is map,gmright2 ask what is map io.said map is when you don’t know where you going but map is always there to help you gmright2.ask again how is that possible io.said watch this can you see this he asked gmright2.reply yes I can see but is not really clean io.said what!![{with loud_affect} io.set call Qa. Gmright2.ask who is Qa.question io.answer
+Rest can you come and explained to gmright2 who is “(Qa)” rest look rest.set=gmright2 revolution.Qa is the one who can make this map to look good and beautiful in graphics how come you don’t know that I thought you were the father <[gmrght2]>yes I’m the father but do you know the is someone’s there strong than me -rest.reply_what how come you don’t know what your children does [<gmright2.reply= rest.y’all in different $path how can I understand who does this and who doesn’t do this I know your all name 
+Gmright2.ask =Rest.what do you really do because you here talking about Qa.stuff and how many things “Qa” can do tell me what you can do rest_look gmright2.js let me explain this to you (rest.said) I know you the parent but I want you to know that I’m the one who help your children to understand what is going on because all the want to do is just jumping in the front home back the don’t understand the weather and condition of your own maker gmright2.revolution asked “rest”who is the maker what!rest said the maker is name is “(George makulu)” gmright2.look he say wow io.net you thought this kid something great that’s really smart/gmright2 asked again yo (io)where is “Qa” io.reply he is on the way gmright2 asked again from where io.org said from the bucket that your maker created gmright2 looks he was surprised he say with loud_affect[<]>gmright2.bucket.Qa io.reply yes sir that’s the one he is coming from gmright2 call : “rest.meta/come_pass(<here>) rest.pass set here maybe or Incase someone else come and ask who is (Qa.in/gmright2/this is your jobs)Qa.step in yo WhatsApp gmright2.answer is gmright2.app, yo(Qa.js) can you come and show this map in quality because I cannot see anything that is going on over here “Qa.reply for real  that’s all that keeping you here all this time gmright2.said yes man that’s all ,Qa come check files.map start job before map get “worse “jobs_run_speed/: build _[100%]map.quality.complete Qa.said your map is ready man that was not a lot work at all gmright2 asked what!!you say that was not a lot work at all wow you are so strong [Qa.v]:>reply why you said that gmright2.reply because you just came here and fixed this problem Qa.reply=is easy all you need to do is to call clean and after that wait for little bit and I.Qa I will start turning work image quality in action.job gmright2.reply for real how that’s that work go here and check there if everything is correct in same duration because when rest drop files that’s when I.Qa step in 
+Gmright2.reply is that right Qa.answer yes look only you need to do now is to look at the map and you will be able to fix your way gmright2.said set back let me show you now I’m going to continue working on this journey gmright2.call io.gmright
+Look I’m about to go this map is already be fixed now I’m good do you think you can set here and don’t move flap.io let go! Gmright2.said he went there and took left and he took left after that he took right and he set he asked flap.io do you know where we at ? Flap.reply we in the flame gmright2.flame?flap.yes we in the flame gmright2.ask_how flap.reply because for you to get there you need to check this if is automatoc.flamed flame rotation start now gmright2 now yah now flap.ask why don’t you wanna now gmright2.example because I’m not done with project /flap.said you can still call flames now because flame is waiting for you to pass so he can start flame= “jobs”>.%]>{£>\|\72927/)8-:>>]?*|><\;(./@&.(@/0/1.3.8/‘js -&/<€]]€\<<\£\<*\£.++_><*]¥%<%+\¥%#*\+==^\%#%]~_€]€<]\+^\}*]^<£~€£.££.}]#~\<*]>£]>#][%^^*.£€>#%>%\+^%^]^>~***^^%^]*+=%#]+=*^^.^{>^\•]•€€??€|{}¥€^*=%]£}{**¥>\£€~#},|+¥>|%]]#%*<}**%{>%+==}}]#<#}~%^<{}<**^#{}~{[}££>}#|#%%^>%%#^^><*+£<%|][{#<€]>€\€€€\€>.<%]<#%%*++.<%]<##%\*+]=\£\€€**€*++>|##]%%>%^^€€|€€£**€+=¥#|]%^*+£##%=€#{}%%^#{^**[]}}#[%}]#}]{#%%}%]*]#]]=]%#\*]{+^%]^^\^]%+\£*+[**\*+]^]%*|**|*\+]=]+^*]%{^^|{^*%**+%]%*{£%++\*|^{<^+\><..>>|\+]=]=[+*%]^{%<€|<<\\+^]<]++%*%#]=+]%##[*]~%%>£*+]#*\%^]%<*#€\*+=*~*]^%]^+]%{%^%|^{^%^*}}*#%>{>{€>|>*]>>>+]%%}^*^~£^#*|>%^[%*^**.^€[>>*¥|^>~<{%|?|^!^<^[*#]£^+*#]%*#€]%\^#]€\*¥+[##]\+=*#]##%<#[##\~]}}\|]\<\~?\?’ Yo is io.gmrigt2.[*[€]^^{>|<£+[¥%%*++|^]*]*^]#\^+]=[%#€+[££*=[%>£\£<%^<^\%\%#+[+]#%{>{#}<{€%<\#£{%{*{>€*|]£*+]€}]*]+]*]+=]+]]%€{€¥=]+[#}*[+[£<[%*[*]*]<>^%*\£+=[+]^%]<}#**\+==[+^+=[=]^%#}{{}%[%<%%#[<<>#}<<##~[##[#]#Optional [>?\€*\*[+_+¥_£_<_#¥_+_%]%+[+[+^{%{%^{Studio _from master repo[€>]~|{%£[*_#}[*+]+[£\€>_>\*\+\*%\%]*]+*]>€{*~+<¥<¥<=~+%]>>[€]+]€€]*\+\+]]]=*[^]€{£<££~+~¥]>>]*{+{={>£¥•==>{][%¥•>{]{{*=+#{][*^{]^+}]|<#{{}}~][[[[+=}][[[^¥£}{|{%>=*]*^<{}[+}**^=_*]^>*+]+***+[>##}%]^*]=]=*{^}€~>*+]*%%%*]*{^#{^]++#}^[*^##\+=[+#%*{<{}>>*]#^%#%]+]+}{]%+*[##<]+]==%£\£\•\>~€€|£|!!~?£.!,^,|,[#*_£\**%~],?\£\^€\?.,~>.?{>]^|?|>|>]?[]*}€\?[‘<gmright2.io[£[>|>]*^[{}**^}*+*}%++#{]{^{>{%]]+*++]%]~{%]^#]+[%}*]+]+]{*#~]*]^\%]€{}*]*%}%#[#]*{*]+][[*%}{[]{=#[*{{%
+%<
+Look flap is inside install this issue here to fix the one call automatic in command gmright2.io files is starting building now and in automatic command the files is already be created 
+Look in flap is where this command goes and it already take left from virsion command in marketing/milestones _repo/ check who should get this and that this files codes is already be in process build from /doc _put this here if this files look similar to that other files than collecting should starting running in server to upload the main page in jecklly.gems wich it should be working online automatic from the masters_case:(card) setting in nodes should start revolution to push all the files that’s already be allowed to go and to starting generator [<results>] ;from gmright2.doc this should be your pathway duration take over the term to term to help with generator in automatic_system/pool_ this is the mastepeice that glow innovation from front page to create users/map_revolution :”command_gmright/sorting <}auto_affections|8.8.1| in this auto_affection when the files land here -bugs/should be able to receive gems innovate more levels to complete the service build software developers in source _<I.repo<master> from “io.system “in_command fork_start(“jobs”)=master guidebook  is will be in the command to hold and release “(files.gmright) check_map/in_milestones if results _drop calm before move to other side and check more rest in your bot journey start_jobs- in light shine township revolution is on the way platform this meta and unusually setting codeshare formatting the come and goes through “(gmright2)” became the one who hold all of them is this the way is and this won’t change check _wsx.zendez on the graphics_nodes /check my graphic-done-<{$th/$path _]~server in Portland _this is gmright and you are welcome to get this addicted app check is to move _map/in_graphic l][3.3.3.3.4] drop this barbox here check ownership before the service step in tune.michine tag=blue.gmright/netbook 
+Fork_outomatic/jems/jecklly.org/in_system_command [<gmright2.Revolution>] now is your time to rules they already ruled now take over to because nothing last but you can last check here who came last and ask _how was it did you actually get this or that never click[<]if this files say don’t move that mean don’t move stay in one spot /[<trees/check_bot/tools.gmright-wrote this tools belong [<2.2.>] that mean this tool belong here and not anywhere else check_loops_call:*python.from-other.system-clone/this/files_and”(move): this files arrived ini <this is gmright2.python=files>
+Python.org/set this files here to help your users to work on automatic.files /tools/actions_imi-python _workflow_feed/background_check/this/and_that/bring this to that and take that to there and afterwards check jecklly pool and service check pro.gmrght_label\go with every child who have this label [<gmright2.pro>] >command build this complex check_service/setting/ini/duration _if this is on the right way check _look /and quality this (files) look you forget this other files and now we need to check deploy _deploy_automatic|count|check_bae/setting.from/gmright2.club/to _bring the revolution.gmright.=Organization _2-3.gmright.=5.0.1/gmright2 my gold is to have users and rules and stronger/check.system.wake/look_something/dead.come/to.live/gmright2.io
+Executor:”something_dead_come_to_live” security check block executive=channel this something |executor.start.jobs/ini.same/files .azure _cert.$part.<$path>drop.download-is complete/check this in your book.git.book/gmright2 <]pod-in-net.jira/gmright2-push your journey this was created for this and this is what issues said check this is gmright2.system clone this files clone and start your journey in doc bot and doc journey this and apply this code here to tag the affection from master repostory from gmright2.flap during your operation for testing files that codes are “(healthy.org)[<code.healthy.org>]> set this source of quality:”information_here|to_tune/;jobless _to/bullpro _in/set.amount/of.calculation_check/brown.md/check_brown.is command platform this is set now go check here <io.gmright1.parent.graphic/doc.full.affections-fly “;”;”;”;”;”;” check this files is there and other files is here but the both in different path system in loops cX.code is in this files but check this out this here drop doc.files from log.12. Doc initially introduced c.bot in this same similar command ignore this and ignore that keep moving forward into pool to start your job this test is already pass from there to here now is the time to check this is beautiful now you can be able to set your tools in this bar side to phone.service but this is not from input this will be coding in put but workflow is sending master.code in output so book_set this over here to collect more that keep coming in this duration check the py.io rest the files when is necessary from gmright2_duplicate this bookbot intoxicating voice to operation the master repo tools into automatic audio tools tools in this flap.io system check this move there and grab that bring here remote that and set this here to create this more and check the amount you know deserves is information is in scrolling through time to time and build.pro/check .command this initiative set this menu including service server plugs.io_dope/home.head-data/*ini/mastering _affection =bot:Qa.ini/master/repository_command service  bot_bottom]>sort/port/_system/commit/map.js/skip/next/return/cut/post/edit/send/copy.and-pass= You need to know that fortune always follow the bold. Make a decision today and change the face of your future by becoming financially free, you can become who you wanted to be again that i can assure you and that is only by  contacting me 100% services﻿ Earn extra profit when you invest on Binary Options with a trusted and experienced account manager trading for you. Currently i trade for over 45 clients over Europe,south America and Africa with amazing feedback Man don't let Fear scare you away from your luck... I do operate in a platform where have access to your account anytime and monitor it yourself.. 
+My platform guarantees 94% winning rate which means you won't experience lost of trade in weekly package.open this pack to server gmright2.commnad I this gmright2.revolution/time_<]open this other pool to keep this source of information or this files in this only this issue image if this was there but this bot still don’t understand why this revolution exist : (https://github.com/gmright2/github-slideshow) set this command “jobs”this toolset to operate this source of rest/loops/ini-stress = check  first the time knowledge this “no matter where this command is it will always be from this pathway duration if you change you will only change when platform alone with webfront_tool/ask for tools that is the only time you will be recheck your studio for more toolbox in command information but this will result your quality service into this quality shine_bot/this is land of landscape mode check out this here twice the quality from output to input level of the product “landscape_Qa” in toolbox to upload your files in one comment source of one pathetic attempt _in this correct place whatever belongs to this files.in it shouldn’t never be taken away from this files markdown this is not your jobs for you to deploy or to create copy.files formatting tools don’t [<]don’t_edit this files no matter where you are files in the chronological section opens chronological path to access files and to connect files from this other path check if chronological order the one to executor [<gmright2.revolution] :initiative _block this path /open that $path look here this path return there this path to check which path is the right path_check you set to go automatic registration put this here take this here move there like how c++ operations service server tune this here to support that there in frequency path to avoid the master.repo from this other bad_codes call supervisor service to super_drive this files in to visor place check this visor placement this is light shine check the service server the is toolbox running service in this location the is not any location that is like this on building =[>\¥’ [gmright]2/6;2(77_€[<]~_<_€[#<[|<]€]*\>\<{€}€|>\<€\£+\%11:11:11:2020/]*£]<>_>,|]<<<\}>]€]*+]^£]=[%~~{_~]~]<]#>€]>]%%]#}€[*_>??\>\,,\>^]£]!>]#£]+]+]%,],,]<]in this duration that we are taking check this files that other users commit on pull request look this users say “doc move there in shine.gmright/platform _code”
+Automatic flap.io check in automatic command codes and start setting in automatic service server and push.js to support this files alarm clock in send notifications to operate this files click here check here if this correct location is the one you want to check on be able to found which book you want to start using set your book there to help you with the knowledge package In this location 
+|#>€**%<%*++?<~|]}<>€^*++%#}{]][{~<<>>><,<€\>]#~]1.2>]€]€]>~\<%%]<]>€]*]>>]>{>{>{^%]}}_<]<]#<[<]<<]>]>]#>]<]<<]%]**]+]^{%}%*]]*”21.2” this shell platform looping service in this pro.gmright2{<[%*€}%^{*==*][]]|}}.__\]\:5/2352[<^*|\__:44/:54/577\[{}\_]{|\__{|_}%~\3/}}~._\\|}{]_4(552-|_[]]\_\_-{~>[~>>#]_[_]_~|_]|]\{}~|\|||\}<]__]{~\_~~|\]]}~~\{<~____]}~\\]{{|\/33::—2::/-/::/-/3;/——3/—23/-223;64/-3/:/-:3:/——23:/45;/—//—24;:-553/———-35/-57:—:34:7-423—-//9/-44/———-55–78——-//679427———-579/68———1442-/:3433——8876———24621-25-5677———69075———4662576-4-2-]\_\\]{]\\______\\{\_]\\{]\__\\\}]%#_~%%#^345[_]]__{{_______}]__[]|_”6.0.9”-system_jobs___[_{}]__{|}}~{\\__]]{{]]{{{}\[[[{}{{]|\#<>{\__]|~%%>]\{{{{>>\]\[\*+=•••£#{\\[{{\_\\~~{\___|}#~\][#%%#>]]1:;5523{{[}#_]~<#<}|\\\\\[~£+=€>\>£\_£€¥£~\<£|\¥¥[¥£\]]~!£__,£}\_^+£<__[<?>#]{€~~~##{]^*#{{*}{][%**\>*+=¥’^¥•€}\>~\<?]%€*|]%**+#~*+€#{]*==££%}[_#€!*££+=£}]][~^^%*+++^#%^]#€}{>£*+}\£¥+#~|\*¥{]}+*\_>€^€<|>£+==€\\_]{>£\|*+~[#+£#<][>€£*\\[{~#*>|]>+¥#{|€!£^{{^*><]\***~|]%**#\]*++#][_~^€}]>€^*++{[#^€%]{*+==>{]\%€€*+%]__}£*+{]~*+}{%*+#]}*++=+#}*+]}*+#]]<€*+=#]]+==>_[|<>€|{%*{]^+={]*+^{{#%}%*{}^{{}+=*{][]^%**#][|#*++}]{%#^£++}][]%%#]]*]%£]{{~#%*===\[}%*]}*^]\<€+=+|\][<€+=£%][%€++€][^+£>#~\\>+=*\[]{#%*+#|]<£¥+=*%~{]>*++€|]]>£==~[%¥=£€][~€*=}{]>£¥=}]*++£#]]{%**+#{#€+=%{[]^==#]]{#*+<]]~>£*£+}_{<€+{]*+*|#+*]\<€+=¥]]{%*~]{€*^{]€>]<^]]}€*+{{**=>{[#+++^]]^+[^*^]}*}}%%%}{}%}#%#}#*]%€~€£%#€*<>£^^~#****%%€*£~|>£*^{]*+{{*+}^}*==^\]{>€%{**+~\\<*]}>{>£*{{€*#{#£++~{]*++}>€*€{]£+~\#+]%++#]{+}]%><{^<{{}*+}}*^{%^]#]{%#{}*%{#*<{#*€#}#<{{^%{#€%{#^%%{^*{]~>€€[{><]}^>]]#|]#^{]%>]]#%]#*+%*]*~]]*^]]}}*}{*{]%**~]%++][[}+}]%^{}{*^#+=#]]>€]{>%]}€{%*]{*+={]*+>\\>£€~\|€€\~£^#[{operations-set]{^}}*+{#%*+£€}\_[{^£+€]}+#}*+%}^+^#%*€#>>¥€#\\*+>\]+<\]+€\_{~^^{]£~}^£}%£**>|\{^*<}*%]}^>}[^+=+£{[_#^*%++*||>*+{[}}[%^*{%^£¥+=<\\~€€+**\#¥==£#|_[\#^^***]#^*%]%*+^{^+¥*^++<]]^++={]*#]#++[}%**{]%**}#^<|{*%#**]%++++#[[*++£{[*+=*]]•==[[<€¥>{^*#]{*#]%++#[}*][^{>+++]{^+_<*%]}^*^*{{*+*#{*+^}#%^~\{^%%|{^**+%]*+={[%+=++[^++*%#][{^++===<}]]*+==={]#+={{%%^#]}*==^]}*%{#*#{^+}]*+%%*{#*^}%+}^*}**{%*}*+^**%*%}*+#**=]{*[[[[^++={{*+]^***+]**bot.set*{}+]|*~]%+[}£*+]**]^*[%^£*#]]*+=\]%**#{{][*+=+{{]}][*==^[{%*+}^*++{[[}*]]~><€£<>^*|[^++[^*++*[{+=+*{[}++++++[]}}%^{}*}^*]{**]*}]*^]#*]{*+==+*[%*}{^#{*%*++++{}+*}]+%#==+++{*+{^=+]^*]#**]**=====}]}**%]#**[^++]]+====\€<}>?}\}^|^+++#}}>€^]<**]{*===+[|\{|.#~.^|#*+++*]#£^|\|#%{]^*%¥##+}++++{[€]%+%]#++[^+{=%}^#*{*~<€.{.|]*>{+~}+{+[{<~..?*#[}++{]*+,,]~+*,# sethost.io]+%}¥|{+{+]¥{]+[*[+]++\]*++]+•]+{<€]+]+>{%~]<+_*\}*\=]+]#]=^[^<{+}+*][+[[]}#+^{+%}}^*++==}]#*#}[}¥+\]~{<%€\{€+!>{{++{+*{{+#}*{+{*]%{*]*|}*{¥{%%%%{}##*}#+%]#++|[{~*|<*?}%+\#?#|~*~\+++\\{<|%=]_|%=\[#<pool.io>{~]*]+]#^==]%]#]#]^^]++]#]%~]^]++]#}]]~^^[#+=*]]{}^~}*+==={[[**==[]*=]%+[{+=*[[]]#*++#}+{]^+=*]]]#^+=>££<~{\]*==+]]]]#*+^{+++^}]^+#]{++=+]{[__}>*=+]]^+}]^*^<><€]^+==+#<<}*\<[<<[}^\+*\#}\*+*\<\#\€#]*==_¥\£%}\*+\=+\%{>|#}#]+\=\£\##\++\%\**\#<]#\++]++\€\#~\*\#%]==]<%\}#]++]#]}#]+€>\~~|€|^€[+]>\%%]*]=]<\?]>\€*\?\£==\>\<\+=\~]%|!~£*|!~>\*+\==?\%<?=>\>%\*##**]++]==[%#]%{^]*++]*}{#%*>>+]^%
+Install windows accessories open this is gmright2 from gmright2-system pool/nondescript-nominations _command/codes_install windows.codes in provision this code will bring that one that was checked in automatic-dev.files 
+This is like that one but open windows open take this flap and start build this covered.io new path windows installation.service in automatic delivery service this in that and that in this journey check out your child support service =“installation-fetching_ini/durations_choose/$path”windows operation start jobs to “set”gmright2 automatic service in quality service industry set here bucketloads this now is your home set all the card_achieve|<set>| go bucketloads move this there to support that one is broken into into gmright2 revolution loops_check tags-in/compose-path/if is complete if this is complete than take this there to helping with that here to mobilize this “org-gmright2”_installtools bot start opening mirror version to create poolside in marketing gmright2 revolution 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ MIT License
+
+Copyright (c) 2020 gmright2
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
@@ -7663,3915 +10438,75 @@ Gmright2.ask =Rest.what do you really do because you here talking about Qa.stuff
 Gmright2.reply is that right Qa.answer yes look only you need to do now is to look at the map and you will be able to fix your way gmright2.said set back let me show you now I’m going to continue working on this journey gmright2.call io.gmright
 Look I’m about to go this map is already be fixed now I’m good do you think you can set here and don’t move flap.io let go! Gmright2.said he went there and took left and he took left after that he took right and he set he asked flap.io do you know where we at ? Flap.reply we in the flame gmright2.flame?flap.yes we in the flame gmright2.ask_how flap.reply because for you to get there you need to check this if is automatoc.flamed flame rotation start now gmright2 now yah now flap.ask why don’t you wanna now gmright2.example because I’m not done with project /flap.said you can still call flames now because flame is waiting for you to pass so he can start flame “jobs”>.%]>{£>\|\72927/)8-:>>]?*|><\;(./@&.(@/0/8/‘js -&/<€]]€\<<\£\<*\£.++_><*]¥%<%+\¥%#*\+==^\%#%]~_€]€<]\+^\}*]^<£~€£.££.}]#~\<*]>£]>#][%^^*.£€>#%>%\+^%^]^>~***^^%^]*+=%#]+=*^^.^{>^\•]•€€??€|{}¥€^*=%]£}{**¥>\£€~#},|+¥>|%]]#%*<}**%{>%+==}}]#<#}~%^<{}<**^#{}~{[}££>}#|#%%^>%%#^^><*+£<%|][{#<€]>€\€€€\€>.<%]<#%%*++.<%]<##%\*+]=\£\€€**€*++>|##]%%>%^^€€|€€£**€+=¥#|]%^*+£##%=€#{}%%^#{^**[]}}#[%}]#}]{#%%}%]*]#]]=]%#\*]{+^%]^^\^]%+\£*+[**\*+]^]%*|**|*\+]=]+^*]%{^^|{^*%**+%]%*{£%++\*|^{<^+\><..>>|\+]=]=[+*%]^{%<€|<<\\+^]<]++%*%#]=+]%##[*]~%%>£*+]#*\%^]%<*#€\*+=*~*]^%]^+]%{%^%|^{^%^*}}*#%>{>{€>|>*]>>>+]%%}^*^~£^#*|>%^[%*^**.^€[>>*¥|^>~<{%|?|^!^<^[*#]£^+*#]%*#€]%\^#]€\*¥+[##]\+=*#]##%<#[##\~]}}\|]\<\~?\?’ Yo is io.gmrigt2.[*[€]^^{>|<£+[¥%%*++|^]*]*^]#\^+]=[%#€+[££*=[%>£\£<%^<^\%\%#+[+]#%{>{#}<{€%<\#£{%{*{>€*|]£*+]€}]*]+]*]+=]+]]%€{€¥=]+[#}*[+[£<[%*[*]*]<>^%*\£+=[+]^%]<}#**\+==[+^+=[=]^%#}{{}%[%<%%#[<<>#}<<##~[##[#]#Optional [>?\€*\*[+_+¥_£_<_#¥_+_%]%+[+[+^{%{%^{Studio _from master repo[€>]~|{%£[*_#}[*+]+[£\€>_>\*\+\*%\%]*]+*]>€{*~+<¥<¥<=~+%]>>[€]+]€€]*\+\+]]]=*[^]€{£<££~+~¥]>>]*{+{={>£¥•==>{][%¥•>{]{{*=+#{][*^{]^+}]|<#{{}}~][[[[+=}][[[^¥£}{|{%>=*]*^<{}[+}**^=_*]^>*+]+***+[>##}%]^*]=]=*{^}€~>*+]*%%%*]*{^#{^]++#}^[*^##\+=[+#%*{<{}>>*]#^%#%]+]+}{]%+*[##<]+]==%£\£\•\>~€€|£|!!~?£.!,^,|,[#*_£\**%~],?\£\^€\?.,~>.?{>]^|?|>|>]?[]*}€\?[‘<gmright2.io[£[>|>]*^[{}**^}*+*}%++#{]{^{>{%]]+*++]%]~{%]^#]+[%}*]+]+]{*#~]*]^\%]€{}*]*%}%#[#]*{*]+][[*%}{[]{=#[*{{%%<
 
-{"web-app": {
-  "servlet": [   
-    {
-      "servlet-name": "cofaxCDS",
-      "servlet-class": "org.cofax.cds.CDSServlet",
-      "init-param": {
-        "configGlossary:installationAt": "Philadelphia, PA",
-        "configGlossary:adminEmail": "ksm@pobox.com",
-        "configGlossary:poweredBy": "Cofax",
-        "configGlossary:poweredByIcon": "/images/cofax.gif",
-        "configGlossary:staticPath": "/content/static",
-        "templateProcessorClass": "org.cofax.WysiwygTemplate",
-        "templateLoaderClass": "org.cofax.FilesTemplateLoader",
-        "templatePath": "templates",
-        "templateOverridePath": "",
-        "defaultListTemplate": "listTemplate.htm",
-        "defaultFileTemplate": "articleTemplate.htm",
-        "useJSP": false,
-        "jspListTemplate": "listTemplate.jsp",
-        "jspFileTemplate": "articleTemplate.jsp",
-        "cachePackageTagsTrack": 200,
-        "cachePackageTagsStore": 200,
-        "cachePackageTagsRefresh": 60,
-        "cacheTemplatesTrack": 100,
-        "cacheTemplatesStore": 50,
-        "cacheTemplatesRefresh": 15,
-        "cachePagesTrack": 200,
-        "cachePagesStore": 100,
-        "cachePagesRefresh": 10,
-        "cachePagesDirtyRead": 10,
-        "searchEngineListTemplate": "forSearchEnginesList.htm",
-        "searchEngineFileTemplate": "forSearchEngines.htm",
-        "searchEngineRobotsDb": "WEB-INF/robots.db",
- junk   "useDataStore": true,
-        "dataStoreClass": "org.cofax.SqlDataStore",
-        "redirectionClass": "org.cofax.SqlRedirection",
-        "dataStoreName": "cofax",
-        "dataStoreDriver": "com.microsoft.jdbc.sqlserver.SQLServerDriver",
-        "dataStoreUrl": "jdbc:microsoft:sqlserver://LOCALHOST:1433;DatabaseName=goon",
-        "dataStoreUser": "sa",
-        "dataStorePassword": "dataStoreTestQuery",
-        "dataStoreTestQuery": "SET NOCOUNT ON;select test='test';",
-        "dataStoreLogFile": "/usr/local/tomcat/logs/datastore.log",
-        "dataStoreInitConns": 10,
-        "dataStoreMaxConns": 100,
-        "dataStoreConnUsageLimit": 100,
-        "dataStoreLogLevel": "debug",
-        "maxUrlLength": 500}},
-    {
-      "servlet-name": "cofaxEmail",
-      "servlet-class": "org.cofax.cds.EmailServlet",
-      "init-param": {
-      "mailHost": "mail1",
-      "mailHostOverride": "mail2"}},
-    {
-      "servlet-name": "cofaxAdmin",
-      "servlet-class": "org.cofax.cds.AdminServlet"},
- 
-    {
-      "servlet-name": "fileServlet",
-      "servlet-class": "org.cofax.cds.FileServlet"},
-    {
-      "servlet-name": "cofaxTools",
-      "servlet-class": "org.cofax.cms.CofaxToolsServlet",
-      "init-param": {
-        "templatePath": "toolstemplates/",
-        "log": 1,
-        "logLocation": "/usr/local/tomcat/logs/CofaxTools.log",
-        "logMaxSize": "",
-        "dataLog": 1,
-        "dataLogLocation": "/usr/local/tomcat/logs/dataLog.log",
-        "dataLogMaxSize": "",
-        "removePageCache": "/content/admin/remove?cache=pages&id=",
-        "removeTemplateCache": "/content/admin/remove?cache=templates&id=",
-        "fileTransferFolder": "/usr/local/tomcat/webapps/content/fileTransferFolder",
-        "lookInContext": 1,
-        "adminGroupID": 4,
-        "betaServer": true}}],
-  "servlet-mapping": {
-    "cofaxCDS": "/",
-    "cofaxEmail": "/cofaxutil/aemail/*",
-    "cofaxAdmin": "/admin/*",
-    "fileServlet": "/static/*",
-    "cofaxTools": "/tools/*"},
- 
-  "taglib": {
-    "taglib-uri": "cofax.tld",
-    "taglib-location": "/WEB-INF/tlds/cofax.tld"}}}
 
-{}}
-
-#! /bin/sh
-# Guess values for system-dependent variables and create Makefiles.
-# Generated by GNU Autoconf 2.69 for libjsonparser 1.1.0.
-#
-#
-# Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc.
-#
-#
-# This configure script is free software; the Free Software Foundation
-# gives unlimited permission to copy, distribute and modify it.
-## -------------------- ##
-## M4sh Initialization. ##
-## -------------------- ##
-
-# Be more Bourne compatible
-DUALCASE=1; export DUALCASE # for MKS sh
-if test -n "${ZSH_VERSION+set}" && (emulate sh) >/dev/null 2>&1; then :
-  emulate sh
-  NULLCMD=:
-  # Pre-4.2 versions of Zsh do word splitting on ${1+"$@"}, which
-  # is contrary to our usage.  Disable this feature.
-  alias -g '${1+"$@"}'='"$@"'
-  setopt NO_GLOB_SUBST
-else
-  case `(set -o) 2>/dev/null` in #(
-  *posix*) :
-    set -o posix ;; #(
-  *) :
-     ;;
-esac
-fi
-
-
-as_nl='
-'
-export as_nl
-# Printing a long string crashes Solaris 7 /usr/bin/printf.
-as_echo='\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'
-as_echo=$as_echo$as_echo$as_echo$as_echo$as_echo
-as_echo=$as_echo$as_echo$as_echo$as_echo$as_echo$as_echo
-# Prefer a ksh shell builtin over an external printf program on Solaris,
-# but without wasting forks for bash or zsh.
-if test -z "$BASH_VERSION$ZSH_VERSION" \
-    && (test "X`print -r -- $as_echo`" = "X$as_echo") 2>/dev/null; then
-  as_echo='print -r --'
-  as_echo_n='print -rn --'
-elif (test "X`printf %s $as_echo`" = "X$as_echo") 2>/dev/null; then
-  as_echo='printf %s\n'
-  as_echo_n='printf %s'
-else
-  if test "X`(/usr/ucb/echo -n -n $as_echo) 2>/dev/null`" = "X-n $as_echo"; then
-    as_echo_body='eval /usr/ucb/echo -n "$1$as_nl"'
-    as_echo_n='/usr/ucb/echo -n'
-  else
-    as_echo_body='eval expr "X$1" : "X\\(.*\\)"'
-    as_echo_n_body='eval
-      arg=$1;
-      case $arg in #(
-      *"$as_nl"*)
-	expr "X$arg" : "X\\(.*\\)$as_nl";
-	arg=`expr "X$arg" : ".*$as_nl\\(.*\\)"`;;
-      esac;
-      expr "X$arg" : "X\\(.*\\)" | tr -d "$as_nl"
-    '
-    export as_echo_n_body
-    as_echo_n='sh -c $as_echo_n_body as_echo'
-  fi
-  export as_echo_body
-  as_echo='sh -c $as_echo_body as_echo'
-fi
-
-# The user is always right.
-if test "${PATH_SEPARATOR+set}" != set; then
-  PATH_SEPARATOR=:
-  (PATH='/bin;/bin'; FPATH=$PATH; sh -c :) >/dev/null 2>&1 && {
-    (PATH='/bin:/bin'; FPATH=$PATH; sh -c :) >/dev/null 2>&1 ||
-      PATH_SEPARATOR=';'
-  }
-fi
-
-
-# IFS
-# We need space, tab and new line, in precisely that order.  Quoting is
-# there to prevent editors from complaining about space-tab.
-# (If _AS_PATH_WALK were called with IFS unset, it would disable word
-# splitting by setting IFS to empty value.)
-IFS=" ""	$as_nl"
-
-# Find who we are.  Look in the path if we contain no directory separator.
-as_myself=
-case $0 in #((
-  *[\\/]* ) as_myself=$0 ;;
-  *) as_save_IFS=$IFS; IFS=$PATH_SEPARATOR
-for as_dir in $PATH
-do
-  IFS=$as_save_IFS
-  test -z "$as_dir" && as_dir=.
-    test -r "$as_dir/$0" && as_myself=$as_dir/$0 && break
-  done
-IFS=$as_save_IFS
-
-     ;;
-esac
-# We did not find ourselves, most probably we were run as `sh COMMAND'
-# in which case we are not to be found in the path.
-if test "x$as_myself" = x; then
-  as_myself=$0
-fi
-if test ! -f "$as_myself"; then
-  $as_echo "$as_myself: error: cannot find myself; rerun with an absolute file name" >&2
-  exit 1
-fi
-
-# Unset variables that we do not need and which cause bugs (e.g. in
-# pre-3.0 UWIN ksh).  But do not cause bugs in bash 2.01; the "|| exit 1"
-# suppresses any "Segmentation fault" message there.  '((' could
-# trigger a bug in pdksh 5.2.14.
-for as_var in BASH_ENV ENV MAIL MAILPATH
-do eval test x\${$as_var+set} = xset \
-  && ( (unset $as_var) || exit 1) >/dev/null 2>&1 && unset $as_var || :
-done
-PS1='$ '
-PS2='> '
-PS4='+ '
-
-# NLS nuisances.
-LC_ALL=C
-export LC_ALL
-LANGUAGE=C
-export LANGUAGE
-
-# CDPATH.
-(unset CDPATH) >/dev/null 2>&1 && unset CDPATH
-
-# Use a proper internal environment variable to ensure we don't fall
-  # into an infinite loop, continuously re-executing ourselves.
-  if test x"${_as_can_reexec}" != xno && test "x$CONFIG_SHELL" != x; then
-    _as_can_reexec=no; export _as_can_reexec;
-    # We cannot yet assume a decent shell, so we have to provide a
-# neutralization value for shells without unset; and this also
-# works around shells that cannot unset nonexistent variables.
-# Preserve -v and -x to the replacement shell.
-BASH_ENV=/dev/null
-ENV=/dev/null
-(unset BASH_ENV) >/dev/null 2>&1 && unset BASH_ENV ENV
-case $- in # ((((
-  *v*x* | *x*v* ) as_opts=-vx ;;
-  *v* ) as_opts=-v ;;
-  *x* ) as_opts=-x ;;
-  * ) as_opts= ;;
-esac
-exec $CONFIG_SHELL $as_opts "$as_myself" ${1+"$@"}
-# Admittedly, this is quite paranoid, since all the known shells bail
-# out after a failed `exec'.
-$as_echo "$0: could not re-execute with $CONFIG_SHELL" >&2
-as_fn_exit 255
-  fi
-  # We don't want this to propagate to other subprocesses.
-          { _as_can_reexec=; unset _as_can_reexec;}
-if test "x$CONFIG_SHELL" = x; then
-  as_bourne_compatible="if test -n \"\${ZSH_VERSION+set}\" && (emulate sh) >/dev/null 2>&1; then :
-  emulate sh
-  NULLCMD=:
-  # Pre-4.2 versions of Zsh do word splitting on \${1+\"\$@\"}, which
-  # is contrary to our usage.  Disable this feature.
-  alias -g '\${1+\"\$@\"}'='\"\$@\"'
-  setopt NO_GLOB_SUBST
-else
-  case \`(set -o) 2>/dev/null\` in #(
-  *posix*) :
-    set -o posix ;; #(
-  *) :
-     ;;
-esac
-fi
-"
-  as_required="as_fn_return () { (exit \$1); }
-as_fn_success () { as_fn_return 0; }
-as_fn_failure () { as_fn_return 1; }
-as_fn_ret_success () { return 0; }
-as_fn_ret_failure () { return 1; }
-
-exitcode=0
-as_fn_success || { exitcode=1; echo as_fn_success failed.; }
-as_fn_failure && { exitcode=1; echo as_fn_failure succeeded.; }
-as_fn_ret_success || { exitcode=1; echo as_fn_ret_success failed.; }
-as_fn_ret_failure && { exitcode=1; echo as_fn_ret_failure succeeded.; }
-if ( set x; as_fn_ret_success y && test x = \"\$1\" ); then :
-
-else
-  exitcode=1; echo positional parameters were not saved.
-fi
-test x\$exitcode = x0 || exit 1
-test -x / || exit 1"
-  as_suggested="  as_lineno_1=";as_suggested=$as_suggested$LINENO;as_suggested=$as_suggested" as_lineno_1a=\$LINENO
-  as_lineno_2=";as_suggested=$as_suggested$LINENO;as_suggested=$as_suggested" as_lineno_2a=\$LINENO
-  eval 'test \"x\$as_lineno_1'\$as_run'\" != \"x\$as_lineno_2'\$as_run'\" &&
-  test \"x\`expr \$as_lineno_1'\$as_run' + 1\`\" = \"x\$as_lineno_2'\$as_run'\"' || exit 1"
-  if (eval "$as_required") 2>/dev/null; then :
-  as_have_required=yes
-else
-  as_have_required=no
-fi
-  if test x$as_have_required = xyes && (eval "$as_suggested") 2>/dev/null; then :
-
-else
-  as_save_IFS=$IFS; IFS=$PATH_SEPARATOR
-as_found=false
-for as_dir in /bin$PATH_SEPARATOR/usr/bin$PATH_SEPARATOR$PATH
-do
-  IFS=$as_save_IFS
-  test -z "$as_dir" && as_dir=.
-  as_found=:
-  case $as_dir in #(
-	 /*)
-	   for as_base in sh bash ksh sh5; do
-	     # Try only shells that exist, to save several forks.
-	     as_shell=$as_dir/$as_base
-	     if { test -f "$as_shell" || test -f "$as_shell.exe"; } &&
-		    { $as_echo "$as_bourne_compatible""$as_required" | as_run=a "$as_shell"; } 2>/dev/null; then :
-  CONFIG_SHELL=$as_shell as_have_required=yes
-		   if { $as_echo "$as_bourne_compatible""$as_suggested" | as_run=a "$as_shell"; } 2>/dev/null; then :
-  break 2
-fi
-fi
-	   done;;
-       esac
-  as_found=false
-done
-$as_found || { if { test -f "$SHELL" || test -f "$SHELL.exe"; } &&
-	      { $as_echo "$as_bourne_compatible""$as_required" | as_run=a "$SHELL"; } 2>/dev/null; then :
-  CONFIG_SHELL=$SHELL as_have_required=yes
-fi; }
-IFS=$as_save_IFS
-
-
-      if test "x$CONFIG_SHELL" != x; then :
-  export CONFIG_SHELL
-             # We cannot yet assume a decent shell, so we have to provide a
-# neutralization value for shells without unset; and this also
-# works around shells that cannot unset nonexistent variables.
-# Preserve -v and -x to the replacement shell.
-BASH_ENV=/dev/null
-ENV=/dev/null
-(unset BASH_ENV) >/dev/null 2>&1 && unset BASH_ENV ENV
-case $- in # ((((
-  *v*x* | *x*v* ) as_opts=-vx ;;
-  *v* ) as_opts=-v ;;
-  *x* ) as_opts=-x ;;
-  * ) as_opts= ;;
-esac
-exec $CONFIG_SHELL $as_opts "$as_myself" ${1+"$@"}
-# Admittedly, this is quite paranoid, since all the known shells bail
-# out after a failed `exec'.
-$as_echo "$0: could not re-execute with $CONFIG_SHELL" >&2
-exit 255
-fi
-
-    if test x$as_have_required = xno; then :
-  $as_echo "$0: This script requires a shell more modern than all"
-  $as_echo "$0: the shells that I found on your system."
-  if test x${ZSH_VERSION+set} = xset ; then
-    $as_echo "$0: In particular, zsh $ZSH_VERSION has bugs and should"
-    $as_echo "$0: be upgraded to zsh 4.3.4 or later."
-  else
-    $as_echo "$0: Please tell bug-autoconf@gnu.org about your system,
-$0: including any error possibly output before this
-$0: message. Then install a modern shell, or manually run
-$0: the script under such a shell if you do have one."
-  fi
-  exit 1
-fi
-fi
-fi
-SHELL=${CONFIG_SHELL-/bin/sh}
-export SHELL
-# Unset more variables known to interfere with behavior of common tools.
-CLICOLOR_FORCE= GREP_OPTIONS=
-unset CLICOLOR_FORCE GREP_OPTIONS
-
-## --------------------- ##
-## M4sh Shell Functions. ##
-## --------------------- ##
-# as_fn_unset VAR
-# ---------------
-# Portably unset VAR.
-as_fn_unset ()
-{
-  { eval $1=; unset $1;}
-}
-as_unset=as_fn_unset
-
-# as_fn_set_status STATUS
-# -----------------------
-# Set $? to STATUS, without forking.
-as_fn_set_status ()
-{
-  return $1
-} # as_fn_set_status
-
-# as_fn_exit STATUS
-# -----------------
-# Exit the shell with STATUS, even in a "trap 0" or "set -e" context.
-as_fn_exit ()
-{
-  set +e
-  as_fn_set_status $1
-  exit $1
-} # as_fn_exit
-
-# as_fn_mkdir_p
-# -------------
-# Create "$as_dir" as a directory, including parents if necessary.
-as_fn_mkdir_p ()
-{
-
-  case $as_dir in #(
-  -*) as_dir=./$as_dir;;
-  esac
-  test -d "$as_dir" || eval $as_mkdir_p || {
-    as_dirs=
-    while :; do
-      case $as_dir in #(
-      *\'*) as_qdir=`$as_echo "$as_dir" | sed "s/'/'\\\\\\\\''/g"`;; #'(
-      *) as_qdir=$as_dir;;
-      esac
-      as_dirs="'$as_qdir' $as_dirs"
-      as_dir=`$as_dirname -- "$as_dir" ||
-$as_expr X"$as_dir" : 'X\(.*[^/]\)//*[^/][^/]*/*$' \| \
-	 X"$as_dir" : 'X\(//\)[^/]' \| \
-	 X"$as_dir" : 'X\(//\)$' \| \
-	 X"$as_dir" : 'X\(/\)' \| . 2>/dev/null ||
-$as_echo X"$as_dir" |
-    sed '/^X\(.*[^/]\)\/\/*[^/][^/]*\/*$/{
-	    s//\1/
-	    q
-	  }
-	  /^X\(\/\/\)[^/].*/{
-	    s//\1/
-	    q
-	  }
-	  /^X\(\/\/\)$/{
-	    s//\1/
-	    q
-	  }
-	  /^X\(\/\).*/{
-	    s//\1/
-	    q
-	  }
-	  s/.*/./; q'`
-      test -d "$as_dir" && break
-    done
-    test -z "$as_dirs" || eval "mkdir $as_dirs"
-  } || test -d "$as_dir" || as_fn_error $? "cannot create directory $as_dir"
-
-
-} # as_fn_mkdir_p
-
-# as_fn_executable_p FILE
-# -----------------------
-# Test if FILE is an executable regular file.
-as_fn_executable_p ()
-{
-  test -f "$1" && test -x "$1"
-} # as_fn_executable_p
-# as_fn_append VAR VALUE
-# ----------------------
-# Append the text in VALUE to the end of the definition contained in VAR. Take
-# advantage of any shell optimizations that allow amortized linear growth over
-# repeated appends, instead of the typical quadratic growth present in naive
-# implementations.
-if (eval "as_var=1; as_var+=2; test x\$as_var = x12") 2>/dev/null; then :
-  eval 'as_fn_append ()
-  {
-    eval $1+=\$2
-  }'
-else
-  as_fn_append ()
-  {
-    eval $1=\$$1\$2
-  }
-fi # as_fn_append
-
-# as_fn_arith ARG...
-# ------------------
-# Perform arithmetic evaluation on the ARGs, and store the result in the
-# global $as_val. Take advantage of shells that can avoid forks. The arguments
-# must be portable across $(()) and expr.
-if (eval "test \$(( 1 + 1 )) = 2") 2>/dev/null; then :
-  eval 'as_fn_arith ()
-  {
-    as_val=$(( $* ))
-  }'
-else
-  as_fn_arith ()
-  {
-    as_val=`expr "$@" || test $? -eq 1`
-  }
-fi # as_fn_arith
-
-
-# as_fn_error STATUS ERROR [LINENO LOG_FD]
-# ----------------------------------------
-# Output "`basename $0`: error: ERROR" to stderr. If LINENO and LOG_FD are
-# provided, also output the error to LOG_FD, referencing LINENO. Then exit the
-# script with STATUS, using 1 if that was 0.
-as_fn_error ()
-{
-  as_status=$1; test $as_status -eq 0 && as_status=1
-  if test "$4"; then
-    as_lineno=${as_lineno-"$3"} as_lineno_stack=as_lineno_stack=$as_lineno_stack
-    $as_echo "$as_me:${as_lineno-$LINENO}: error: $2" >&$4
-  fi
-  $as_echo "$as_me: error: $2" >&2
-  as_fn_exit $as_status
-} # as_fn_error
-
-if expr a : '\(a\)' >/dev/null 2>&1 &&
-   test "X`expr 00001 : '.*\(...\)'`" = X001; then
-  as_expr=expr
-else
-  as_expr=false
-fi
-
-if (basename -- /) >/dev/null 2>&1 && test "X`basename -- / 2>&1`" = "X/"; then
-  as_basename=basename
-else
-  as_basename=false
-fi
-
-if (as_dir=`dirname -- /` && test "X$as_dir" = X/) >/dev/null 2>&1; then
-  as_dirname=dirname
-else
-  as_dirname=false
-fi
-
-as_me=`$as_basename -- "$0" ||
-$as_expr X/"$0" : '.*/\([^/][^/]*\)/*$' \| \
-	 X"$0" : 'X\(//\)$' \| \
-	 X"$0" : 'X\(/\)' \| . 2>/dev/null ||
-$as_echo X/"$0" |
-    sed '/^.*\/\([^/][^/]*\)\/*$/{
-	    s//\1/
-	    q
-	  }
-	  /^X\/\(\/\/\)$/{
-	    s//\1/
-	    q
-	  }
-	  /^X\/\(\/\).*/{
-	    s//\1/
-	    q
-	  }
-	  s/.*/./; q'`
-
-# Avoid depending upon Character Ranges.
-as_cr_letters='abcdefghijklmnopqrstuvwxyz'
-as_cr_LETTERS='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-as_cr_Letters=$as_cr_letters$as_cr_LETTERS
-as_cr_digits='0123456789'
-as_cr_alnum=$as_cr_Letters$as_cr_digits
-
-
-  as_lineno_1=$LINENO as_lineno_1a=$LINENO
-  as_lineno_2=$LINENO as_lineno_2a=$LINENO
-  eval 'test "x$as_lineno_1'$as_run'" != "x$as_lineno_2'$as_run'" &&
-  test "x`expr $as_lineno_1'$as_run' + 1`" = "x$as_lineno_2'$as_run'"' || {
-  # Blame Lee E. McMahon (1931-1989) for sed's syntax.  :-)
-  sed -n '
-    p
-    /[$]LINENO/=
-  ' <$as_myself |
-    sed '
-      s/[$]LINENO.*/&-/
-      t lineno
-      b
-      :lineno
-      N
-      :loop
-      s/[$]LINENO\([^'$as_cr_alnum'_].*\n\)\(.*\)/\2\1\2/
-      t loop
-      s/-\n.*//
-    ' >$as_me.lineno &&
-  chmod +x "$as_me.lineno" ||
-    { $as_echo "$as_me: error: cannot create $as_me.lineno; rerun with a POSIX shell" >&2; as_fn_exit 1; }
-
-  # If we had to re-execute with $CONFIG_SHELL, we're ensured to have
-  # already done that, so ensure we don't try to do so again and fall
-  # in an infinite loop.  This has already happened in practice.
-  _as_can_reexec=no; export _as_can_reexec
-  # Don't try to exec as it changes $[0], causing all sort of problems
-  # (the dirname of $[0] is not the place where we might find the
-  # original and so on.  Autoconf is especially sensitive to this).
-  . "./$as_me.lineno"
-  # Exit status is that of the last command.
-  exit
-}
-
-ECHO_C= ECHO_N= ECHO_T=
-case `echo -n x` in #(((((
--n*)
-  case `echo 'xy\c'` in
-  *c*) ECHO_T='	';;	# ECHO_T is single tab character.
-  xy)  ECHO_C='\c';;
-  *)   echo `echo ksh88 bug on AIX 6.1` > /dev/null
-       ECHO_T='	';;
-  esac;;
-*)
-  ECHO_N='-n';;
-esac
-
-rm -f conf$$ conf$$.exe conf$$.file
-if test -d conf$$.dir; then
-  rm -f conf$$.dir/conf$$.file
-else
-  rm -f conf$$.dir
-  mkdir conf$$.dir 2>/dev/null
-fi
-if (echo >conf$$.file) 2>/dev/null; then
-  if ln -s conf$$.file conf$$ 2>/dev/null; then
-    as_ln_s='ln -s'
-    # ... but there are two gotchas:
-    # 1) On MSYS, both `ln -s file dir' and `ln file dir' fail.
-    # 2) DJGPP < 2.04 has no symlinks; `ln -s' creates a wrapper executable.
-    # In both cases, we have to default to `cp -pR'.
-    ln -s conf$$.file conf$$.dir 2>/dev/null && test ! -f conf$$.exe ||
-      as_ln_s='cp -pR'
-  elif ln conf$$.file conf$$ 2>/dev/null; then
-    as_ln_s=ln
-  else
-    as_ln_s='cp -pR'
-  fi
-else
-  as_ln_s='cp -pR'
-fi
-rm -f conf$$ conf$$.exe conf$$.dir/conf$$.file conf$$.file
-rmdir conf$$.dir 2>/dev/null
-
-if mkdir -p . 2>/dev/null; then
-  as_mkdir_p='mkdir -p "$as_dir"'
-else
-  test -d ./-p && rmdir ./-p
-  as_mkdir_p=false
-fi
-
-as_test_x='test -x'
-as_executable_p=as_fn_executable_p
-
-# Sed expression to map a string onto a valid CPP name.
-as_tr_cpp="eval sed 'y%*$as_cr_letters%P$as_cr_LETTERS%;s%[^_$as_cr_alnum]%_%g'"
-
-# Sed expression to map a string onto a valid variable name.
-as_tr_sh="eval sed 'y%*+%pp%;s%[^_$as_cr_alnum]%_%g'"
-
-
-test -n "$DJDIR" || exec 7<&0 </dev/null
-exec 6>&1
-
-# Name of the host.
-# hostname on some systems (SVR3.2, old GNU/Linux) returns a bogus exit status,
-# so uname gets run too.
-ac_hostname=`(hostname || uname -n) 2>/dev/null | sed 1q`
-
-#
-# Initializations.
-#
-ac_default_prefix=/usr/local
-ac_clean_files=
-ac_config_libobj_dir=.
-LIBOBJS=
-cross_compiling=no
-subdirs=
-MFLAGS=
-MAKEFLAGS=
-
-# Identity of this package.
-PACKAGE_NAME='libjsonparser'
-PACKAGE_TARNAME='libjsonparser'
-PACKAGE_VERSION='1.1.0'
-PACKAGE_STRING='libjsonparser 1.1.0'
-PACKAGE_BUGREPORT=''
-PACKAGE_URL=''
-
-ac_subst_vars='LTLIBOBJS
-LIBOBJS
-VERSION_MAJOR
-AR
-OBJEXT
-EXEEXT
-ac_ct_CC
-CPPFLAGS
-LDFLAGS
-CFLAGS
-CC
-target_alias
-host_alias
-build_alias
-LIBS
-ECHO_T
-ECHO_N
-ECHO_C
-DEFS
-mandir
-localedir
-libdir
-psdir
-pdfdir
-dvidir
-htmldir
-infodir
-docdir
-oldincludedir
-includedir
-localstatedir
-sharedstatedir
-sysconfdir
-datadir
-datarootdir
-libexecdir
-sbindir
-bindir
-program_transform_name
-prefix
-exec_prefix
-PACKAGE_URL
-PACKAGE_BUGREPORT
-PACKAGE_STRING
-PACKAGE_VERSION
-PACKAGE_TARNAME
-PACKAGE_NAME
-PATH_SEPARATOR
-SHELL'
-ac_subst_files=''
-ac_user_opts='
-enable_option_checking
-enable_debug
-'
-      ac_precious_vars='build_alias
-host_alias
-target_alias
-CC
-CFLAGS
-LDFLAGS
-LIBS
-CPPFLAGS'
-
-
-# Initialize some variables set by options.
-ac_init_help=
-ac_init_version=false
-ac_unrecognized_opts=
-ac_unrecognized_sep=
-# The variables have the same names as the options, with
-# dashes changed to underlines.
-cache_file=/dev/null
-exec_prefix=NONE
-no_create=
-no_recursion=
-prefix=NONE
-program_prefix=NONE
-program_suffix=NONE
-program_transform_name=s,x,x,
-silent=
-site=
-srcdir=
-verbose=
-x_includes=NONE
-x_libraries=NONE
-
-# Installation directory options.
-# These are left unexpanded so users can "make install exec_prefix=/foo"
-# and all the variables that are supposed to be based on exec_prefix
-# by default will actually change.
-# Use braces instead of parens because sh, perl, etc. also accept them.
-# (The list follows the same order as the GNU Coding Standards.)
-bindir='${exec_prefix}/bin'
-sbindir='${exec_prefix}/sbin'
-libexecdir='${exec_prefix}/libexec'
-datarootdir='${prefix}/share'
-datadir='${datarootdir}'
-sysconfdir='${prefix}/etc'
-sharedstatedir='${prefix}/com'
-localstatedir='${prefix}/var'
-includedir='${prefix}/include'
-oldincludedir='/usr/include'
-docdir='${datarootdir}/doc/${PACKAGE_TARNAME}'
-infodir='${datarootdir}/info'
-htmldir='${docdir}'
-dvidir='${docdir}'
-pdfdir='${docdir}'
-psdir='${docdir}'
-libdir='${exec_prefix}/lib'
-localedir='${datarootdir}/locale'
-mandir='${datarootdir}/man'
-
-ac_prev=
-ac_dashdash=
-for ac_option
-do
-  # If the previous option needs an argument, assign it.
-  if test -n "$ac_prev"; then
-    eval $ac_prev=\$ac_option
-    ac_prev=
-    continue
-  fi
-
-  case $ac_option in
-  *=?*) ac_optarg=`expr "X$ac_option" : '[^=]*=\(.*\)'` ;;
-  *=)   ac_optarg= ;;
-  *)    ac_optarg=yes ;;
-  esac
-
-  # Accept the important Cygnus configure options, so we can diagnose typos.
-
-  case $ac_dashdash$ac_option in
-  --)
-    ac_dashdash=yes ;;
-
-  -bindir | --bindir | --bindi | --bind | --bin | --bi)
-    ac_prev=bindir ;;
-  -bindir=* | --bindir=* | --bindi=* | --bind=* | --bin=* | --bi=*)
-    bindir=$ac_optarg ;;
-
-  -build | --build | --buil | --bui | --bu)
-    ac_prev=build_alias ;;
-  -build=* | --build=* | --buil=* | --bui=* | --bu=*)
-    build_alias=$ac_optarg ;;
-
-  -cache-file | --cache-file | --cache-fil | --cache-fi \
-  | --cache-f | --cache- | --cache | --cach | --cac | --ca | --c)
-    ac_prev=cache_file ;;
-  -cache-file=* | --cache-file=* | --cache-fil=* | --cache-fi=* \
-  | --cache-f=* | --cache-=* | --cache=* | --cach=* | --cac=* | --ca=* | --c=*)
-    cache_file=$ac_optarg ;;
-
-  --config-cache | -C)
-    cache_file=config.cache ;;
-
-  -datadir | --datadir | --datadi | --datad)
-    ac_prev=datadir ;;
-  -datadir=* | --datadir=* | --datadi=* | --datad=*)
-    datadir=$ac_optarg ;;
-
-  -datarootdir | --datarootdir | --datarootdi | --datarootd | --dataroot \
-  | --dataroo | --dataro | --datar)
-    ac_prev=datarootdir ;;
-  -datarootdir=* | --datarootdir=* | --datarootdi=* | --datarootd=* \
-  | --dataroot=* | --dataroo=* | --dataro=* | --datar=*)
-    datarootdir=$ac_optarg ;;
-
-  -disable-* | --disable-*)
-    ac_useropt=`expr "x$ac_option" : 'x-*disable-\(.*\)'`
-    # Reject names that are not valid shell variable names.
-    expr "x$ac_useropt" : ".*[^-+._$as_cr_alnum]" >/dev/null &&
-      as_fn_error $? "invalid feature name: $ac_useropt"
-    ac_useropt_orig=$ac_useropt
-    ac_useropt=`$as_echo "$ac_useropt" | sed 's/[-+.]/_/g'`
-    case $ac_user_opts in
-      *"
-"enable_$ac_useropt"
-"*) ;;
-      *) ac_unrecognized_opts="$ac_unrecognized_opts$ac_unrecognized_sep--disable-$ac_useropt_orig"
-	 ac_unrecognized_sep=', ';;
-    esac
-    eval enable_$ac_useropt=no ;;
-
-  -docdir | --docdir | --docdi | --doc | --do)
-    ac_prev=docdir ;;
-  -docdir=* | --docdir=* | --docdi=* | --doc=* | --do=*)
-    docdir=$ac_optarg ;;
-
-  -dvidir | --dvidir | --dvidi | --dvid | --dvi | --dv)
-    ac_prev=dvidir ;;
-  -dvidir=* | --dvidir=* | --dvidi=* | --dvid=* | --dvi=* | --dv=*)
-    dvidir=$ac_optarg ;;
-
-  -enable-* | --enable-*)
-    ac_useropt=`expr "x$ac_option" : 'x-*enable-\([^=]*\)'`
-    # Reject names that are not valid shell variable names.
-    expr "x$ac_useropt" : ".*[^-+._$as_cr_alnum]" >/dev/null &&
-      as_fn_error $? "invalid feature name: $ac_useropt"
-    ac_useropt_orig=$ac_useropt
-    ac_useropt=`$as_echo "$ac_useropt" | sed 's/[-+.]/_/g'`
-    case $ac_user_opts in
-      *"
-"enable_$ac_useropt"
-"*) ;;
-      *) ac_unrecognized_opts="$ac_unrecognized_opts$ac_unrecognized_sep--enable-$ac_useropt_orig"
-	 ac_unrecognized_sep=', ';;
-    esac
-    eval enable_$ac_useropt=\$ac_optarg ;;
-
-  -exec-prefix | --exec_prefix | --exec-prefix | --exec-prefi \
-  | --exec-pref | --exec-pre | --exec-pr | --exec-p | --exec- \
-  | --exec | --exe | --ex)
-    ac_prev=exec_prefix ;;
-  -exec-prefix=* | --exec_prefix=* | --exec-prefix=* | --exec-prefi=* \
-  | --exec-pref=* | --exec-pre=* | --exec-pr=* | --exec-p=* | --exec-=* \
-  | --exec=* | --exe=* | --ex=*)
-    exec_prefix=$ac_optarg ;;
-
-  -gas | --gas | --ga | --g)
-    # Obsolete; use --with-gas.
-    with_gas=yes ;;
-
-  -help | --help | --hel | --he | -h)
-    ac_init_help=long ;;
-  -help=r* | --help=r* | --hel=r* | --he=r* | -hr*)
-    ac_init_help=recursive ;;
-  -help=s* | --help=s* | --hel=s* | --he=s* | -hs*)
-    ac_init_help=short ;;
-
-  -host | --host | --hos | --ho)
-    ac_prev=host_alias ;;
-  -host=* | --host=* | --hos=* | --ho=*)
-    host_alias=$ac_optarg ;;
-
-  -htmldir | --htmldir | --htmldi | --htmld | --html | --htm | --ht)
-    ac_prev=htmldir ;;
-  -htmldir=* | --htmldir=* | --htmldi=* | --htmld=* | --html=* | --htm=* \
-  | --ht=*)
-    htmldir=$ac_optarg ;;
-
-  -includedir | --includedir | --includedi | --included | --include \
-  | --includ | --inclu | --incl | --inc)
-    ac_prev=includedir ;;
-  -includedir=* | --includedir=* | --includedi=* | --included=* | --include=* \
-  | --includ=* | --inclu=* | --incl=* | --inc=*)
-    includedir=$ac_optarg ;;
-
-  -infodir | --infodir | --infodi | --infod | --info | --inf)
-    ac_prev=infodir ;;
-  -infodir=* | --infodir=* | --infodi=* | --infod=* | --info=* | --inf=*)
-    infodir=$ac_optarg ;;
-
-  -libdir | --libdir | --libdi | --libd)
-    ac_prev=libdir ;;
-  -libdir=* | --libdir=* | --libdi=* | --libd=*)
-    libdir=$ac_optarg ;;
-
-  -libexecdir | --libexecdir | --libexecdi | --libexecd | --libexec \
-  | --libexe | --libex | --libe)
-    ac_prev=libexecdir ;;
-  -libexecdir=* | --libexecdir=* | --libexecdi=* | --libexecd=* | --libexec=* \
-  | --libexe=* | --libex=* | --libe=*)
-    libexecdir=$ac_optarg ;;
-
-  -localedir | --localedir | --localedi | --localed | --locale)
-    ac_prev=localedir ;;
-  -localedir=* | --localedir=* | --localedi=* | --localed=* | --locale=*)
-    localedir=$ac_optarg ;;
-
-  -localstatedir | --localstatedir | --localstatedi | --localstated \
-  | --localstate | --localstat | --localsta | --localst | --locals)
-    ac_prev=localstatedir ;;
-  -localstatedir=* | --localstatedir=* | --localstatedi=* | --localstated=* \
-  | --localstate=* | --localstat=* | --localsta=* | --localst=* | --locals=*)
-    localstatedir=$ac_optarg ;;
-
-  -mandir | --mandir | --mandi | --mand | --man | --ma | --m)
-    ac_prev=mandir ;;
-  -mandir=* | --mandir=* | --mandi=* | --mand=* | --man=* | --ma=* | --m=*)
-    mandir=$ac_optarg ;;
-
-  -nfp | --nfp | --nf)
-    # Obsolete; use --without-fp.
-    with_fp=no ;;
-
-  -no-create | --no-create | --no-creat | --no-crea | --no-cre \
-  | --no-cr | --no-c | -n)
-    no_create=yes ;;
-
-  -no-recursion | --no-recursion | --no-recursio | --no-recursi \
-  | --no-recurs | --no-recur | --no-recu | --no-rec | --no-re | --no-r)
-    no_recursion=yes ;;
-
-  -oldincludedir | --oldincludedir | --oldincludedi | --oldincluded \
-  | --oldinclude | --oldinclud | --oldinclu | --oldincl | --oldinc \
-  | --oldin | --oldi | --old | --ol | --o)
-    ac_prev=oldincludedir ;;
-  -oldincludedir=* | --oldincludedir=* | --oldincludedi=* | --oldincluded=* \
-  | --oldinclude=* | --oldinclud=* | --oldinclu=* | --oldincl=* | --oldinc=* \
-  | --oldin=* | --oldi=* | --old=* | --ol=* | --o=*)
-    oldincludedir=$ac_optarg ;;
-
-  -prefix | --prefix | --prefi | --pref | --pre | --pr | --p)
-    ac_prev=prefix ;;
-  -prefix=* | --prefix=* | --prefi=* | --pref=* | --pre=* | --pr=* | --p=*)
-    prefix=$ac_optarg ;;
-
-  -program-prefix | --program-prefix | --program-prefi | --program-pref \
-  | --program-pre | --program-pr | --program-p)
-    ac_prev=program_prefix ;;
-  -program-prefix=* | --program-prefix=* | --program-prefi=* \
-  | --program-pref=* | --program-pre=* | --program-pr=* | --program-p=*)
-    program_prefix=$ac_optarg ;;
-
-  -program-suffix | --program-suffix | --program-suffi | --program-suff \
-  | --program-suf | --program-su | --program-s)
-    ac_prev=program_suffix ;;
-  -program-suffix=* | --program-suffix=* | --program-suffi=* \
-  | --program-suff=* | --program-suf=* | --program-su=* | --program-s=*)
-    program_suffix=$ac_optarg ;;
-
-  -program-transform-name | --program-transform-name \
-  | --program-transform-nam | --program-transform-na \
-  | --program-transform-n | --program-transform- \
-  | --program-transform | --program-transfor \
-  | --program-transfo | --program-transf \
-  | --program-trans | --program-tran \
-  | --progr-tra | --program-tr | --program-t)
-    ac_prev=program_transform_name ;;
-  -program-transform-name=* | --program-transform-name=* \
-  | --program-transform-nam=* | --program-transform-na=* \
-  | --program-transform-n=* | --program-transform-=* \
-  | --program-transform=* | --program-transfor=* \
-  | --program-transfo=* | --program-transf=* \
-  | --program-trans=* | --program-tran=* \
-  | --progr-tra=* | --program-tr=* | --program-t=*)
-    program_transform_name=$ac_optarg ;;
-
-  -pdfdir | --pdfdir | --pdfdi | --pdfd | --pdf | --pd)
-    ac_prev=pdfdir ;;
-  -pdfdir=* | --pdfdir=* | --pdfdi=* | --pdfd=* | --pdf=* | --pd=*)
-    pdfdir=$ac_optarg ;;
-
-  -psdir | --psdir | --psdi | --psd | --ps)
-    ac_prev=psdir ;;
-  -psdir=* | --psdir=* | --psdi=* | --psd=* | --ps=*)
-    psdir=$ac_optarg ;;
-
-  -q | -quiet | --quiet | --quie | --qui | --qu | --q \
-  | -silent | --silent | --silen | --sile | --sil)
-    silent=yes ;;
-
-  -sbindir | --sbindir | --sbindi | --sbind | --sbin | --sbi | --sb)
-    ac_prev=sbindir ;;
-  -sbindir=* | --sbindir=* | --sbindi=* | --sbind=* | --sbin=* \
-  | --sbi=* | --sb=*)
-    sbindir=$ac_optarg ;;
-
-  -sharedstatedir | --sharedstatedir | --sharedstatedi \
-  | --sharedstated | --sharedstate | --sharedstat | --sharedsta \
-  | --sharedst | --shareds | --shared | --share | --shar \
-  | --sha | --sh)
-    ac_prev=sharedstatedir ;;
-  -sharedstatedir=* | --sharedstatedir=* | --sharedstatedi=* \
-  | --sharedstated=* | --sharedstate=* | --sharedstat=* | --sharedsta=* \
-  | --sharedst=* | --shareds=* | --shared=* | --share=* | --shar=* \
-  | --sha=* | --sh=*)
-    sharedstatedir=$ac_optarg ;;
-
-  -site | --site | --sit)
-    ac_prev=site ;;
-  -site=* | --site=* | --sit=*)
-    site=$ac_optarg ;;
-
-  -srcdir | --srcdir | --srcdi | --srcd | --src | --sr)
-    ac_prev=srcdir ;;
-  -srcdir=* | --srcdir=* | --srcdi=* | --srcd=* | --src=* | --sr=*)
-    srcdir=$ac_optarg ;;
-
-  -sysconfdir | --sysconfdir | --sysconfdi | --sysconfd | --sysconf \
-  | --syscon | --sysco | --sysc | --sys | --sy)
-    ac_prev=sysconfdir ;;
-  -sysconfdir=* | --sysconfdir=* | --sysconfdi=* | --sysconfd=* | --sysconf=* \
-  | --syscon=* | --sysco=* | --sysc=* | --sys=* | --sy=*)
-    sysconfdir=$ac_optarg ;;
-
-  -target | --target | --targe | --targ | --tar | --ta | --t)
-    ac_prev=target_alias ;;
-  -target=* | --target=* | --targe=* | --targ=* | --tar=* | --ta=* | --t=*)
-    target_alias=$ac_optarg ;;
-
-  -v | -verbose | --verbose | --verbos | --verbo | --verb)
-    verbose=yes ;;
-
-  -version | --version | --versio | --versi | --vers | -V)
-    ac_init_version=: ;;
-
-  -with-* | --with-*)
-    ac_useropt=`expr "x$ac_option" : 'x-*with-\([^=]*\)'`
-    # Reject names that are not valid shell variable names.
-    expr "x$ac_useropt" : ".*[^-+._$as_cr_alnum]" >/dev/null &&
-      as_fn_error $? "invalid package name: $ac_useropt"
-    ac_useropt_orig=$ac_useropt
-    ac_useropt=`$as_echo "$ac_useropt" | sed 's/[-+.]/_/g'`
-    case $ac_user_opts in
-      *"
-"with_$ac_useropt"
-"*) ;;
-      *) ac_unrecognized_opts="$ac_unrecognized_opts$ac_unrecognized_sep--with-$ac_useropt_orig"
-	 ac_unrecognized_sep=', ';;
-    esac
-    eval with_$ac_useropt=\$ac_optarg ;;
-
-  -without-* | --without-*)
-    ac_useropt=`expr "x$ac_option" : 'x-*without-\(.*\)'`
-    # Reject names that are not valid shell variable names.
-    expr "x$ac_useropt" : ".*[^-+._$as_cr_alnum]" >/dev/null &&
-      as_fn_error $? "invalid package name: $ac_useropt"
-    ac_useropt_orig=$ac_useropt
-    ac_useropt=`$as_echo "$ac_useropt" | sed 's/[-+.]/_/g'`
-    case $ac_user_opts in
-      *"
-"with_$ac_useropt"
-"*) ;;
-      *) ac_unrecognized_opts="$ac_unrecognized_opts$ac_unrecognized_sep--without-$ac_useropt_orig"
-	 ac_unrecognized_sep=', ';;
-    esac
-    eval with_$ac_useropt=no ;;
-
-  --x)
-    # Obsolete; use --with-x.
-    with_x=yes ;;
-
-  -x-includes | --x-includes | --x-include | --x-includ | --x-inclu \
-  | --x-incl | --x-inc | --x-in | --x-i)
-    ac_prev=x_includes ;;
-  -x-includes=* | --x-includes=* | --x-include=* | --x-includ=* | --x-inclu=* \
-  | --x-incl=* | --x-inc=* | --x-in=* | --x-i=*)
-    x_includes=$ac_optarg ;;
-
-  -x-libraries | --x-libraries | --x-librarie | --x-librari \
-  | --x-librar | --x-libra | --x-libr | --x-lib | --x-li | --x-l)
-    ac_prev=x_libraries ;;
-  -x-libraries=* | --x-libraries=* | --x-librarie=* | --x-librari=* \
-  | --x-librar=* | --x-libra=* | --x-libr=* | --x-lib=* | --x-li=* | --x-l=*)
-    x_libraries=$ac_optarg ;;
-
-  -*) as_fn_error $? "unrecognized option: \`$ac_option'
-Try \`$0 --help' for more information"
-    ;;
-
-  *=*)
-    ac_envvar=`expr "x$ac_option" : 'x\([^=]*\)='`
-    # Reject names that are not valid shell variable names.
-    case $ac_envvar in #(
-      '' | [0-9]* | *[!_$as_cr_alnum]* )
-      as_fn_error $? "invalid variable name: \`$ac_envvar'" ;;
-    esac
-    eval $ac_envvar=\$ac_optarg
-    export $ac_envvar ;;
-
-  *)
-    # FIXME: should be removed in autoconf 3.0.
-    $as_echo "$as_me: WARNING: you should use --build, --host, --target" >&2
-    expr "x$ac_option" : ".*[^-._$as_cr_alnum]" >/dev/null &&
-      $as_echo "$as_me: WARNING: invalid host type: $ac_option" >&2
-    : "${build_alias=$ac_option} ${host_alias=$ac_option} ${target_alias=$ac_option}"
-    ;;
-
-  esac
-done
-
-if test -n "$ac_prev"; then
-  ac_option=--`echo $ac_prev | sed 's/_/-/g'`
-  as_fn_error $? "missing argument to $ac_option"
-fi
-
-if test -n "$ac_unrecognized_opts"; then
-  case $enable_option_checking in
-    no) ;;
-    fatal) as_fn_error $? "unrecognized options: $ac_unrecognized_opts" ;;
-    *)     $as_echo "$as_me: WARNING: unrecognized options: $ac_unrecognized_opts" >&2 ;;
-  esac
-fi
-
-# Check all directory arguments for consistency.
-for ac_var in	exec_prefix prefix bindir sbindir libexecdir datarootdir \
-		datadir sysconfdir sharedstatedir localstatedir includedir \
-		oldincludedir docdir infodir htmldir dvidir pdfdir psdir \
-		libdir localedir mandir
-do
-  eval ac_val=\$$ac_var
-  # Remove trailing slashes.
-  case $ac_val in
-    */ )
-      ac_val=`expr "X$ac_val" : 'X\(.*[^/]\)' \| "X$ac_val" : 'X\(.*\)'`
-      eval $ac_var=\$ac_val;;
-  esac
-  # Be sure to have absolute directory names.
-  case $ac_val in
-    [\\/$]* | ?:[\\/]* )  continue;;
-    NONE | '' ) case $ac_var in *prefix ) continue;; esac;;
-  esac
-  as_fn_error $? "expected an absolute directory name for --$ac_var: $ac_val"
-done
-
-# There might be people who depend on the old broken behavior: `$host'
-# used to hold the argument of --host etc.
-# FIXME: To remove some day.
-build=$build_alias
-host=$host_alias
-target=$target_alias
-
-# FIXME: To remove some day.
-if test "x$host_alias" != x; then
-  if test "x$build_alias" = x; then
-    cross_compiling=maybe
-  elif test "x$build_alias" != "x$host_alias"; then
-    cross_compiling=yes
-  fi
-fi
-
-ac_tool_prefix=
-test -n "$host_alias" && ac_tool_prefix=$host_alias-
-
-test "$silent" = yes && exec 6>/dev/null
-
-
-ac_pwd=`pwd` && test -n "$ac_pwd" &&
-ac_ls_di=`ls -di .` &&
-ac_pwd_ls_di=`cd "$ac_pwd" && ls -di .` ||
-  as_fn_error $? "working directory cannot be determined"
-test "X$ac_ls_di" = "X$ac_pwd_ls_di" ||
-  as_fn_error $? "pwd does not report name of working directory"
-
-
-# Find the source files, if location was not specified.
-if test -z "$srcdir"; then
-  ac_srcdir_defaulted=yes
-  # Try the directory containing this script, then the parent directory.
-  ac_confdir=`$as_dirname -- "$as_myself" ||
-$as_expr X"$as_myself" : 'X\(.*[^/]\)//*[^/][^/]*/*$' \| \
-	 X"$as_myself" : 'X\(//\)[^/]' \| \
-	 X"$as_myself" : 'X\(//\)$' \| \
-	 X"$as_myself" : 'X\(/\)' \| . 2>/dev/null ||
-$as_echo X"$as_myself" |
-    sed '/^X\(.*[^/]\)\/\/*[^/][^/]*\/*$/{
-	    s//\1/
-	    q
-	  }
-	  /^X\(\/\/\)[^/].*/{
-	    s//\1/
-	    q
-	  }
-	  /^X\(\/\/\)$/{
-	    s//\1/
-	    q
-	  }
-	  /^X\(\/\).*/{
-	    s//\1/
-	    q
-	  }
-	  s/.*/./; q'`
-  srcdir=$ac_confdir
-  if test ! -r "$srcdir/$ac_unique_file"; then
-    srcdir=..
-  fi
-else
-  ac_srcdir_defaulted=no
-fi
-if test ! -r "$srcdir/$ac_unique_file"; then
-  test "$ac_srcdir_defaulted" = yes && srcdir="$ac_confdir or .."
-  as_fn_error $? "cannot find sources ($ac_unique_file) in $srcdir"
-fi
-ac_msg="sources are in $srcdir, but \`cd $srcdir' does not work"
-ac_abs_confdir=`(
-	cd "$srcdir" && test -r "./$ac_unique_file" || as_fn_error $? "$ac_msg"
-	pwd)`
-# When building in place, set srcdir=.
-if test "$ac_abs_confdir" = "$ac_pwd"; then
-  srcdir=.
-fi
-# Remove unnecessary trailing slashes from srcdir.
-# Double slashes in file names in object file debugging info
-# mess up M-x gdb in Emacs.
-case $srcdir in
-*/) srcdir=`expr "X$srcdir" : 'X\(.*[^/]\)' \| "X$srcdir" : 'X\(.*\)'`;;
-esac
-for ac_var in $ac_precious_vars; do
-  eval ac_env_${ac_var}_set=\${${ac_var}+set}
-  eval ac_env_${ac_var}_value=\$${ac_var}
-  eval ac_cv_env_${ac_var}_set=\${${ac_var}+set}
-  eval ac_cv_env_${ac_var}_value=\$${ac_var}
-done
-
-#
-# Report the --help message.
-#
-if test "$ac_init_help" = "long"; then
-  # Omit some internal or obsolete options to make the list less imposing.
-  # This message is too long to be a string in the A/UX 3.1 sh.
-  cat <<_ACEOF
-\`configure' configures libjsonparser 1.1.0 to adapt to many kinds of systems.
-
-Usage: $0 [OPTION]... [VAR=VALUE]...
-
-To assign environment variables (e.g., CC, CFLAGS...), specify them as
-VAR=VALUE.  See below for descriptions of some of the useful variables.
-
-Defaults for the options are specified in brackets.
-
-Configuration:
-  -h, --help              display this help and exit
-      --help=short        display options specific to this package
-      --help=recursive    display the short help of all the included packages
-  -V, --version           display version information and exit
-  -q, --quiet, --silent   do not print \`checking ...' messages
-      --cache-file=FILE   cache test results in FILE [disabled]
-  -C, --config-cache      alias for \`--cache-file=config.cache'
-  -n, --no-create         do not create output files
-      --srcdir=DIR        find the sources in DIR [configure dir or \`..']
-
-Installation directories:
-  --prefix=PREFIX         install architecture-independent files in PREFIX
-                          [$ac_default_prefix]
-  --exec-prefix=EPREFIX   install architecture-dependent files in EPREFIX
-                          [PREFIX]
-
-By default, \`make install' will install all the files in
-\`$ac_default_prefix/bin', \`$ac_default_prefix/lib' etc.  You can specify
-an installation prefix other than \`$ac_default_prefix' using \`--prefix',
-for instance \`--prefix=\$HOME'.
-
-For better control, use the options below.
-
-Fine tuning of the installation directories:
-  --bindir=DIR            user executables [EPREFIX/bin]
-  --sbindir=DIR           system admin executables [EPREFIX/sbin]
-  --libexecdir=DIR        program executables [EPREFIX/libexec]
-  --sysconfdir=DIR        read-only single-machine data [PREFIX/etc]
-  --sharedstatedir=DIR    modifiable architecture-independent data [PREFIX/com]
-  --localstatedir=DIR     modifiable single-machine data [PREFIX/var]
-  --libdir=DIR            object code libraries [EPREFIX/lib]
-  --includedir=DIR        C header files [PREFIX/include]
-  --oldincludedir=DIR     C header files for non-gcc [/usr/include]
-  --datarootdir=DIR       read-only arch.-independent data root [PREFIX/share]
-  --datadir=DIR           read-only architecture-independent data [DATAROOTDIR]
-  --infodir=DIR           info documentation [DATAROOTDIR/info]
-  --localedir=DIR         locale-dependent data [DATAROOTDIR/locale]
-  --mandir=DIR            man documentation [DATAROOTDIR/man]
-  --docdir=DIR            documentation root [DATAROOTDIR/doc/libjsonparser]
-  --htmldir=DIR           html documentation [DOCDIR]
-  --dvidir=DIR            dvi documentation [DOCDIR]
-  --pdfdir=DIR            pdf documentation [DOCDIR]
-  --psdir=DIR             ps documentation [DOCDIR]
-_ACEOF
-
-  cat <<\_ACEOF
-_ACEOF
-fi
-
-if test -n "$ac_init_help"; then
-  case $ac_init_help in
-     short | recursive ) echo "Configuration of libjsonparser 1.1.0:";;
-   esac
-  cat <<\_ACEOF
-
-Optional Features:
-  --disable-option-checking  ignore unrecognized --enable/--with options
-  --disable-FEATURE       do not include FEATURE (same as --enable-FEATURE=no)
-  --enable-FEATURE[=ARG]  include FEATURE [ARG=yes]
-  --enable-debug          Build a debug version of json-parser
-                          [default=disabled]
-
-Some influential environment variables:
-  CC          C compiler command
-  CFLAGS      C compiler flags
-  LDFLAGS     linker flags, e.g. -L<lib dir> if you have libraries in a
-              nonstandard directory <lib dir>
-  LIBS        libraries to pass to the linker, e.g. -l<library>
-  CPPFLAGS    (Objective) C/C++ preprocessor flags, e.g. -I<include dir> if
-              you have headers in a nonstandard directory <include dir>
-
-Use these variables to override the choices made by `configure' or to help
-it to find libraries and programs with nonstandard names/locations.
-
-Report bugs to the package provider.
-_ACEOF
-ac_status=$?
-fi
-
-if test "$ac_init_help" = "recursive"; then
-  # If there are subdirs, report their specific --help.
-  for ac_dir in : $ac_subdirs_all; do test "x$ac_dir" = x: && continue
-    test -d "$ac_dir" ||
-      { cd "$srcdir" && ac_pwd=`pwd` && srcdir=. && test -d "$ac_dir"; } ||
-      continue
-    ac_builddir=.
-
-case "$ac_dir" in
-.) ac_dir_suffix= ac_top_builddir_sub=. ac_top_build_prefix= ;;
-*)
-  ac_dir_suffix=/`$as_echo "$ac_dir" | sed 's|^\.[\\/]||'`
-  # A ".." for each directory in $ac_dir_suffix.
-  ac_top_builddir_sub=`$as_echo "$ac_dir_suffix" | sed 's|/[^\\/]*|/..|g;s|/||'`
-  case $ac_top_builddir_sub in
-  "") ac_top_builddir_sub=. ac_top_build_prefix= ;;
-  *)  ac_top_build_prefix=$ac_top_builddir_sub/ ;;
-  esac ;;
-esac
-ac_abs_top_builddir=$ac_pwd
-ac_abs_builddir=$ac_pwd$ac_dir_suffix
-# for backward compatibility:
-ac_top_builddir=$ac_top_build_prefix
-
-case $srcdir in
-  .)  # We are building in place.
-    ac_srcdir=.
-    ac_top_srcdir=$ac_top_builddir_sub
-    ac_abs_top_srcdir=$ac_pwd ;;
-  [\\/]* | ?:[\\/]* )  # Absolute name.
-    ac_srcdir=$srcdir$ac_dir_suffix;
-    ac_top_srcdir=$srcdir
-    ac_abs_top_srcdir=$srcdir ;;
-  *) # Relative name.
-    ac_srcdir=$ac_top_build_prefix$srcdir$ac_dir_suffix
-    ac_top_srcdir=$ac_top_build_prefix$srcdir
-    ac_abs_top_srcdir=$ac_pwd/$srcdir ;;
-esac
-ac_abs_srcdir=$ac_abs_top_srcdir$ac_dir_suffix
-
-    cd "$ac_dir" || { ac_status=$?; continue; }
-    # Check for guested configure.
-    if test -f "$ac_srcdir/configure.gnu"; then
-      echo &&
-      $SHELL "$ac_srcdir/configure.gnu" --help=recursive
-    elif test -f "$ac_srcdir/configure"; then
-      echo &&
-      $SHELL "$ac_srcdir/configure" --help=recursive
-    else
-      $as_echo "$as_me: WARNING: no configuration information is in $ac_dir" >&2
-    fi || ac_status=$?
-    cd "$ac_pwd" || { ac_status=$?; break; }
-  done
-fi
-
-test -n "$ac_init_help" && exit $ac_status
-if $ac_init_version; then
-  cat <<\_ACEOF
-libjsonparser configure 1.1.0
-generated by GNU Autoconf 2.69
-
-Copyright (C) 2012 Free Software Foundation, Inc.
-This configure script is free software; the Free Software Foundation
-gives unlimited permission to copy, distribute and modify it.
-_ACEOF
-  exit
-fi
-
-## ------------------------ ##
-## Autoconf initialization. ##
-## ------------------------ ##
-
-# ac_fn_c_try_compile LINENO
-# --------------------------
-# Try to compile conftest.$ac_ext, and return whether this succeeded.
-ac_fn_c_try_compile ()
-{
-  as_lineno=${as_lineno-"$1"} as_lineno_stack=as_lineno_stack=$as_lineno_stack
-  rm -f conftest.$ac_objext
-  if { { ac_try="$ac_compile"
-case "(($ac_try" in
-  *\"* | *\`* | *\\*) ac_try_echo=\$ac_try;;
-  *) ac_try_echo=$ac_try;;
-esac
-eval ac_try_echo="\"\$as_me:${as_lineno-$LINENO}: $ac_try_echo\""
-$as_echo "$ac_try_echo"; } >&5
-  (eval "$ac_compile") 2>conftest.err
-  ac_status=$?
-  if test -s conftest.err; then
-    grep -v '^ *+' conftest.err >conftest.er1
-    cat conftest.er1 >&5
-    mv -f conftest.er1 conftest.err
-  fi
-  $as_echo "$as_me:${as_lineno-$LINENO}: \$? = $ac_status" >&5
-  test $ac_status = 0; } && {
-	 test -z "$ac_c_werror_flag" ||
-	 test ! -s conftest.err
-       } && test -s conftest.$ac_objext; then :
-  ac_retval=0
-else
-  $as_echo "$as_me: failed program was:" >&5
-sed 's/^/| /' conftest.$ac_ext >&5
-
-	ac_retval=1
-fi
-  eval $as_lineno_stack; ${as_lineno_stack:+:} unset as_lineno
-  as_fn_set_status $ac_retval
-
-} # ac_fn_c_try_compile
-cat >config.log <<_ACEOF
-This file contains any messages produced by compilers while
-running configure, to aid debugging if configure makes a mistake.
-
-It was created by libjsonparser $as_me 1.1.0, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  $ $0 $@
-
-_ACEOF
-exec 5>>config.log
-{
-cat <<_ASUNAME
-## --------- ##
-## Platform. ##
-## --------- ##
-
-hostname = `(hostname || uname -n) 2>/dev/null | sed 1q`
-uname -m = `(uname -m) 2>/dev/null || echo unknown`
-uname -r = `(uname -r) 2>/dev/null || echo unknown`
-uname -s = `(uname -s) 2>/dev/null || echo unknown`
-uname -v = `(uname -v) 2>/dev/null || echo unknown`
-
-/usr/bin/uname -p = `(/usr/bin/uname -p) 2>/dev/null || echo unknown`
-/bin/uname -X     = `(/bin/uname -X) 2>/dev/null     || echo unknown`
-
-/bin/arch              = `(/bin/arch) 2>/dev/null              || echo unknown`
-/usr/bin/arch -k       = `(/usr/bin/arch -k) 2>/dev/null       || echo unknown`
-/usr/convex/getsysinfo = `(/usr/convex/getsysinfo) 2>/dev/null || echo unknown`
-/usr/bin/hostinfo      = `(/usr/bin/hostinfo) 2>/dev/null      || echo unknown`
-/bin/machine           = `(/bin/machine) 2>/dev/null           || echo unknown`
-/usr/bin/oslevel       = `(/usr/bin/oslevel) 2>/dev/null       || echo unknown`
-/bin/universe          = `(/bin/universe) 2>/dev/null          || echo unknown`
-
-_ASUNAME
-
-as_save_IFS=$IFS; IFS=$PATH_SEPARATOR
-for as_dir in $PATH
-do
-  IFS=$as_save_IFS
-  test -z "$as_dir" && as_dir=.
-    $as_echo "PATH: $as_dir"
-  done
-IFS=$as_save_IFS
-
-} >&5
-
-cat >&5 <<_ACEOF
-
-
-## ----------- ##
-## Core tests. ##
-## ----------- ##
-
-_ACEOF
-
-
-# Keep a trace of the command line.
-# Strip out --no-create and --no-recursion so they do not pile up.
-# Strip out --silent because we don't want to record it for future runs.
-# Also quote any args containing shell meta-characters.
-# Make two passes to allow for proper duplicate-argument suppression.
-ac_configure_args=
-ac_configure_args0=
-ac_configure_args1=
-ac_must_keep_next=false
-for ac_pass in 1 2
-do
-  for ac_arg
-  do
-    case $ac_arg in
-    -no-create | --no-c* | -n | -no-recursion | --no-r*) continue ;;
-    -q | -quiet | --quiet | --quie | --qui | --qu | --q \
-    | -silent | --silent | --silen | --sile | --sil)
-      continue ;;
-    *\'*)
-      ac_arg=`$as_echo "$ac_arg" | sed "s/'/'\\\\\\\\''/g"` ;;
-    esac
-    case $ac_pass in
-    1) as_fn_append ac_configure_args0 " '$ac_arg'" ;;
-    2)
-      as_fn_append ac_configure_args1 " '$ac_arg'"
-      if test $ac_must_keep_next = true; then
-	ac_must_keep_next=false # Got value, back to normal.
-      else
-	case $ac_arg in
-	  *=* | --config-cache | -C | -disable-* | --disable-* \
-	  | -enable-* | --enable-* | -gas | --g* | -nfp | --nf* \
-	  | -q | -quiet | --q* | -silent | --sil* | -v | -verb* \
-	  | -with-* | --with-* | -without-* | --without-* | --x)
-	    case "$ac_configure_args0 " in
-	      "$ac_configure_args1"*" '$ac_arg' "* ) continue ;;
-	    esac
-	    ;;
-	  -* ) ac_must_keep_next=true ;;
-	esac
-      fi
-      as_fn_append ac_configure_args " '$ac_arg'"
-      ;;
-    esac
-  done
-done
-{ ac_configure_args0=; unset ac_configure_args0;}
-{ ac_configure_args1=; unset ac_configure_args1;}
-
-# When interrupted or exit'd, cleanup temporary files, and complete
-# config.log.  We remove comments because anyway the quotes in there
-# would cause problems or look ugly.
-# WARNING: Use '\'' to represent an apostrophe within the trap.
-# WARNING: Do not start the trap code with a newline, due to a FreeBSD 4.0 bug.
-trap 'exit_status=$?
-  # Save into config.log some information that might help in debugging.
-  {
-    echo
-
-    $as_echo "## ---------------- ##
-## Cache variables. ##
-## ---------------- ##"
-    echo
-    # The following way of writing the cache mishandles newlines in values,
-(
-  for ac_var in `(set) 2>&1 | sed -n '\''s/^\([a-zA-Z_][a-zA-Z0-9_]*\)=.*/\1/p'\''`; do
-    eval ac_val=\$$ac_var
-    case $ac_val in #(
-    *${as_nl}*)
-      case $ac_var in #(
-      *_cv_*) { $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: cache variable $ac_var contains a newline" >&5
-$as_echo "$as_me: WARNING: cache variable $ac_var contains a newline" >&2;} ;;
-      esac
-      case $ac_var in #(
-      _ | IFS | as_nl) ;; #(
-      BASH_ARGV | BASH_SOURCE) eval $ac_var= ;; #(
-      *) { eval $ac_var=; unset $ac_var;} ;;
-      esac ;;
-    esac
-  done
-  (set) 2>&1 |
-    case $as_nl`(ac_space='\'' '\''; set) 2>&1` in #(
-    *${as_nl}ac_space=\ *)
-      sed -n \
-	"s/'\''/'\''\\\\'\'''\''/g;
-	  s/^\\([_$as_cr_alnum]*_cv_[_$as_cr_alnum]*\\)=\\(.*\\)/\\1='\''\\2'\''/p"
-      ;; #(
-    *)
-      sed -n "/^[_$as_cr_alnum]*_cv_[_$as_cr_alnum]*=/p"
-      ;;
-    esac |
-    sort
-)
-    echo
-
-    $as_echo "## ----------------- ##
-## Output variables. ##
-## ----------------- ##"
-    echo
-    for ac_var in $ac_subst_vars
-    do
-      eval ac_val=\$$ac_var
-      case $ac_val in
-      *\'\''*) ac_val=`$as_echo "$ac_val" | sed "s/'\''/'\''\\\\\\\\'\'''\''/g"`;;
-      esac
-      $as_echo "$ac_var='\''$ac_val'\''"
-    done | sort
-    echo
-
-    if test -n "$ac_subst_files"; then
-      $as_echo "## ------------------- ##
-## File substitutions. ##
-## ------------------- ##"
-      echo
-      for ac_var in $ac_subst_files
-      do
-	eval ac_val=\$$ac_var
-	case $ac_val in
-	*\'\''*) ac_val=`$as_echo "$ac_val" | sed "s/'\''/'\''\\\\\\\\'\'''\''/g"`;;
-	esac
-	$as_echo "$ac_var='\''$ac_val'\''"
-      done | sort
-      echo
-    fi
-
-    if test -s confdefs.h; then
-      $as_echo "## ----------- ##
-## confdefs.h. ##
-## ----------- ##"
-      echo
-      cat confdefs.h
-      echo
-    fi
-    test "$ac_signal" != 0 &&
-      $as_echo "$as_me: caught signal $ac_signal"
-    $as_echo "$as_me: exit $exit_status"
-  } >&5
-  rm -f core *.core core.conftest.* &&
-    rm -f -r conftest* confdefs* conf$$* $ac_clean_files &&
-    exit $exit_status
-' 0
-for ac_signal in 1 2 13 15; do
-  trap 'ac_signal='$ac_signal'; as_fn_exit 1' $ac_signal
-done
-ac_signal=0
-
-# confdefs.h avoids OS command line length limits that DEFS can exceed.
-rm -f -r conftest* confdefs.h
-
-$as_echo "/* confdefs.h */" > confdefs.h
-
-# Predefined preprocessor variables.
-
-cat >>confdefs.h <<_ACEOF
-#define PACKAGE_NAME "$PACKAGE_NAME"
-_ACEOF
-
-cat >>confdefs.h <<_ACEOF
-#define PACKAGE_TARNAME "$PACKAGE_TARNAME"
-_ACEOF
-
-cat >>confdefs.h <<_ACEOF
-#define PACKAGE_VERSION "$PACKAGE_VERSION"
-_ACEOF
-
-cat >>confdefs.h <<_ACEOF
-#define PACKAGE_STRING "$PACKAGE_STRING"
-_ACEOF
-
-cat >>confdefs.h <<_ACEOF
-#define PACKAGE_BUGREPORT "$PACKAGE_BUGREPORT"
-_ACEOF
-
-cat >>confdefs.h <<_ACEOF
-#define PACKAGE_URL "$PACKAGE_URL"
-_ACEOF
-
-
-# Let the site file select an alternate cache file if it wants to.
-# Prefer an explicitly selected file to automatically selected ones.
-ac_site_file1=NONE
-ac_site_file2=NONE
-if test -n "$CONFIG_SITE"; then
-  # We do not want a PATH search for config.site.
-  case $CONFIG_SITE in #((
-    -*)  ac_site_file1=./$CONFIG_SITE;;
-    */*) ac_site_file1=$CONFIG_SITE;;
-    *)   ac_site_file1=./$CONFIG_SITE;;
-  esac
-elif test "x$prefix" != xNONE; then
-  ac_site_file1=$prefix/share/config.site
-  ac_site_file2=$prefix/etc/config.site
-else
-  ac_site_file1=$ac_default_prefix/share/config.site
-  ac_site_file2=$ac_default_prefix/etc/config.site
-fi
-for ac_site_file in "$ac_site_file1" "$ac_site_file2"
-do
-  test "x$ac_site_file" = xNONE && continue
-  if test /dev/null != "$ac_site_file" && test -r "$ac_site_file"; then
-    { $as_echo "$as_me:${as_lineno-$LINENO}: loading site script $ac_site_file" >&5
-$as_echo "$as_me: loading site script $ac_site_file" >&6;}
-    sed 's/^/| /' "$ac_site_file" >&5
-    . "$ac_site_file" \
-      || { { $as_echo "$as_me:${as_lineno-$LINENO}: error: in \`$ac_pwd':" >&5
-$as_echo "$as_me: error: in \`$ac_pwd':" >&2;}
-as_fn_error $? "failed to load site script $ac_site_file
-See \`config.log' for more details" "$LINENO" 5; }
-  fi
-done
-
-if test -r "$cache_file"; then
-  # Some versions of bash will fail to source /dev/null (special files
-  # actually), so we avoid doing that.  DJGPP emulates it as a regular file.
-  if test /dev/null != "$cache_file" && test -f "$cache_file"; then
-    { $as_echo "$as_me:${as_lineno-$LINENO}: loading cache $cache_file" >&5
-$as_echo "$as_me: loading cache $cache_file" >&6;}
-    case $cache_file in
-      [\\/]* | ?:[\\/]* ) . "$cache_file";;
-      *)                      . "./$cache_file";;
-    esac
-  fi
-else
-  { $as_echo "$as_me:${as_lineno-$LINENO}: creating cache $cache_file" >&5
-$as_echo "$as_me: creating cache $cache_file" >&6;}
-  >$cache_file
-fi
-
-# Check that the precious variables saved in the cache have kept the same
-# value.
-ac_cache_corrupted=false
-for ac_var in $ac_precious_vars; do
-  eval ac_old_set=\$ac_cv_env_${ac_var}_set
-  eval ac_new_set=\$ac_env_${ac_var}_set
-  eval ac_old_val=\$ac_cv_env_${ac_var}_value
-  eval ac_new_val=\$ac_env_${ac_var}_value
-  case $ac_old_set,$ac_new_set in
-    set,)
-      { $as_echo "$as_me:${as_lineno-$LINENO}: error: \`$ac_var' was set to \`$ac_old_val' in the previous run" >&5
-$as_echo "$as_me: error: \`$ac_var' was set to \`$ac_old_val' in the previous run" >&2;}
-      ac_cache_corrupted=: ;;
-    ,set)
-      { $as_echo "$as_me:${as_lineno-$LINENO}: error: \`$ac_var' was not set in the previous run" >&5
-$as_echo "$as_me: error: \`$ac_var' was not set in the previous run" >&2;}
-      ac_cache_corrupted=: ;;
-    ,);;
-    *)
-      if test "x$ac_old_val" != "x$ac_new_val"; then
-	# differences in whitespace do not lead to failure.
-	ac_old_val_w=`echo x $ac_old_val`
-	ac_new_val_w=`echo x $ac_new_val`
-	if test "$ac_old_val_w" != "$ac_new_val_w"; then
-	  { $as_echo "$as_me:${as_lineno-$LINENO}: error: \`$ac_var' has changed since the previous run:" >&5
-$as_echo "$as_me: error: \`$ac_var' has changed since the previous run:" >&2;}
-	  ac_cache_corrupted=:
-	else
-	  { $as_echo "$as_me:${as_lineno-$LINENO}: warning: ignoring whitespace changes in \`$ac_var' since the previous run:" >&5
-$as_echo "$as_me: warning: ignoring whitespace changes in \`$ac_var' since the previous run:" >&2;}
-	  eval $ac_var=\$ac_old_val
-	fi
-	{ $as_echo "$as_me:${as_lineno-$LINENO}:   former value:  \`$ac_old_val'" >&5
-$as_echo "$as_me:   former value:  \`$ac_old_val'" >&2;}
-	{ $as_echo "$as_me:${as_lineno-$LINENO}:   current value: \`$ac_new_val'" >&5
-$as_echo "$as_me:   current value: \`$ac_new_val'" >&2;}
-      fi;;
-  esac
-  # Pass precious variables to config.status.
-  if test "$ac_new_set" = set; then
-    case $ac_new_val in
-    *\'*) ac_arg=$ac_var=`$as_echo "$ac_new_val" | sed "s/'/'\\\\\\\\''/g"` ;;
-    *) ac_arg=$ac_var=$ac_new_val ;;
-    esac
-    case " $ac_configure_args " in
-      *" '$ac_arg' "*) ;; # Avoid dups.  Use of quotes ensures accuracy.
-      *) as_fn_append ac_configure_args " '$ac_arg'" ;;
-    esac
-  fi
-done
-if $ac_cache_corrupted; then
-  { $as_echo "$as_me:${as_lineno-$LINENO}: error: in \`$ac_pwd':" >&5
-$as_echo "$as_me: error: in \`$ac_pwd':" >&2;}
-  { $as_echo "$as_me:${as_lineno-$LINENO}: error: changes in the environment can compromise the build" >&5
-$as_echo "$as_me: error: changes in the environment can compromise the build" >&2;}
-  as_fn_error $? "run \`make distclean' and/or \`rm $cache_file' and start over" "$LINENO" 5
-fi
-## -------------------- ##
-## Main body of script. ##
-## -------------------- ##
-
-ac_ext=c
-ac_cpp='$CPP $CPPFLAGS'
-ac_compile='$CC -c $CFLAGS $CPPFLAGS conftest.$ac_ext >&5'
-ac_link='$CC -o conftest$ac_exeext $CFLAGS $CPPFLAGS $LDFLAGS conftest.$ac_ext $LIBS >&5'
-ac_compiler_gnu=$ac_cv_c_compiler_gnu
-
-
-VERSION_MAJOR="1.0"
-
-
-
-ac_ext=c
-ac_cpp='$CPP $CPPFLAGS'
-ac_compile='$CC -c $CFLAGS $CPPFLAGS conftest.$ac_ext >&5'
-ac_link='$CC -o conftest$ac_exeext $CFLAGS $CPPFLAGS $LDFLAGS conftest.$ac_ext $LIBS >&5'
-ac_compiler_gnu=$ac_cv_c_compiler_gnu
-if test -n "$ac_tool_prefix"; then
-  # Extract the first word of "${ac_tool_prefix}gcc", so it can be a program name with args.
-set dummy ${ac_tool_prefix}gcc; ac_word=$2
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for $ac_word" >&5
-$as_echo_n "checking for $ac_word... " >&6; }
-if ${ac_cv_prog_CC+:} false; then :
-  $as_echo_n "(cached) " >&6
-else
-  if test -n "$CC"; then
-  ac_cv_prog_CC="$CC" # Let the user override the test.
-else
-as_save_IFS=$IFS; IFS=$PATH_SEPARATOR
-for as_dir in $PATH
-do
-  IFS=$as_save_IFS
-  test -z "$as_dir" && as_dir=.
-    for ac_exec_ext in '' $ac_executable_extensions; do
-  if as_fn_executable_p "$as_dir/$ac_word$ac_exec_ext"; then
-    ac_cv_prog_CC="${ac_tool_prefix}gcc"
-    $as_echo "$as_me:${as_lineno-$LINENO}: found $as_dir/$ac_word$ac_exec_ext" >&5
-    break 2
-  fi
-done
-  done
-IFS=$as_save_IFS
-
-fi
-fi
-CC=$ac_cv_prog_CC
-if test -n "$CC"; then
-  { $as_echo "$as_me:${as_lineno-$LINENO}: result: $CC" >&5
-$as_echo "$CC" >&6; }
-else
-  { $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5
-$as_echo "no" >&6; }
-fi
-
-
-fi
-if test -z "$ac_cv_prog_CC"; then
-  ac_ct_CC=$CC
-  # Extract the first word of "gcc", so it can be a program name with args.
-set dummy gcc; ac_word=$2
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for $ac_word" >&5
-$as_echo_n "checking for $ac_word... " >&6; }
-if ${ac_cv_prog_ac_ct_CC+:} false; then :
-  $as_echo_n "(cached) " >&6
-else
-  if test -n "$ac_ct_CC"; then
-  ac_cv_prog_ac_ct_CC="$ac_ct_CC" # Let the user override the test.
-else
-as_save_IFS=$IFS; IFS=$PATH_SEPARATOR
-for as_dir in $PATH
-do
-  IFS=$as_save_IFS
-  test -z "$as_dir" && as_dir=.
-    for ac_exec_ext in '' $ac_executable_extensions; do
-  if as_fn_executable_p "$as_dir/$ac_word$ac_exec_ext"; then
-    ac_cv_prog_ac_ct_CC="gcc"
-    $as_echo "$as_me:${as_lineno-$LINENO}: found $as_dir/$ac_word$ac_exec_ext" >&5
-    break 2
-  fi
-done
-  done
-IFS=$as_save_IFS
-
-fi
-fi
-ac_ct_CC=$ac_cv_prog_ac_ct_CC
-if test -n "$ac_ct_CC"; then
-  { $as_echo "$as_me:${as_lineno-$LINENO}: result: $ac_ct_CC" >&5
-$as_echo "$ac_ct_CC" >&6; }
-else
-  { $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5
-$as_echo "no" >&6; }
-fi
-
-  if test "x$ac_ct_CC" = x; then
-    CC=""
-  else
-    case $cross_compiling:$ac_tool_warned in
-yes:)
-{ $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: using cross tools not prefixed with host triplet" >&5
-$as_echo "$as_me: WARNING: using cross tools not prefixed with host triplet" >&2;}
-ac_tool_warned=yes ;;
-esac
-    CC=$ac_ct_CC
-  fi
-else
-  CC="$ac_cv_prog_CC"
-fi
-
-if test -z "$CC"; then
-          if test -n "$ac_tool_prefix"; then
-    # Extract the first word of "${ac_tool_prefix}cc", so it can be a program name with args.
-set dummy ${ac_tool_prefix}cc; ac_word=$2
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for $ac_word" >&5
-$as_echo_n "checking for $ac_word... " >&6; }
-if ${ac_cv_prog_CC+:} false; then :
-  $as_echo_n "(cached) " >&6
-else
-  if test -n "$CC"; then
-  ac_cv_prog_CC="$CC" # Let the user override the test.
-else
-as_save_IFS=$IFS; IFS=$PATH_SEPARATOR
-for as_dir in $PATH
-do
-  IFS=$as_save_IFS
-  test -z "$as_dir" && as_dir=.
-    for ac_exec_ext in '' $ac_executable_extensions; do
-  if as_fn_executable_p "$as_dir/$ac_word$ac_exec_ext"; then
-    ac_cv_prog_CC="${ac_tool_prefix}cc"
-    $as_echo "$as_me:${as_lineno-$LINENO}: found $as_dir/$ac_word$ac_exec_ext" >&5
-    break 2
-  fi
-done
-  done
-IFS=$as_save_IFS
-
-fi
-fi
-CC=$ac_cv_prog_CC
-if test -n "$CC"; then
-  { $as_echo "$as_me:${as_lineno-$LINENO}: result: $CC" >&5
-$as_echo "$CC" >&6; }
-else
-  { $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5
-$as_echo "no" >&6; }
-fi
-
-
-  fi
-fi
-if test -z "$CC"; then
-  # Extract the first word of "cc", so it can be a program name with args.
-set dummy cc; ac_word=$2
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for $ac_word" >&5
-$as_echo_n "checking for $ac_word... " >&6; }
-if ${ac_cv_prog_CC+:} false; then :
-  $as_echo_n "(cached) " >&6
-else
-  if test -n "$CC"; then
-  ac_cv_prog_CC="$CC" # Let the user override the test.
-else
-  ac_prog_rejected=no
-as_save_IFS=$IFS; IFS=$PATH_SEPARATOR
-for as_dir in $PATH
-do
-  IFS=$as_save_IFS
-  test -z "$as_dir" && as_dir=.
-    for ac_exec_ext in '' $ac_executable_extensions; do
-  if as_fn_executable_p "$as_dir/$ac_word$ac_exec_ext"; then
-    if test "$as_dir/$ac_word$ac_exec_ext" = "/usr/ucb/cc"; then
-       ac_prog_rejected=yes
-       continue
-     fi
-    ac_cv_prog_CC="cc"
-    $as_echo "$as_me:${as_lineno-$LINENO}: found $as_dir/$ac_word$ac_exec_ext" >&5
-    break 2
-  fi
-done
-  done
-IFS=$as_save_IFS
-
-if test $ac_prog_rejected = yes; then
-  # We found a bogon in the path, so make sure we never use it.
-  set dummy $ac_cv_prog_CC
-  shift
-  if test $# != 0; then
-    # We chose a different compiler from the bogus one.
-    # However, it has the same basename, so the bogon will be chosen
-    # first if we set CC to just the basename; use the full file name.
-    shift
-    ac_cv_prog_CC="$as_dir/$ac_word${1+' '}$@"
-  fi
-fi
-fi
-fi
-CC=$ac_cv_prog_CC
-if test -n "$CC"; then
-  { $as_echo "$as_me:${as_lineno-$LINENO}: result: $CC" >&5
-$as_echo "$CC" >&6; }
-else
-  { $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5
-$as_echo "no" >&6; }
-fi
-
-
-fi
-if test -z "$CC"; then
-  if test -n "$ac_tool_prefix"; then
-  for ac_prog in cl.exe
-  do
-    # Extract the first word of "$ac_tool_prefix$ac_prog", so it can be a program name with args.
-set dummy $ac_tool_prefix$ac_prog; ac_word=$2
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for $ac_word" >&5
-$as_echo_n "checking for $ac_word... " >&6; }
-if ${ac_cv_prog_CC+:} false; then :
-  $as_echo_n "(cached) " >&6
-else
-  if test -n "$CC"; then
-  ac_cv_prog_CC="$CC" # Let the user override the test.
-else
-as_save_IFS=$IFS; IFS=$PATH_SEPARATOR
-for as_dir in $PATH
-do
-  IFS=$as_save_IFS
-  test -z "$as_dir" && as_dir=.
-    for ac_exec_ext in '' $ac_executable_extensions; do
-  if as_fn_executable_p "$as_dir/$ac_word$ac_exec_ext"; then
-    ac_cv_prog_CC="$ac_tool_prefix$ac_prog"
-    $as_echo "$as_me:${as_lineno-$LINENO}: found $as_dir/$ac_word$ac_exec_ext" >&5
-    break 2
-  fi
-done
-  done
-IFS=$as_save_IFS
-
-fi
-fi
-CC=$ac_cv_prog_CC
-if test -n "$CC"; then
-  { $as_echo "$as_me:${as_lineno-$LINENO}: result: $CC" >&5
-$as_echo "$CC" >&6; }
-else
-  { $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5
-$as_echo "no" >&6; }
-fi
-
-
-    test -n "$CC" && break
-  done
-fi
-if test -z "$CC"; then
-  ac_ct_CC=$CC
-  for ac_prog in cl.exe
-do
-  # Extract the first word of "$ac_prog", so it can be a program name with args.
-set dummy $ac_prog; ac_word=$2
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for $ac_word" >&5
-$as_echo_n "checking for $ac_word... " >&6; }
-if ${ac_cv_prog_ac_ct_CC+:} false; then :
-  $as_echo_n "(cached) " >&6
-else
-  if test -n "$ac_ct_CC"; then
-  ac_cv_prog_ac_ct_CC="$ac_ct_CC" # Let the user override the test.
-else
-as_save_IFS=$IFS; IFS=$PATH_SEPARATOR
-for as_dir in $PATH
-do
-  IFS=$as_save_IFS
-  test -z "$as_dir" && as_dir=.
-    for ac_exec_ext in '' $ac_executable_extensions; do
-  if as_fn_executable_p "$as_dir/$ac_word$ac_exec_ext"; then
-    ac_cv_prog_ac_ct_CC="$ac_prog"
-    $as_echo "$as_me:${as_lineno-$LINENO}: found $as_dir/$ac_word$ac_exec_ext" >&5
-    break 2
-  fi
-done
-  done
-IFS=$as_save_IFS
-
-fi
-fi
-ac_ct_CC=$ac_cv_prog_ac_ct_CC
-if test -n "$ac_ct_CC"; then
-  { $as_echo "$as_me:${as_lineno-$LINENO}: result: $ac_ct_CC" >&5
-$as_echo "$ac_ct_CC" >&6; }
-else
-  { $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5
-$as_echo "no" >&6; }
-fi
-
-
-  test -n "$ac_ct_CC" && break
-done
-
-  if test "x$ac_ct_CC" = x; then
-    CC=""
-  else
-    case $cross_compiling:$ac_tool_warned in
-yes:)
-{ $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: using cross tools not prefixed with host triplet" >&5
-$as_echo "$as_me: WARNING: using cross tools not prefixed with host triplet" >&2;}
-ac_tool_warned=yes ;;
-esac
-    CC=$ac_ct_CC
-  fi
-fi
-
-fi
-
-
-test -z "$CC" && { { $as_echo "$as_me:${as_lineno-$LINENO}: error: in \`$ac_pwd':" >&5
-$as_echo "$as_me: error: in \`$ac_pwd':" >&2;}
-as_fn_error $? "no acceptable C compiler found in \$PATH
-See \`config.log' for more details" "$LINENO" 5; }
-
-# Provide some information about the compiler.
-$as_echo "$as_me:${as_lineno-$LINENO}: checking for C compiler version" >&5
-set X $ac_compile
-ac_compiler=$2
-for ac_option in --version -v -V -qversion; do
-  { { ac_try="$ac_compiler $ac_option >&5"
-case "(($ac_try" in
-  *\"* | *\`* | *\\*) ac_try_echo=\$ac_try;;
-  *) ac_try_echo=$ac_try;;
-esac
-eval ac_try_echo="\"\$as_me:${as_lineno-$LINENO}: $ac_try_echo\""
-$as_echo "$ac_try_echo"; } >&5
-  (eval "$ac_compiler $ac_option >&5") 2>conftest.err
-  ac_status=$?
-  if test -s conftest.err; then
-    sed '10a\
-... rest of stderr output deleted ...
-         10q' conftest.err >conftest.er1
-    cat conftest.er1 >&5
-  fi
-  rm -f conftest.er1 conftest.err
-  $as_echo "$as_me:${as_lineno-$LINENO}: \$? = $ac_status" >&5
-  test $ac_status = 0; }
-done
-
-cat confdefs.h - <<_ACEOF >conftest.$ac_ext
-/* end confdefs.h.  */
-
-int
-main ()
-{
-
-  ;
-  return 0;
-}
-_ACEOF
-ac_clean_files_save=$ac_clean_files
-ac_clean_files="$ac_clean_files a.out a.out.dSYM a.exe b.out"
-# Try to create an executable without -o first, disregard a.out.
-# It will help us diagnose broken compilers, and finding out an intuition
-# of exeext.
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking whether the C compiler works" >&5
-$as_echo_n "checking whether the C compiler works... " >&6; }
-ac_link_default=`$as_echo "$ac_link" | sed 's/ -o *conftest[^ ]*//'`
-
-# The possible output files:
-ac_files="a.out conftest.exe conftest a.exe a_out.exe b.out conftest.*"
-
-ac_rmfiles=
-for ac_file in $ac_files
-do
-  case $ac_file in
-    *.$ac_ext | *.xcoff | *.tds | *.d | *.pdb | *.xSYM | *.bb | *.bbg | *.map | *.inf | *.dSYM | *.o | *.obj ) ;;
-    * ) ac_rmfiles="$ac_rmfiles $ac_file";;
-  esac
-done
-rm -f $ac_rmfiles
-
-if { { ac_try="$ac_link_default"
-case "(($ac_try" in
-  *\"* | *\`* | *\\*) ac_try_echo=\$ac_try;;
-  *) ac_try_echo=$ac_try;;
-esac
-eval ac_try_echo="\"\$as_me:${as_lineno-$LINENO}: $ac_try_echo\""
-$as_echo "$ac_try_echo"; } >&5
-  (eval "$ac_link_default") 2>&5
-  ac_status=$?
-  $as_echo "$as_me:${as_lineno-$LINENO}: \$? = $ac_status" >&5
-  test $ac_status = 0; }; then :
-  # Autoconf-2.13 could set the ac_cv_exeext variable to `no'.
-# So ignore a value of `no', otherwise this would lead to `EXEEXT = no'
-# in a Makefile.  We should not override ac_cv_exeext if it was cached,
-# so that the user can short-circuit this test for compilers unknown to
-# Autoconf.
-for ac_file in $ac_files ''
-do
-  test -f "$ac_file" || continue
-  case $ac_file in
-    *.$ac_ext | *.xcoff | *.tds | *.d | *.pdb | *.xSYM | *.bb | *.bbg | *.map | *.inf | *.dSYM | *.o | *.obj )
-	;;
-    [ab].out )
-	# We found the default executable, but exeext='' is most
-	# certainly right.
-	break;;
-    *.* )
-	if test "${ac_cv_exeext+set}" = set && test "$ac_cv_exeext" != no;
-	then :; else
-	   ac_cv_exeext=`expr "$ac_file" : '[^.]*\(\..*\)'`
-	fi
-	# We set ac_cv_exeext here because the later test for it is not
-	# safe: cross compilers may not add the suffix if given an `-o'
-	# argument, so we may need to know it at that point already.
-	# Even if this section looks crufty: it has the advantage of
-	# actually working.
-	break;;
-    * )
-	break;;
-  esac
-done
-test "$ac_cv_exeext" = no && ac_cv_exeext=
-
-else
-  ac_file=''
-fi
-if test -z "$ac_file"; then :
-  { $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5
-$as_echo "no" >&6; }
-$as_echo "$as_me: failed program was:" >&5
-sed 's/^/| /' conftest.$ac_ext >&5
-
-{ { $as_echo "$as_me:${as_lineno-$LINENO}: error: in \`$ac_pwd':" >&5
-$as_echo "$as_me: error: in \`$ac_pwd':" >&2;}
-as_fn_error 77 "C compiler cannot create executables
-See \`config.log' for more details" "$LINENO" 5; }
-else
-  { $as_echo "$as_me:${as_lineno-$LINENO}: result: yes" >&5
-$as_echo "yes" >&6; }
-fi
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for C compiler default output file name" >&5
-$as_echo_n "checking for C compiler default output file name... " >&6; }
-{ $as_echo "$as_me:${as_lineno-$LINENO}: result: $ac_file" >&5
-$as_echo "$ac_file" >&6; }
-ac_exeext=$ac_cv_exeext
-
-rm -f -r a.out a.out.dSYM a.exe conftest$ac_cv_exeext b.out
-ac_clean_files=$ac_clean_files_save
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for suffix of executables" >&5
-$as_echo_n "checking for suffix of executables... " >&6; }
-if { { ac_try="$ac_link"
-case "(($ac_try" in
-  *\"* | *\`* | *\\*) ac_try_echo=\$ac_try;;
-  *) ac_try_echo=$ac_try;;
-esac
-eval ac_try_echo="\"\$as_me:${as_lineno-$LINENO}: $ac_try_echo\""
-$as_echo "$ac_try_echo"; } >&5
-  (eval "$ac_link") 2>&5
-  ac_status=$?
-  $as_echo "$as_me:${as_lineno-$LINENO}: \$? = $ac_status" >&5
-  test $ac_status = 0; }; then :
-  # If both `conftest.exe' and `conftest' are `present' (well, observable)
-# catch `conftest.exe'.  For instance with Cygwin, `ls conftest' will
-# work properly (i.e., refer to `conftest.exe'), while it won't with
-# `rm'.
-for ac_file in conftest.exe conftest conftest.*; do
-  test -f "$ac_file" || continue
-  case $ac_file in
-    *.$ac_ext | *.xcoff | *.tds | *.d | *.pdb | *.xSYM | *.bb | *.bbg | *.map | *.inf | *.dSYM | *.o | *.obj ) ;;
-    *.* ) ac_cv_exeext=`expr "$ac_file" : '[^.]*\(\..*\)'`
-	  break;;
-    * ) break;;
-  esac
-done
-else
-  { { $as_echo "$as_me:${as_lineno-$LINENO}: error: in \`$ac_pwd':" >&5
-$as_echo "$as_me: error: in \`$ac_pwd':" >&2;}
-as_fn_error $? "cannot compute suffix of executables: cannot compile and link
-See \`config.log' for more details" "$LINENO" 5; }
-fi
-rm -f conftest conftest$ac_cv_exeext
-{ $as_echo "$as_me:${as_lineno-$LINENO}: result: $ac_cv_exeext" >&5
-$as_echo "$ac_cv_exeext" >&6; }
-
-rm -f conftest.$ac_ext
-EXEEXT=$ac_cv_exeext
-ac_exeext=$EXEEXT
-cat confdefs.h - <<_ACEOF >conftest.$ac_ext
-/* end confdefs.h.  */
-#include <stdio.h>
-int
-main ()
-{
-FILE *f = fopen ("conftest.out", "w");
- return ferror (f) || fclose (f) != 0;
-
-  ;
-  return 0;
-}
-_ACEOF
-ac_clean_files="$ac_clean_files conftest.out"
-# Check that the compiler produces executables we can run.  If not, either
-# the compiler is broken, or we cross compile.
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking whether we are cross compiling" >&5
-$as_echo_n "checking whether we are cross compiling... " >&6; }
-if test "$cross_compiling" != yes; then
-  { { ac_try="$ac_link"
-case "(($ac_try" in
-  *\"* | *\`* | *\\*) ac_try_echo=\$ac_try;;
-  *) ac_try_echo=$ac_try;;
-esac
-eval ac_try_echo="\"\$as_me:${as_lineno-$LINENO}: $ac_try_echo\""
-$as_echo "$ac_try_echo"; } >&5
-  (eval "$ac_link") 2>&5
-  ac_status=$?
-  $as_echo "$as_me:${as_lineno-$LINENO}: \$? = $ac_status" >&5
-  test $ac_status = 0; }
-  if { ac_try='./conftest$ac_cv_exeext'
-  { { case "(($ac_try" in
-  *\"* | *\`* | *\\*) ac_try_echo=\$ac_try;;
-  *) ac_try_echo=$ac_try;;
-esac
-eval ac_try_echo="\"\$as_me:${as_lineno-$LINENO}: $ac_try_echo\""
-$as_echo "$ac_try_echo"; } >&5
-  (eval "$ac_try") 2>&5
-  ac_status=$?
-  $as_echo "$as_me:${as_lineno-$LINENO}: \$? = $ac_status" >&5
-  test $ac_status = 0; }; }; then
-    cross_compiling=no
-  else
-    if test "$cross_compiling" = maybe; then
-	cross_compiling=yes
-    else
-	{ { $as_echo "$as_me:${as_lineno-$LINENO}: error: in \`$ac_pwd':" >&5
-$as_echo "$as_me: error: in \`$ac_pwd':" >&2;}
-as_fn_error $? "cannot run C compiled programs.
-If you meant to cross compile, use \`--host'.
-See \`config.log' for more details" "$LINENO" 5; }
-    fi
-  fi
-fi
-{ $as_echo "$as_me:${as_lineno-$LINENO}: result: $cross_compiling" >&5
-$as_echo "$cross_compiling" >&6; }
-
-rm -f conftest.$ac_ext conftest$ac_cv_exeext conftest.out
-ac_clean_files=$ac_clean_files_save
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for suffix of object files" >&5
-$as_echo_n "checking for suffix of object files... " >&6; }
-if ${ac_cv_objext+:} false; then :
-  $as_echo_n "(cached) " >&6
-else
-  cat confdefs.h - <<_ACEOF >conftest.$ac_ext
-/* end confdefs.h.  */
-
-int
-main ()
-{
-
-  ;
-  return 0;
-}
-_ACEOF
-rm -f conftest.o conftest.obj
-if { { ac_try="$ac_compile"
-case "(($ac_try" in
-  *\"* | *\`* | *\\*) ac_try_echo=\$ac_try;;
-  *) ac_try_echo=$ac_try;;
-esac
-eval ac_try_echo="\"\$as_me:${as_lineno-$LINENO}: $ac_try_echo\""
-$as_echo "$ac_try_echo"; } >&5
-  (eval "$ac_compile") 2>&5
-  ac_status=$?
-  $as_echo "$as_me:${as_lineno-$LINENO}: \$? = $ac_status" >&5
-  test $ac_status = 0; }; then :
-  for ac_file in conftest.o conftest.obj conftest.*; do
-  test -f "$ac_file" || continue;
-  case $ac_file in
-    *.$ac_ext | *.xcoff | *.tds | *.d | *.pdb | *.xSYM | *.bb | *.bbg | *.map | *.inf | *.dSYM ) ;;
-    *) ac_cv_objext=`expr "$ac_file" : '.*\.\(.*\)'`
-       break;;
-  esac
-done
-else
-  $as_echo "$as_me: failed program was:" >&5
-sed 's/^/| /' conftest.$ac_ext >&5
-
-{ { $as_echo "$as_me:${as_lineno-$LINENO}: error: in \`$ac_pwd':" >&5
-$as_echo "$as_me: error: in \`$ac_pwd':" >&2;}
-as_fn_error $? "cannot compute suffix of object files: cannot compile
-See \`config.log' for more details" "$LINENO" 5; }
-fi
-rm -f conftest.$ac_cv_objext conftest.$ac_ext
-fi
-{ $as_echo "$as_me:${as_lineno-$LINENO}: result: $ac_cv_objext" >&5
-$as_echo "$ac_cv_objext" >&6; }
-OBJEXT=$ac_cv_objext
-ac_objext=$OBJEXT
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking whether we are using the GNU C compiler" >&5
-$as_echo_n "checking whether we are using the GNU C compiler... " >&6; }
-if ${ac_cv_c_compiler_gnu+:} false; then :
-  $as_echo_n "(cached) " >&6
-else
-  cat confdefs.h - <<_ACEOF >conftest.$ac_ext
-/* end confdefs.h.  */
-
-int
-main ()
-{
-#ifndef __GNUC__
-       choke me
-#endif
-
-  ;
-  return 0;
-}
-_ACEOF
-if ac_fn_c_try_compile "$LINENO"; then :
-  ac_compiler_gnu=yes
-else
-  ac_compiler_gnu=no
-fi
-rm -f core conftest.err conftest.$ac_objext conftest.$ac_ext
-ac_cv_c_compiler_gnu=$ac_compiler_gnu
-
-fi
-{ $as_echo "$as_me:${as_lineno-$LINENO}: result: $ac_cv_c_compiler_gnu" >&5
-$as_echo "$ac_cv_c_compiler_gnu" >&6; }
-if test $ac_compiler_gnu = yes; then
-  GCC=yes
-else
-  GCC=
-fi
-ac_test_CFLAGS=${CFLAGS+set}
-ac_save_CFLAGS=$CFLAGS
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking whether $CC accepts -g" >&5
-$as_echo_n "checking whether $CC accepts -g... " >&6; }
-if ${ac_cv_prog_cc_g+:} false; then :
-  $as_echo_n "(cached) " >&6
-else
-  ac_save_c_werror_flag=$ac_c_werror_flag
-   ac_c_werror_flag=yes
-   ac_cv_prog_cc_g=no
-   CFLAGS="-g"
-   cat confdefs.h - <<_ACEOF >conftest.$ac_ext
-/* end confdefs.h.  */
-
-int
-main ()
-{
-
-  ;
-  return 0;
-}
-_ACEOF
-if ac_fn_c_try_compile "$LINENO"; then :
-  ac_cv_prog_cc_g=yes
-else
-  CFLAGS=""
-      cat confdefs.h - <<_ACEOF >conftest.$ac_ext
-/* end confdefs.h.  */
-
-int
-main ()
-{
-
-  ;
-  return 0;
-}
-_ACEOF
-if ac_fn_c_try_compile "$LINENO"; then :
-
-else
-  ac_c_werror_flag=$ac_save_c_werror_flag
-	 CFLAGS="-g"
-	 cat confdefs.h - <<_ACEOF >conftest.$ac_ext
-/* end confdefs.h.  */
-
-int
-main ()
-{
-
-  ;
-  return 0;
-}
-_ACEOF
-if ac_fn_c_try_compile "$LINENO"; then :
-  ac_cv_prog_cc_g=yes
-fi
-rm -f core conftest.err conftest.$ac_objext conftest.$ac_ext
-fi
-rm -f core conftest.err conftest.$ac_objext conftest.$ac_ext
-fi
-rm -f core conftest.err conftest.$ac_objext conftest.$ac_ext
-   ac_c_werror_flag=$ac_save_c_werror_flag
-fi
-{ $as_echo "$as_me:${as_lineno-$LINENO}: result: $ac_cv_prog_cc_g" >&5
-$as_echo "$ac_cv_prog_cc_g" >&6; }
-if test "$ac_test_CFLAGS" = set; then
-  CFLAGS=$ac_save_CFLAGS
-elif test $ac_cv_prog_cc_g = yes; then
-  if test "$GCC" = yes; then
-    CFLAGS="-g -O2"
-  else
-    CFLAGS="-g"
-  fi
-else
-  if test "$GCC" = yes; then
-    CFLAGS="-O2"
-  else
-    CFLAGS=
-  fi
-fi
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for $CC option to accept ISO C89" >&5
-$as_echo_n "checking for $CC option to accept ISO C89... " >&6; }
-if ${ac_cv_prog_cc_c89+:} false; then :
-  $as_echo_n "(cached) " >&6
-else
-  ac_cv_prog_cc_c89=no
-ac_save_CC=$CC
-cat confdefs.h - <<_ACEOF >conftest.$ac_ext
-/* end confdefs.h.  */
-#include <stdarg.h>
-#include <stdio.h>
-struct stat;
-/* Most of the following tests are stolen from RCS 5.7's src/conf.sh.  */
-struct buf { int x; };
-FILE * (*rcsopen) (struct buf *, struct stat *, int);
-static char *e (p, i)
-     char **p;
-     int i;
-{
-  return p[i];
-}
-static char *f (char * (*g) (char **, int), char **p, ...)
-{
-  char *s;
-  va_list v;
-  va_start (v,p);
-  s = g (p, va_arg (v,int));
-  va_end (v);
-  return s;
-}
-
-/* OSF 4.0 Compaq cc is some sort of almost-ANSI by default.  It has
-   function prototypes and stuff, but not '\xHH' hex character constants.
-   These don't provoke an error unfortunately, instead are silently treated
-   as 'x'.  The following induces an error, until -std is added to get
-   proper ANSI mode.  Curiously '\x00'!='x' always comes out true, for an
-   array size at least.  It's necessary to write '\x00'==0 to get something
-   that's true only with -std.  */
-int osf4_cc_array ['\x00' == 0 ? 1 : -1];
-
-/* IBM C 6 for AIX is almost-ANSI by default, but it replaces macro parameters
-   inside strings and character constants.  */
-#define FOO(x) 'x'
-int xlc6_cc_array[FOO(a) == 'x' ? 1 : -1];
-
-int test (int i, double x);
-struct s1 {int (*f) (int a);};
-struct s2 {int (*f) (double a);};
-int pairnames (int, char **, FILE *(*)(struct buf *, struct stat *, int), int, int);
-int argc;
-char **argv;
-int
-main ()
-{
-return f (e, argv, 0) != argv[0]  ||  f (e, argv, 1) != argv[1];
-  ;
-  return 0;
-}
-_ACEOF
-for ac_arg in '' -qlanglvl=extc89 -qlanglvl=ansi -std \
-	-Ae "-Aa -D_HPUX_SOURCE" "-Xc -D__EXTENSIONS__"
-do
-  CC="$ac_save_CC $ac_arg"
-  if ac_fn_c_try_compile "$LINENO"; then :
-  ac_cv_prog_cc_c89=$ac_arg
-fi
-rm -f core conftest.err conftest.$ac_objext
-  test "x$ac_cv_prog_cc_c89" != "xno" && break
-done
-rm -f conftest.$ac_ext
-CC=$ac_save_CC
-
-fi
-# AC_CACHE_VAL
-case "x$ac_cv_prog_cc_c89" in
-  x)
-    { $as_echo "$as_me:${as_lineno-$LINENO}: result: none needed" >&5
-$as_echo "none needed" >&6; } ;;
-  xno)
-    { $as_echo "$as_me:${as_lineno-$LINENO}: result: unsupported" >&5
-$as_echo "unsupported" >&6; } ;;
-  *)
-    CC="$CC $ac_cv_prog_cc_c89"
-    { $as_echo "$as_me:${as_lineno-$LINENO}: result: $ac_cv_prog_cc_c89" >&5
-$as_echo "$ac_cv_prog_cc_c89" >&6; } ;;
-esac
-if test "x$ac_cv_prog_cc_c89" != xno; then :
-
-fi
-
-ac_ext=c
-ac_cpp='$CPP $CPPFLAGS'
-ac_compile='$CC -c $CFLAGS $CPPFLAGS conftest.$ac_ext >&5'
-ac_link='$CC -o conftest$ac_exeext $CFLAGS $CPPFLAGS $LDFLAGS conftest.$ac_ext $LIBS >&5'
-ac_compiler_gnu=$ac_cv_c_compiler_gnu
-
-if test -n "$ac_tool_prefix"; then
-  # Extract the first word of "${ac_tool_prefix}ar", so it can be a program name with args.
-set dummy ${ac_tool_prefix}ar; ac_word=$2
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for $ac_word" >&5
-$as_echo_n "checking for $ac_word... " >&6; }
-if ${ac_cv_prog_AR+:} false; then :
-  $as_echo_n "(cached) " >&6
-else
-  if test -n "$AR"; then
-  ac_cv_prog_AR="$AR" # Let the user override the test.
-else
-as_save_IFS=$IFS; IFS=$PATH_SEPARATOR
-for as_dir in $PATH
-do
-  IFS=$as_save_IFS
-  test -z "$as_dir" && as_dir=.
-    for ac_exec_ext in '' $ac_executable_extensions; do
-  if as_fn_executable_p "$as_dir/$ac_word$ac_exec_ext"; then
-    ac_cv_prog_AR="${ac_tool_prefix}ar"
-    $as_echo "$as_me:${as_lineno-$LINENO}: found $as_dir/$ac_word$ac_exec_ext" >&5
-    break 2
-  fi
-done
-  done
-IFS=$as_save_IFS
-
-fi
-fi
-AR=$ac_cv_prog_AR
-if test -n "$AR"; then
-  { $as_echo "$as_me:${as_lineno-$LINENO}: result: $AR" >&5
-$as_echo "$AR" >&6; }
-else
-  { $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5
-$as_echo "no" >&6; }
-fi
-
-
-fi
-if test -z "$ac_cv_prog_AR"; then
-  ac_ct_AR=$AR
-  # Extract the first word of "ar", so it can be a program name with args.
-set dummy ar; ac_word=$2
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for $ac_word" >&5
-$as_echo_n "checking for $ac_word... " >&6; }
-if ${ac_cv_prog_ac_ct_AR+:} false; then :
-  $as_echo_n "(cached) " >&6
-else
-  if test -n "$ac_ct_AR"; then
-  ac_cv_prog_ac_ct_AR="$ac_ct_AR" # Let the user override the test.
-else
-as_save_IFS=$IFS; IFS=$PATH_SEPARATOR
-for as_dir in $PATH
-do
-  IFS=$as_save_IFS
-  test -z "$as_dir" && as_dir=.
-    for ac_exec_ext in '' $ac_executable_extensions; do
-  if as_fn_executable_p "$as_dir/$ac_word$ac_exec_ext"; then
-    ac_cv_prog_ac_ct_AR="ar"
-    $as_echo "$as_me:${as_lineno-$LINENO}: found $as_dir/$ac_word$ac_exec_ext" >&5
-    break 2
-  fi
-done
-  done
-IFS=$as_save_IFS
-
-fi
-fi
-ac_ct_AR=$ac_cv_prog_ac_ct_AR
-if test -n "$ac_ct_AR"; then
-  { $as_echo "$as_me:${as_lineno-$LINENO}: result: $ac_ct_AR" >&5
-$as_echo "$ac_ct_AR" >&6; }
-else
-  { $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5
-$as_echo "no" >&6; }
-fi
-
-  if test "x$ac_ct_AR" = x; then
-    AR=":"
-  else
-    case $cross_compiling:$ac_tool_warned in
-yes:)
-{ $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: using cross tools not prefixed with host triplet" >&5
-$as_echo "$as_me: WARNING: using cross tools not prefixed with host triplet" >&2;}
-ac_tool_warned=yes ;;
-esac
-    AR=$ac_ct_AR
-  fi
-else
-  AR="$ac_cv_prog_AR"
-fi
-
-
-# Check whether --enable-debug was given.
-if test "${enable_debug+set}" = set; then :
-  enableval=$enable_debug; enable_debug="$enableval"
-else
-  enable_debug=no
-
-fi
-
-
-if test "x$enable_debug" = xyes; then
-	CFLAGS="$CFLAGS -g -O0"
-fi
-
-VERSION_MAJOR=$VERSION_MAJOR
-
-
-ac_config_files="$ac_config_files Makefile"
-
-
-cat >confcache <<\_ACEOF
-# This file is a shell script that caches the results of configure
-# tests run on this system so they can be shared between configure
-# scripts and configure runs, see configure's option --config-cache.
-# It is not useful on other systems.  If it contains results you don't
-# want to keep, you may remove or edit it.
-#
-# config.status only pays attention to the cache file if you give it
-# the --recheck option to rerun configure.
-#
-# `ac_cv_env_foo' variables (set or unset) will be overridden when
-# loading this file, other *unset* `ac_cv_foo' will be assigned the
-# following values.
-
-_ACEOF
-
-# The following way of writing the cache mishandles newlines in values,
-# but we know of no workaround that is simple, portable, and efficient.
-# So, we kill variables containing newlines.
-# Ultrix sh set writes to stderr and can't be redirected directly,
-# and sets the high bit in the cache file unless we assign to the vars.
-(
-  for ac_var in `(set) 2>&1 | sed -n 's/^\([a-zA-Z_][a-zA-Z0-9_]*\)=.*/\1/p'`; do
-    eval ac_val=\$$ac_var
-    case $ac_val in #(
-    *${as_nl}*)
-      case $ac_var in #(
-      *_cv_*) { $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: cache variable $ac_var contains a newline" >&5
-$as_echo "$as_me: WARNING: cache variable $ac_var contains a newline" >&2;} ;;
-      esac
-      case $ac_var in #(
-      _ | IFS | as_nl) ;; #(
-      BASH_ARGV | BASH_SOURCE) eval $ac_var= ;; #(
-      *) { eval $ac_var=; unset $ac_var;} ;;
-      esac ;;
-    esac
-  done
-
-  (set) 2>&1 |
-    case $as_nl`(ac_space=' '; set) 2>&1` in #(
-    *${as_nl}ac_space=\ *)
-      # `set' does not quote correctly, so add quotes: double-quote
-      # substitution turns \\\\ into \\, and sed turns \\ into \.
-      sed -n \
-	"s/'/'\\\\''/g;
-	  s/^\\([_$as_cr_alnum]*_cv_[_$as_cr_alnum]*\\)=\\(.*\\)/\\1='\\2'/p"
-      ;; #(
-    *)
-      # `set' quotes correctly as required by POSIX, so do not add quotes.
-      sed -n "/^[_$as_cr_alnum]*_cv_[_$as_cr_alnum]*=/p"
-      ;;
-    esac |
-    sort
-) |
-  sed '
-     /^ac_cv_env_/b end
-     t clear
-     :clear
-     s/^\([^=]*\)=\(.*[{}].*\)$/test "${\1+set}" = set || &/
-     t end
-     s/^\([^=]*\)=\(.*\)$/\1=${\1=\2}/
-     :end' >>confcache
-if diff "$cache_file" confcache >/dev/null 2>&1; then :; else
-  if test -w "$cache_file"; then
-    if test "x$cache_file" != "x/dev/null"; then
-      { $as_echo "$as_me:${as_lineno-$LINENO}: updating cache $cache_file" >&5
-$as_echo "$as_me: updating cache $cache_file" >&6;}
-      if test ! -f "$cache_file" || test -h "$cache_file"; then
-	cat confcache >"$cache_file"
-      else
-        case $cache_file in #(
-        */* | ?:*)
-	  mv -f confcache "$cache_file"$$ &&
-	  mv -f "$cache_file"$$ "$cache_file" ;; #(
-        *)
-	  mv -f confcache "$cache_file" ;;
-	esac
-      fi
-    fi
-  else
-    { $as_echo "$as_me:${as_lineno-$LINENO}: not updating unwritable cache $cache_file" >&5
-$as_echo "$as_me: not updating unwritable cache $cache_file" >&6;}
-  fi
-fi
-rm -f confcache
-
-test "x$prefix" = xNONE && prefix=$ac_default_prefix
-# Let make expand exec_prefix.
-test "x$exec_prefix" = xNONE && exec_prefix='${prefix}'
-
-# Transform confdefs.h into DEFS.
-# Protect against shell expansion while executing Makefile rules.
-# Protect against Makefile macro expansion.
-#
-# If the first sed substitution is executed (which looks for macros that
-# take arguments), then branch to the quote section.  Otherwise,
-# look for a macro that doesn't take arguments.
-ac_script='
-:mline
-/\\$/{
- N
- s,\\\n,,
- b mline
-}
-t clear
-:clear
-s/^[	 ]*#[	 ]*define[	 ][	 ]*\([^	 (][^	 (]*([^)]*)\)[	 ]*\(.*\)/-D\1=\2/g
-t quote
-s/^[	 ]*#[	 ]*define[	 ][	 ]*\([^	 ][^	 ]*\)[	 ]*\(.*\)/-D\1=\2/g
-t quote
-b any
-:quote
-s/[	 `~#$^&*(){}\\|;'\''"<>?]/\\&/g
-s/\[/\\&/g
-s/\]/\\&/g
-s/\$/$$/g
-H
-:any
-${
-	g
-	s/^\n//
-	s/\n/ /g
-	p
-}
-'
-DEFS=`sed -n "$ac_script" confdefs.h`
-
-
-ac_libobjs=
-ac_ltlibobjs=
-U=
-for ac_i in : $LIBOBJS; do test "x$ac_i" = x: && continue
-  # 1. Remove the extension, and $U if already installed.
-  ac_script='s/\$U\././;s/\.o$//;s/\.obj$//'
-  ac_i=`$as_echo "$ac_i" | sed "$ac_script"`
-  # 2. Prepend LIBOBJDIR.  When used with automake>=1.10 LIBOBJDIR
-  #    will be set to the directory where LIBOBJS objects are built.
-  as_fn_append ac_libobjs " \${LIBOBJDIR}$ac_i\$U.$ac_objext"
-  as_fn_append ac_ltlibobjs " \${LIBOBJDIR}$ac_i"'$U.lo'
-done
-LIBOBJS=$ac_libobjs
-
-LTLIBOBJS=$ac_ltlibobjs
-
-
-
-: "${CONFIG_STATUS=./config.status}"
-ac_write_fail=0
-ac_clean_files_save=$ac_clean_files
-ac_clean_files="$ac_clean_files $CONFIG_STATUS"
-{ $as_echo "$as_me:${as_lineno-$LINENO}: creating $CONFIG_STATUS" >&5
-$as_echo "$as_me: creating $CONFIG_STATUS" >&6;}
-as_write_fail=0
-cat >$CONFIG_STATUS <<_ASEOF || as_write_fail=1
-#! $SHELL
-# Generated by $as_me.
-# Run this file to recreate the current configuration.
-# Compiler output produced by configure, useful for debugging
-# configure, is in config.log if it exists.
-
-debug=false
-ac_cs_recheck=false
-ac_cs_silent=false
-
-SHELL=\${CONFIG_SHELL-$SHELL}
-export SHELL
-_ASEOF
-cat >>$CONFIG_STATUS <<\_ASEOF || as_write_fail=1
-## -------------------- ##
-## M4sh Initialization. ##
-## -------------------- ##
-
-# Be more Bourne compatible
-DUALCASE=1; export DUALCASE # for MKS sh
-if test -n "${ZSH_VERSION+set}" && (emulate sh) >/dev/null 2>&1; then :
-  emulate sh
-  NULLCMD=:
-  # Pre-4.2 versions of Zsh do word splitting on ${1+"$@"}, which
-  # is contrary to our usage.  Disable this feature.
-  alias -g '${1+"$@"}'='"$@"'
-  setopt NO_GLOB_SUBST
-else
-  case `(set -o) 2>/dev/null` in #(
-  *posix*) :
-    set -o posix ;; #(
-  *) :
-     ;;
-esac
-fi
-
-
-as_nl='
-'
-export as_nl
-# Printing a long string crashes Solaris 7 /usr/bin/printf.
-as_echo='\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'
-as_echo=$as_echo$as_echo$as_echo$as_echo$as_echo
-as_echo=$as_echo$as_echo$as_echo$as_echo$as_echo$as_echo
-# Prefer a ksh shell builtin over an external printf program on Solaris,
-# but without wasting forks for bash or zsh.
-if test -z "$BASH_VERSION$ZSH_VERSION" \
-    && (test "X`print -r -- $as_echo`" = "X$as_echo") 2>/dev/null; then
-  as_echo='print -r --'
-  as_echo_n='print -rn --'
-elif (test "X`printf %s $as_echo`" = "X$as_echo") 2>/dev/null; then
-  as_echo='printf %s\n'
-  as_echo_n='printf %s'
-else
-  if test "X`(/usr/ucb/echo -n -n $as_echo) 2>/dev/null`" = "X-n $as_echo"; then
-    as_echo_body='eval /usr/ucb/echo -n "$1$as_nl"'
-    as_echo_n='/usr/ucb/echo -n'
-  else
-    as_echo_body='eval expr "X$1" : "X\\(.*\\)"'
-    as_echo_n_body='eval
-      arg=$1;
-      case $arg in #(
-      *"$as_nl"*)
-	expr "X$arg" : "X\\(.*\\)$as_nl";
-	arg=`expr "X$arg" : ".*$as_nl\\(.*\\)"`;;
-      esac;
-      expr "X$arg" : "X\\(.*\\)" | tr -d "$as_nl"
-    '
-    export as_echo_n_body
-    as_echo_n='sh -c $as_echo_n_body as_echo'
-  fi
-  export as_echo_body
-  as_echo='sh -c $as_echo_body as_echo'
-fi
-
-# The user is always right.
-if test "${PATH_SEPARATOR+set}" != set; then
-  PATH_SEPARATOR=:
-  (PATH='/bin;/bin'; FPATH=$PATH; sh -c :) >/dev/null 2>&1 && {
-    (PATH='/bin:/bin'; FPATH=$PATH; sh -c :) >/dev/null 2>&1 ||
-      PATH_SEPARATOR=';'
-  }
-fi
-
-
-# IFS
-# We need space, tab and new line, in precisely that order.  Quoting is
-# there to prevent editors from complaining about space-tab.
-# (If _AS_PATH_WALK were called with IFS unset, it would disable word
-# splitting by setting IFS to empty value.)
-IFS=" ""	$as_nl"
-
-# Find who we are.  Look in the path if we contain no directory separator.
-as_myself=
-case $0 in #((
-  *[\\/]* ) as_myself=$0 ;;
-  *) as_save_IFS=$IFS; IFS=$PATH_SEPARATOR
-for as_dir in $PATH
-do
-  IFS=$as_save_IFS
-  test -z "$as_dir" && as_dir=.
-    test -r "$as_dir/$0" && as_myself=$as_dir/$0 && break
-  done
-IFS=$as_save_IFS
-
-     ;;
-esac
-# We did not find ourselves, most probably we were run as `sh COMMAND'
-# in which case we are not to be found in the path.
-if test "x$as_myself" = x; then
-  as_myself=$0
-fi
-if test ! -f "$as_myself"; then
-  $as_echo "$as_myself: error: cannot find myself; rerun with an absolute file name" >&2
-  exit 1
-fi
-
-# Unset variables that we do not need and which cause bugs (e.g. in
-# pre-3.0 UWIN ksh).  But do not cause bugs in bash 2.01; the "|| exit 1"
-# suppresses any "Segmentation fault" message there.  '((' could
-# trigger a bug in pdksh 5.2.14.
-for as_var in BASH_ENV ENV MAIL MAILPATH
-do eval test x\${$as_var+set} = xset \
-  && ( (unset $as_var) || exit 1) >/dev/null 2>&1 && unset $as_var || :
-done
-PS1='$ '
-PS2='> '
-PS4='+ '
-
-# NLS nuisances.
-LC_ALL=C
-export LC_ALL
-LANGUAGE=C
-export LANGUAGE
-
-# CDPATH.
-(unset CDPATH) >/dev/null 2>&1 && unset CDPATH
-
-
-# as_fn_error STATUS ERROR [LINENO LOG_FD]
-# ----------------------------------------
-# Output "`basename $0`: error: ERROR" to stderr. If LINENO and LOG_FD are
-# provided, also output the error to LOG_FD, referencing LINENO. Then exit the
-# script with STATUS, using 1 if that was 0.
-as_fn_error ()
-{
-  as_status=$1; test $as_status -eq 0 && as_status=1
-  if test "$4"; then
-    as_lineno=${as_lineno-"$3"} as_lineno_stack=as_lineno_stack=$as_lineno_stack
-    $as_echo "$as_me:${as_lineno-$LINENO}: error: $2" >&$4
-  fi
-  $as_echo "$as_me: error: $2" >&2
-  as_fn_exit $as_status
-} # as_fn_error
-
-
-# as_fn_set_status STATUS
-# -----------------------
-# Set $? to STATUS, without forking.
-as_fn_set_status ()
-{
-  return $1
-} # as_fn_set_status
-
-# as_fn_exit STATUS
-# -----------------
-# Exit the shell with STATUS, even in a "trap 0" or "set -e" context.
-as_fn_exit ()
-{
-  set +e
-  as_fn_set_status $1
-  exit $1
-} # as_fn_exit
-
-# as_fn_unset VAR
-# ---------------
-# Portably unset VAR.
-as_fn_unset ()
-{
-  { eval $1=; unset $1;}
-}
-as_unset=as_fn_unset
-# as_fn_append VAR VALUE
-# ----------------------
-# Append the text in VALUE to the end of the definition contained in VAR. Take
-# advantage of any shell optimizations that allow amortized linear growth over
-# repeated appends, instead of the typical quadratic growth present in naive
-# implementations.
-if (eval "as_var=1; as_var+=2; test x\$as_var = x12") 2>/dev/null; then :
-  eval 'as_fn_append ()
-  {
-    eval $1+=\$2
-  }'
-else
-  as_fn_append ()
-  {
-    eval $1=\$$1\$2
-  }
-fi # as_fn_append
-
-# as_fn_arith ARG...
-# ------------------
-# Perform arithmetic evaluation on the ARGs, and store the result in the
-# global $as_val. Take advantage of shells that can avoid forks. The arguments
-# must be portable across $(()) and expr.
-if (eval "test \$(( 1 + 1 )) = 2") 2>/dev/null; then :
-  eval 'as_fn_arith ()
-  {
-    as_val=$(( $* ))
-  }'
-else
-  as_fn_arith ()
-  {
-    as_val=`expr "$@" || test $? -eq 1`
-  }
-fi # as_fn_arith
-
-
-if expr a : '\(a\)' >/dev/null 2>&1 &&
-   test "X`expr 00001 : '.*\(...\)'`" = X001; then
-  as_expr=expr
-else
-  as_expr=false
-fi
-
-if (basename -- /) >/dev/null 2>&1 && test "X`basename -- / 2>&1`" = "X/"; then
-  as_basename=basename
-else
-  as_basename=false
-fi
-
-if (as_dir=`dirname -- /` && test "X$as_dir" = X/) >/dev/null 2>&1; then
-  as_dirname=dirname
-else
-  as_dirname=false
-fi
-
-as_me=`$as_basename -- "$0" ||
-$as_expr X/"$0" : '.*/\([^/][^/]*\)/*$' \| \
-	 X"$0" : 'X\(//\)$' \| \
-	 X"$0" : 'X\(/\)' \| . 2>/dev/null ||
-$as_echo X/"$0" |
-    sed '/^.*\/\([^/][^/]*\)\/*$/{
-	    s//\1/
-	    q
-	  }
-	  /^X\/\(\/\/\)$/{
-	    s//\1/
-	    q
-	  }
-	  /^X\/\(\/\).*/{
-	    s//\1/
-	    q
-	  }
-	  s/.*/./; q'`
-
-# Avoid depending upon Character Ranges.
-as_cr_letters='abcdefghijklmnopqrstuvwxyz'
-as_cr_LETTERS='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-as_cr_Letters=$as_cr_letters$as_cr_LETTERS
-as_cr_digits='0123456789'
-as_cr_alnum=$as_cr_Letters$as_cr_digits
-
-ECHO_C= ECHO_N= ECHO_T=
-case `echo -n x` in #(((((
--n*)
-  case `echo 'xy\c'` in
-  *c*) ECHO_T='	';;	# ECHO_T is single tab character.
-  xy)  ECHO_C='\c';;
-  *)   echo `echo ksh88 bug on AIX 6.1` > /dev/null
-       ECHO_T='	';;
-  esac;;
-*)
-  ECHO_N='-n';;
-esac
-
-rm -f conf$$ conf$$.exe conf$$.file
-if test -d conf$$.dir; then
-  rm -f conf$$.dir/conf$$.file
-else
-  rm -f conf$$.dir
-  mkdir conf$$.dir 2>/dev/null
-fi
-if (echo >conf$$.file) 2>/dev/null; then
-  if ln -s conf$$.file conf$$ 2>/dev/null; then
-    as_ln_s='ln -s'
-    # ... but there are two gotchas:
-    # 1) On MSYS, both `ln -s file dir' and `ln file dir' fail.
-    # 2) DJGPP < 2.04 has no symlinks; `ln -s' creates a wrapper executable.
-    # In both cases, we have to default to `cp -pR'.
-    ln -s conf$$.file conf$$.dir 2>/dev/null && test ! -f conf$$.exe ||
-      as_ln_s='cp -pR'
-  elif ln conf$$.file conf$$ 2>/dev/null; then
-    as_ln_s=ln
-  else
-    as_ln_s='cp -pR'
-  fi
-else
-  as_ln_s='cp -pR'
-fi
-rm -f conf$$ conf$$.exe conf$$.dir/conf$$.file conf$$.file
-rmdir conf$$.dir 2>/dev/null
-
-
-# as_fn_mkdir_p
-# -------------
-# Create "$as_dir" as a directory, including parents if necessary.
-as_fn_mkdir_p ()
-{
-
-  case $as_dir in #(
-  -*) as_dir=./$as_dir;;
-  esac
-  test -d "$as_dir" || eval $as_mkdir_p || {
-    as_dirs=
-    while :; do
-      case $as_dir in #(
-      *\'*) as_qdir=`$as_echo "$as_dir" | sed "s/'/'\\\\\\\\''/g"`;; #'(
-      *) as_qdir=$as_dir;;
-      esac
-      as_dirs="'$as_qdir' $as_dirs"
-      as_dir=`$as_dirname -- "$as_dir" ||
-$as_expr X"$as_dir" : 'X\(.*[^/]\)//*[^/][^/]*/*$' \| \
-	 X"$as_dir" : 'X\(//\)[^/]' \| \
-	 X"$as_dir" : 'X\(//\)$' \| \
-	 X"$as_dir" : 'X\(/\)' \| . 2>/dev/null ||
-$as_echo X"$as_dir" |
-    sed '/^X\(.*[^/]\)\/\/*[^/][^/]*\/*$/{
-	    s//\1/
-	    q
-	  }
-	  /^X\(\/\/\)[^/].*/{
-	    s//\1/
-	    q
-	  }
-	  /^X\(\/\/\)$/{
-	    s//\1/
-	    q
-	  }
-	  /^X\(\/\).*/{
-	    s//\1/
-	    q
-	  }
-	  s/.*/./; q'`
-      test -d "$as_dir" && break
-    done
-    test -z "$as_dirs" || eval "mkdir $as_dirs"
-  } || test -d "$as_dir" || as_fn_error $? "cannot create directory $as_dir"
-
-
-} # as_fn_mkdir_p
-if mkdir -p . 2>/dev/null; then
-  as_mkdir_p='mkdir -p "$as_dir"'
-else
-  test -d ./-p && rmdir ./-p
-  as_mkdir_p=false
-fi
-
-
-# as_fn_executable_p FILE
-# -----------------------
-# Test if FILE is an executable regular file.
-as_fn_executable_p ()
-{
-  test -f "$1" && test -x "$1"
-} # as_fn_executable_p
-as_test_x='test -x'
-as_executable_p=as_fn_executable_p
-
-# Sed expression to map a string onto a valid CPP name.
-as_tr_cpp="eval sed 'y%*$as_cr_letters%P$as_cr_LETTERS%;s%[^_$as_cr_alnum]%_%g'"
-
-# Sed expression to map a string onto a valid variable name.
-as_tr_sh="eval sed 'y%*+%pp%;s%[^_$as_cr_alnum]%_%g'"
-
-
-exec 6>&1
-## ----------------------------------- ##
-## Main body of $CONFIG_STATUS script. ##
-## ----------------------------------- ##
-_ASEOF
-test $as_write_fail = 0 && chmod +x $CONFIG_STATUS || ac_write_fail=1
-
-cat >>$CONFIG_STATUS <<\_ACEOF || ac_write_fail=1
-# Save the log message, to keep $0 and so on meaningful, and to
-# report actual input values of CONFIG_FILES etc. instead of their
-# values after options handling.
-ac_log="
-This file was extended by libjsonparser $as_me 1.1.0, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = $CONFIG_FILES
-  CONFIG_HEADERS  = $CONFIG_HEADERS
-  CONFIG_LINKS    = $CONFIG_LINKS
-  CONFIG_COMMANDS = $CONFIG_COMMANDS
-  $ $0 $@
-
-on `(hostname || uname -n) 2>/dev/null | sed 1q`
-"
-
-_ACEOF
-
-case $ac_config_files in *"
-"*) set x $ac_config_files; shift; ac_config_files=$*;;
-esac
-
-
-
-cat >>$CONFIG_STATUS <<_ACEOF || ac_write_fail=1
-# Files that config.status was made for.
-config_files="$ac_config_files"
-
-_ACEOF
-
-cat >>$CONFIG_STATUS <<\_ACEOF || ac_write_fail=1
-ac_cs_usage="\
-\`$as_me' instantiates files and other configuration actions
-from templates according to the current configuration.  Unless the files
-and actions are specified as TAGs, all are instantiated by default.
-
-Usage: $0 [OPTION]... [TAG]...
-
-  -h, --help       print this help, then exit
-  -V, --version    print version number and configuration settings, then exit
-      --config     print configuration, then exit
-  -q, --quiet, --silent
-                   do not print progress messages
-  -d, --debug      don't remove temporary files
-      --recheck    update $as_me by reconfiguring in the same conditions
-      --file=FILE[:TEMPLATE]
-                   instantiate the configuration file FILE
-
-Configuration files:
-$config_files
-
-Report bugs to the package provider."
-
-_ACEOF
-cat >>$CONFIG_STATUS <<_ACEOF || ac_write_fail=1
-ac_cs_config="`$as_echo "$ac_configure_args" | sed 's/^ //; s/[\\""\`\$]/\\\\&/g'`"
-ac_cs_version="\\
-libjsonparser config.status 1.1.0
-configured by $0, generated by GNU Autoconf 2.69,
-  with options \\"\$ac_cs_config\\"
-
-Copyright (C) 2012 Free Software Foundation, Inc.
-This config.status script is free software; the Free Software Foundation
-gives unlimited permission to copy, distribute and modify it."
-
-ac_pwd='$ac_pwd'
-srcdir='$srcdir'
-test -n "\$AWK" || AWK=awk
-_ACEOF
-
-cat >>$CONFIG_STATUS <<\_ACEOF || ac_write_fail=1
-# The default lists apply if the user does not specify any file.
-ac_need_defaults=:
-while test $# != 0
-do
-  case $1 in
-  --*=?*)
-    ac_option=`expr "X$1" : 'X\([^=]*\)='`
-    ac_optarg=`expr "X$1" : 'X[^=]*=\(.*\)'`
-    ac_shift=:
-    ;;
-  --*=)
-    ac_option=`expr "X$1" : 'X\([^=]*\)='`
-    ac_optarg=
-    ac_shift=:
-    ;;
-  *)
-    ac_option=$1
-    ac_optarg=$2
-    ac_shift=shift
-    ;;
-  esac
-
-  case $ac_option in
-  # Handling of the options.
-  -recheck | --recheck | --rechec | --reche | --rech | --rec | --re | --r)
-    ac_cs_recheck=: ;;
-  --version | --versio | --versi | --vers | --ver | --ve | --v | -V )
-    $as_echo "$ac_cs_version"; exit ;;
-  --config | --confi | --conf | --con | --co | --c )
-    $as_echo "$ac_cs_config"; exit ;;
-  --debug | --debu | --deb | --de | --d | -d )
-    debug=: ;;
-  --file | --fil | --fi | --f )
-    $ac_shift
-    case $ac_optarg in
-    *\'*) ac_optarg=`$as_echo "$ac_optarg" | sed "s/'/'\\\\\\\\''/g"` ;;
-    '') as_fn_error $? "missing file argument" ;;
-    esac
-    as_fn_append CONFIG_FILES " '$ac_optarg'"
-    ac_need_defaults=false;;
-  --he | --h |  --help | --hel | -h )
-    $as_echo "$ac_cs_usage"; exit ;;
-  -q | -quiet | --quiet | --quie | --qui | --qu | --q \
-  | -silent | --silent | --silen | --sile | --sil | --si | --s)
-    ac_cs_silent=: ;;
-
-  # This is an error.
-  -*) as_fn_error $? "unrecognized option: \`$1'
-Try \`$0 --help' for more information." ;;
-
-  *) as_fn_append ac_config_targets " $1"
-     ac_need_defaults=false ;;
-
-  esac
-  shift
-done
-
-ac_configure_extra_args=
-
-if $ac_cs_silent; then
-  exec 6>/dev/null
-  ac_configure_extra_args="$ac_configure_extra_args --silent"
-fi
-
-_ACEOF
-cat >>$CONFIG_STATUS <<_ACEOF || ac_write_fail=1
-if \$ac_cs_recheck; then
-  set X $SHELL '$0' $ac_configure_args \$ac_configure_extra_args --no-create --no-recursion
-  shift
-  \$as_echo "running CONFIG_SHELL=$SHELL \$*" >&6
-  CONFIG_SHELL='$SHELL'
-  export CONFIG_SHELL
-  exec "\$@"
-fi
-
-_ACEOF
-cat >>$CONFIG_STATUS <<\_ACEOF || ac_write_fail=1
-exec 5>>config.log
-{
-  echo
-  sed 'h;s/./-/g;s/^.../## /;s/...$/ ##/;p;x;p;x' <<_ASBOX
-## Running $as_me. ##
-_ASBOX
-  $as_echo "$ac_log"
-} >&5
-
-_ACEOF
-cat >>$CONFIG_STATUS <<_ACEOF || ac_write_fail=1
-_ACEOF
-
-cat >>$CONFIG_STATUS <<\_ACEOF || ac_write_fail=1
-
-# Handling of arguments.
-for ac_config_target in $ac_config_targets
-do
-  case $ac_config_target in
-    "Makefile") CONFIG_FILES="$CONFIG_FILES Makefile" ;;
-
-  *) as_fn_error $? "invalid argument: \`$ac_config_target'" "$LINENO" 5;;
-  esac
-done
-
-
-# If the user did not use the arguments to specify the items to instantiate,
-# then the envvar interface is used.  Set only those that are not.
-# We use the long form for the default assignment because of an extremely
-# bizarre bug on SunOS 4.1.3.
-if $ac_need_defaults; then
-  test "${CONFIG_FILES+set}" = set || CONFIG_FILES=$config_files
-fi
-
-# Have a temporary directory for convenience.  Make it in the build tree
-# simply because there is no reason against having it here, and in addition,
-# creating and moving files from /tmp can sometimes cause problems.
-# Hook for its removal unless debugging.
-# Note that there is a small window in which the directory will not be cleaned:
-# after its creation but before its name has been assigned to `$tmp'.
-$debug ||
-{
-  tmp= ac_tmp=
-  trap 'exit_status=$?
-  : "${ac_tmp:=$tmp}"
-  { test ! -d "$ac_tmp" || rm -fr "$ac_tmp"; } && exit $exit_status
-' 0
-  trap 'as_fn_exit 1' 1 2 13 15
-}
-# Create a (secure) tmp directory for tmp files.
-
-{
-  tmp=`(umask 077 && mktemp -d "./confXXXXXX") 2>/dev/null` &&
-  test -d "$tmp"
-}  ||
-{
-  tmp=./conf$$-$RANDOM
-  (umask 077 && mkdir "$tmp")
-} || as_fn_error $? "cannot create a temporary directory in ." "$LINENO" 5
-ac_tmp=$tmp
-
-# Set up the scripts for CONFIG_FILES section.
-# No need to generate them if there are no CONFIG_FILES.
-# This happens for instance with `./config.status config.h'.
-if test -n "$CONFIG_FILES"; then
-
-
-ac_cr=`echo X | tr X '\015'`
-# On cygwin, bash can eat \r inside `` if the user requested igncr.
-# But we know of no other shell where ac_cr would be empty at this
-# point, so we can use a bashism as a fallback.
-if test "x$ac_cr" = x; then
-  eval ac_cr=\$\'\\r\'
-fi
-ac_cs_awk_cr=`$AWK 'BEGIN { print "a\rb" }' </dev/null 2>/dev/null`
-if test "$ac_cs_awk_cr" = "a${ac_cr}b"; then
-  ac_cs_awk_cr='\\r'
-else
-  ac_cs_awk_cr=$ac_cr
-fi
-
-echo 'BEGIN {' >"$ac_tmp/subs1.awk" &&
-_ACEOF
-
-
-{
-  echo "cat >conf$$subs.awk <<_ACEOF" &&
-  echo "$ac_subst_vars" | sed 's/.*/&!$&$ac_delim/' &&
-  echo "_ACEOF"
-} >conf$$subs.sh ||
-  as_fn_error $? "could not make $CONFIG_STATUS" "$LINENO" 5
-ac_delim_num=`echo "$ac_subst_vars" | grep -c '^'`
-ac_delim='%!_!# '
-for ac_last_try in false false false false false :; do
-  . ./conf$$subs.sh ||
-    as_fn_error $? "could not make $CONFIG_STATUS" "$LINENO" 5
-
-  ac_delim_n=`sed -n "s/.*$ac_delim\$/X/p" conf$$subs.awk | grep -c X`
-  if test $ac_delim_n = $ac_delim_num; then
-    break
-  elif $ac_last_try; then
-    as_fn_error $? "could not make $CONFIG_STATUS" "$LINENO" 5
-  else
-    ac_delim="$ac_delim!$ac_delim _$ac_delim!! "
-  fi
-done
-rm -f conf$$subs.sh
-
-cat >>$CONFIG_STATUS <<_ACEOF || ac_write_fail=1
-cat >>"\$ac_tmp/subs1.awk" <<\\_ACAWK &&
-_ACEOF
-sed -n '
-h
-s/^/S["/; s/!.*/"]=/
-p
-g
-s/^[^!]*!//
-:repl
-t repl
-s/'"$ac_delim"'$//
-t delim
-:nl
-h
-s/\(.\{148\}\)..*/\1/
-t more1
-s/["\\]/\\&/g; s/^/"/; s/$/\\n"\\/
-p
-n
-b repl
-:more1
-s/["\\]/\\&/g; s/^/"/; s/$/"\\/
-p
-g
-s/.\{148\}//
-t nl
-:delim
-h
-s/\(.\{148\}\)..*/\1/
-t more2
-s/["\\]/\\&/g; s/^/"/; s/$/"/
-p
-b
-:more2
-s/["\\]/\\&/g; s/^/"/; s/$/"\\/
-p
-g
-s/.\{148\}//
-t delim
-' <conf$$subs.awk | sed '
-/^[^""]/{
-  N
-  s/\n//
-}
-' >>$CONFIG_STATUS || ac_write_fail=1
-rm -f conf$$subs.awk
-cat >>$CONFIG_STATUS <<_ACEOF || ac_write_fail=1
-_ACAWK
-cat >>"\$ac_tmp/subs1.awk" <<_ACAWK &&
-  for (key in S) S_is_set[key] = 1
-  FS = ""
-
-}
-{
-  line = $ 0
-  nfields = split(line, field, "@")
-  substed = 0
-  len = length(field[1])
-  for (i = 2; i < nfields; i++) {
-    key = field[i]
-    keylen = length(key)
-    if (S_is_set[key]) {
-      value = S[key]
-      line = substr(line, 1, len) "" value "" substr(line, len + keylen + 3)
-      len += length(value) + length(field[++i])
-      substed = 1
-    } else
-      len += 1 + keylen
-  }
-
-  print line
-}
-
-_ACAWK
-_ACEOF
-cat >>$CONFIG_STATUS <<\_ACEOF || ac_write_fail=1
-if sed "s/$ac_cr//" < /dev/null > /dev/null 2>&1; then
-  sed "s/$ac_cr\$//; s/$ac_cr/$ac_cs_awk_cr/g"
-else
-  cat
-fi < "$ac_tmp/subs1.awk" > "$ac_tmp/subs.awk" \
-  || as_fn_error $? "could not setup config files machinery" "$LINENO" 5
-_ACEOF
-
-# VPATH may cause trouble with some makes, so we remove sole $(srcdir),
-# ${srcdir} and @srcdir@ entries from VPATH if srcdir is ".", strip leading and
-# trailing colons and then remove the whole line if VPATH becomes empty
-# (actually we leave an empty line to preserve line numbers).
-if test "x$srcdir" = x.; then
-  ac_vpsub='/^[	 ]*VPATH[	 ]*=[	 ]*/{
-h
-s///
-s/^/:/
-s/[	 ]*$/:/
-s/:\$(srcdir):/:/g
-s/:\${srcdir}:/:/g
-s/:@srcdir@:/:/g
-s/^:*//
-s/:*$//
-x
-s/\(=[	 ]*\).*/\1/
-G
-s/\n//
-s/^[^=]*=[	 ]*$//
-}'
-fi
-
-cat >>$CONFIG_STATUS <<\_ACEOF || ac_write_fail=1
-fi # test -n "$CONFIG_FILES"
-
-
-eval set X "  :F $CONFIG_FILES      "
-shift
-for ac_tag
-do
-  case $ac_tag in
-  :[FHLC]) ac_mode=$ac_tag; continue;;
-  esac
-  case $ac_mode$ac_tag in
-  :[FHL]*:*);;
-  :L* | :C*:*) as_fn_error $? "invalid tag \`$ac_tag'" "$LINENO" 5;;
-  :[FH]-) ac_tag=-:-;;
-  :[FH]*) ac_tag=$ac_tag:$ac_tag.in;;
-  esac
-  ac_save_IFS=$IFS
-  IFS=:
-  set x $ac_tag
-  IFS=$ac_save_IFS
-  shift
-  ac_file=$1
-  shift
-
-  case $ac_mode in
-  :L) ac_source=$1;;
-  :[FH])
-    ac_file_inputs=
-    for ac_f
-    do
-      case $ac_f in
-      -) ac_f="$ac_tmp/stdin";;
-      *) # Look for the file first in the build tree, then in the source tree
-	 # (if the path is not absolute).  The absolute path cannot be DOS-style,
-	 # because $ac_f cannot contain `:'.
-	 test -f "$ac_f" ||
-	   case $ac_f in
-	   [\\/$]*) false;;
-	   *) test -f "$srcdir/$ac_f" && ac_f="$srcdir/$ac_f";;
-	   esac ||
-	   as_fn_error 1 "cannot find input file: \`$ac_f'" "$LINENO" 5;;
-      esac
-      case $ac_f in *\'*) ac_f=`$as_echo "$ac_f" | sed "s/'/'\\\\\\\\''/g"`;; esac
-      as_fn_append ac_file_inputs " '$ac_f'"
-    done
-
-    # Let's still pretend it is `configure' which instantiates (i.e., don't
-    # use $as_me), people would be surprised to read:
-    #    /* config.h.  Generated by config.status.  */
-    configure_input='Generated from '`
-	  $as_echo "$*" | sed 's|^[^:]*/||;s|:[^:]*/|, |g'
-	`' by configure.'
-    if test x"$ac_file" != x-; then
-      configure_input="$ac_file.  $configure_input"
-      { $as_echo "$as_me:${as_lineno-$LINENO}: creating $ac_file" >&5
-$as_echo "$as_me: creating $ac_file" >&6;}
-    fi
-    # Neutralize special characters interpreted by sed in replacement strings.
-    case $configure_input in #(
-    *\&* | *\|* | *\\* )
-       ac_sed_conf_input=`$as_echo "$configure_input" |
-       sed 's/[\\\\&|]/\\\\&/g'`;; #(
-    *) ac_sed_conf_input=$configure_input;;
-    esac
-
-    case $ac_tag in
-    *:-:* | *:-) cat >"$ac_tmp/stdin" \
-      || as_fn_error $? "could not create $ac_file" "$LINENO" 5 ;;
-    esac
-    ;;
-  esac
-
-  ac_dir=`$as_dirname -- "$ac_file" ||
-$as_expr X"$ac_file" : 'X\(.*[^/]\)//*[^/][^/]*/*$' \| \
-	 X"$ac_file" : 'X\(//\)[^/]' \| \
-	 X"$ac_file" : 'X\(//\)$' \| \
-	 X"$ac_file" : 'X\(/\)' \| . 2>/dev/null ||
-$as_echo X"$ac_file" |
-    sed '/^X\(.*[^/]\)\/\/*[^/][^/]*\/*$/{
-	    s//\1/
-	    q
-	  }
-	  /^X\(\/\/\)[^/].*/{
-	    s//\1/
-	    q
-	  }
-	  /^X\(\/\/\)$/{
-	    s//\1/
-	    q
-	  }
-	  /^X\(\/\).*/{
-	    s//\1/
-	    q
-	  }
-	  s/.*/./; q'`
-  as_dir="$ac_dir"; as_fn_mkdir_p
-  ac_builddir=.
-
-case "$ac_dir" in
-.) ac_dir_suffix= ac_top_builddir_sub=. ac_top_build_prefix= ;;
-*)
-  ac_dir_suffix=/`$as_echo "$ac_dir" | sed 's|^\.[\\/]||'`
-  # A ".." for each directory in $ac_dir_suffix.
-  ac_top_builddir_sub=`$as_echo "$ac_dir_suffix" | sed 's|/[^\\/]*|/..|g;s|/||'`
-  case $ac_top_builddir_sub in
-  "") ac_top_builddir_sub=. ac_top_build_prefix= ;;
-  *)  ac_top_build_prefix=$ac_top_builddir_sub/ ;;
-  esac ;;
-esac
-ac_abs_top_builddir=$ac_pwd
-ac_abs_builddir=$ac_pwd$ac_dir_suffix
-# for backward compatibility:
-ac_top_builddir=$ac_top_build_prefix
-
-case $srcdir in
-  .)  # We are building in place.
-    ac_srcdir=.
-    ac_top_srcdir=$ac_top_builddir_sub
-    ac_abs_top_srcdir=$ac_pwd ;;
-  [\\/]* | ?:[\\/]* )  # Absolute name.
-    ac_srcdir=$srcdir$ac_dir_suffix;
-    ac_top_srcdir=$srcdir
-    ac_abs_top_srcdir=$srcdir ;;
-  *) # Relative name.
-    ac_srcdir=$ac_top_build_prefix$srcdir$ac_dir_suffix
-    ac_top_srcdir=$ac_top_build_prefix$srcdir
-    ac_abs_top_srcdir=$ac_pwd/$srcdir ;;
-esac
-ac_abs_srcdir=$ac_abs_top_srcdir$ac_dir_suffix
-
-
-  case $ac_mode in
-  :F)
-  #
-  # CONFIG_FILE
-  #
-
-_ACEOF
-
-cat >>$CONFIG_STATUS <<\_ACEOF || ac_write_fail=1
-# If the template does not know about datarootdir, expand it.
-# FIXME: This hack should be removed a few years after 2.60.
-ac_datarootdir_hack=; ac_datarootdir_seen=
-ac_sed_dataroot='
-/datarootdir/ {
-  p
-  q
-}
-/@datadir@/p
-/@docdir@/p
-/@infodir@/p
-/@localedir@/p
-/@mandir@/p'
-case `eval "sed -n \"\$ac_sed_dataroot\" $ac_file_inputs"` in
-*datarootdir*) ac_datarootdir_seen=yes;;
-*@datadir@*|*@docdir@*|*@infodir@*|*@localedir@*|*@mandir@*)
-  { $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: $ac_file_inputs seems to ignore the --datarootdir setting" >&5
-$as_echo "$as_me: WARNING: $ac_file_inputs seems to ignore the --datarootdir setting" >&2;}
-_ACEOF
-cat >>$CONFIG_STATUS <<_ACEOF || ac_write_fail=1
-  ac_datarootdir_hack='
-  s&@datadir@&$datadir&g
-  s&@docdir@&$docdir&g
-  s&@infodir@&$infodir&g
-  s&@localedir@&$localedir&g
-  s&@mandir@&$mandir&g
-  s&\\\${datarootdir}&$datarootdir&g' ;;
-esac
-_ACEOF
-
-# Neutralize VPATH when `$srcdir' = `.'.
-# Shell code in configure.ac might set extrasub.
-# FIXME: do we really want to maintain this feature?
-cat >>$CONFIG_STATUS <<_ACEOF || ac_write_fail=1
-ac_sed_extra="$ac_vpsub
-$extrasub
-_ACEOF
-cat >>$CONFIG_STATUS <<\_ACEOF || ac_write_fail=1
-:t
-/@[a-zA-Z_][a-zA-Z_0-9]*@/!b
-s|@configure_input@|$ac_sed_conf_input|;t t
-s&@top_builddir@&$ac_top_builddir_sub&;t t
-s&@top_build_prefix@&$ac_top_build_prefix&;t t
-s&@srcdir@&$ac_srcdir&;t t
-s&@abs_srcdir@&$ac_abs_srcdir&;t t
-s&@top_srcdir@&$ac_top_srcdir&;t t
-s&@abs_top_srcdir@&$ac_abs_top_srcdir&;t t
-s&@builddir@&$ac_builddir&;t t
-s&@abs_builddir@&$ac_abs_builddir&;t t
-s&@abs_top_builddir@&$ac_abs_top_builddir&;t t
-$ac_datarootdir_hack
-"
-eval sed \"\$ac_sed_extra\" "$ac_file_inputs" | $AWK -f "$ac_tmp/subs.awk" \
-  >$ac_tmp/out || as_fn_error $? "could not create $ac_file" "$LINENO" 5
-
-test -z "$ac_datarootdir_hack$ac_datarootdir_seen" &&
-  { ac_out=`sed -n '/\${datarootdir}/p' "$ac_tmp/out"`; test -n "$ac_out"; } &&
-  { ac_out=`sed -n '/^[	 ]*datarootdir[	 ]*:*=/p' \
-      "$ac_tmp/out"`; test -z "$ac_out"; } &&
-  { $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: $ac_file contains a reference to the variable \`datarootdir'
-which seems to be undefined.  Please make sure it is defined" >&5
-$as_echo "$as_me: WARNING: $ac_file contains a reference to the variable \`datarootdir'
-which seems to be undefined.  Please make sure it is defined" >&2;}
-
-  rm -f "$ac_tmp/stdin"
-  case $ac_file in
-  -) cat "$ac_tmp/out" && rm -f "$ac_tmp/out";;
-  *) rm -f "$ac_file" && mv "$ac_tmp/out" "$ac_file";;
-  esac \
-  || as_fn_error $? "could not create $ac_file" "$LINENO" 5
- ;;
-
-
-
-  esac
-
-done # for ac_tag
-
-
-as_fn_exit 0
-_ACEOF
-ac_clean_files=$ac_clean_files_save
-
-test $ac_write_fail = 0 ||
-  as_fn_error $? "write failure creating $CONFIG_STATUS" "$LINENO" 5
-
-
-# configure is writing to config.log, and then calls config.status.
-# config.status does its own redirection, appending to config.log.
-# Unfortunately, on DOS this fails, as config.log is still kept open
-# by configure, so config.status won't be able to write to it; its
-# output is simply discarded.  So we exec the FD to /dev/null,
-# effectively closing config.log, so it can be properly (re)opened and
-# appended to by config.status.  When coming back to configure, we
-# need to make the FD available again.
-if test "$no_create" != yes; then
-  ac_cs_success=:
-  ac_config_status_args=
-  test "$silent" = yes &&
-    ac_config_status_args="$ac_config_status_args --quiet"
-  exec 5>/dev/null
-  $SHELL $CONFIG_STATUS $ac_config_status_args || ac_cs_success=false
-  exec 5>>config.log
-  # Use ||, not &&, to avoid exiting from the if with $? = 1, which
-  # would make configure fail if this is the last instruction.
-  $ac_cs_success || as_fn_exit 1
-fi
-if test -n "$ac_unrecognized_opts" && test "$enable_option_checking" != no; then
-  { $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: unrecognized options: $ac_unrecognized_opts" >&5
-$as_echo "$as_me: WARNING: unrecognized options: $ac_unrecognized_opts" >&2;}
-fi
-Gmright2-doc - drag -_^gmright2 into matrix to start build this operations push your (push) =GMRIGHT2 revolution push into-right to shine in bot -table -set as git-table ^+dragon spirit open what is be close-drag/energy from master “data “ to start the affection in source automatic,ignore flap.io to push the script energy (L_parking only)
-L>1+H>1=N.2=N.3>flip-duration dragon move the mobile map for your set tools-move (fold) into revolution-open this book to guide this source serves/NML.wrap+/provision-ini/float-pages/3. Revolution open cages-$gmright2 push all the realistic files _<[drop-result-affection]> headlines open and showcase in source marketing business/=push -clone/web-load/command QR.1.2=> to v.2 before patch step in calculator data open pools for data introduced or programming language-check H>1 o.2 to support guide power connect this source of #clone this source files to create pipelines for example when user enter and start build this type system and create and code in pool system connect this from master repo to reach the system limits and to boot complete mix codes revenue service build and deploy users build codes in source of automatic command system inform to butket.Qa via/c:program bring v.2 to install files automatic from this source type settings v.4 for server dependency api=security connect before dropping affection “deploy”call -forgiveness for bound down job start this bot open and this here is cloud is open this bot is closed this here cloud is clone this will only work only if and only if pro path is on payload from “gmright2” http server =command-computer:”system affect this system in command windows and push system to operate files in automatic command build master-dragon-open fire system command-hello flame clone this type dragon fire to build and burn it 
-L.3 wrap all codes “command _build” format and achieve this source files automatic from master command tools “achieve by the owner “command build claim-revolution  send codes.wraps troops L.9  to remind L.1 that git is open for “job” and “build” v.3=R.1-provision toolset from milestones reaction when user step in this account command
-Set toolbox public for registration and license platform plus software home service server service-command when rest step-ini-first/link=spacecraft-go/gmright2 revolution/and start job position/pick here/set-there/ this -goes_here/this location service is complete/this is still loading/ check this is open it need to be close/ this still open/ this is complete/ this it passed/ this  is not complete/ installation ^+(hello world) this is big fish example “something dead come to live “ ES.1 open this door for dragon to pass here check dragon-speed limit =doc-webhook/setting _webhook/open gmright2-book> book_open name dragon name : “gmright2”n.9 =FN-ouch path open this location service server including cloud this is an example of father of the father send this files to parent or computer symptoms (hello parent) check “gmright2 “ way is in ES.11 add automatic update codeshare parent ^> “time-zone” open when is necessary call ruby for security before filed goes public service server 
-“Father I know I’m late is me your son from L.1 you remember me father?is me “(GMRIGHT2) “ remember I’m 3 year old how can you abandon “gmright2 “I thought you still love me father  to the point you will be able to give up some part of you for “@gmright2” but listen I’m here with ES.0.0.1 before I lost my wallpaper thanks for “rest” I was able to set and reboot all my “files” 
-Hello father can  you actually  hear me out because I’m sticking in my brother home but when webhook give me the information that I need I will be able to move to different duration to support guide mitre via “gmright2” supposed affection-can you let me inside because is to cold outside and the flame is out this is only going bro work if the flame is broken from the road automatic service will start working inside the door user who accepted this source of quality service if GF.3 can be able to move forward with me doc open ios-non-registration to operate source of command in source of platform power gm.3 to push the command build into improve system +=azure cloud-access this is not necessary because this is only home-private command a.2 public and organiz FileMaker tools those systems 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- MIT License
+Rest rest it was created to deploy hard to find and those who was lost
+This program will be able to fix and connect does fine you forgot to or they found two no way to connect with the master report 
+GMRIGHT2 right repository rd-1.0 nit doesn't need to be created because they Musta difficult report story from Gmright2 CI 
+
+
+". Rest -dope 
+          Night (dark-mode)/>(shine-mode)
+Rest-ini]{ process vision "2.1.132"
+     Rest: start -running when/release <~complete 
+         Rest-repostory/downlow 
+           Result-same/from/downlow "
+
+Rest be able to organize all your five in one place
+By commit this pro files users should have first to submit the work 
+To start with application gmright2-rest-result 
+
+Czarist >{~v.2} gmright2 
+Bill-accepted this pro-@codes
+Rest-open-shine/bucketloads open-freelancing 
+Gmright2-re-same> build 
+Rest-*shell
+Rest-*block-rest 
+  Copy-name 
+     Forget[<data>end 
+Broken down rest-clone /provision for supporting (service-12)
+Broken windows access required 
+Fix<~ 7.7 $actions 
+Fix<~ 5.0 sections 
+Fix=done 
+
+
+   Dot/go
+ Dot:%u-io 
+Deploy:;7&3
+Deploy:9/$:8)3):8/8
+
+Set-conversation/run-echo (actions)
+Write> gmright2 public repostory 
+Write-club{_dominic\install brono 
+Write-setting 8.8.122 ~< b-12 
+
+Gmright2.Io director (ini)<^>Generator=master-strings 
+Net_z_4=GMRIGHT2 "_l s-3/-guide_df/l;
+Built= e_map_z^doc/ system>(e.1.rest);
+e_provision = e_1.x - (intro_e_wax'*^4.5.6.4)*powershell_new{gmright2 % Local -repostory x-toolbar =similar gmright <|ernly vision {]}
+                            % spin (> “toolbar _ coverup<\>different axial direction
+Pro= index /files_map (e_x);> show existence(extra_files)
+CI.gmright.io- = cross(rest-z, enters-value >x);
+
+Job name = 'left_system';> on-1.3”deployment <~ Threat(-system 
+lm.limit = cyst<4.5.5> (1.3.5.gmright-spinster _ini(2.package_x.rate_/>e_git-gmright2/9.0_l),...
+		      [0 0 0 21]);
+Links-m.door = {[1 3], []};
+ _job:[{< 7.8.8
+_job:[{< 1.3.0
+_job:[{< 1.2.3
+_job:[{< 3.4.5
+_job:[{< 1.2.2
+_job:[{< 7.1.0
+_job:[{< 1.2.1
+_job:[{< 1.2.7
+_job:[{< 0.3.4
+_job:[{< 1.0.0
+_job:[{< 3.1.1
+_job:[{< 5.0.0
+_job:[{< 1.2.3
+
+MIT License
 
 Copyright (c) 2020 gmright2
 
@@ -11595,15 +10530,6 @@ SOFTWARE.
 
 
 
->}
-)
-
-
-
-
-
-
-    
 
 
 
@@ -11611,13 +10537,19 @@ SOFTWARE.
 
 
 
-└── asan.x86.sh
-
-49 directories, 50 files
 
 
-=== Pre-installed tool versions ========
-========================================
+
+
+
+
+
+
+
+
+
+
+
 
 
 

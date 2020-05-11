@@ -1,0 +1,2 @@
+reset()  // Clears the default list from all ABIs to no ABIs.
+include "x86", "x86_64" // Specifies the two ABIs we want to generate APKs for.
