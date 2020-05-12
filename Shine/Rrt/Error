@@ -1,6 +1,0 @@
-{
-  "error": {
-    "code": "BadRequest",
-    "message": "string"
-  }
-}
