@@ -1,1 +1,0 @@
-adb install --abi abi-identifier path_to_apk
