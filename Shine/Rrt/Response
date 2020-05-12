@@ -1,0 +1,12 @@
+{
+  "userId": "string",
+  "metadata": {}
+}
+
+
+{
+  "error": {
+    "code": "BadRequest",
+    "message": "string"
+  }
+}

@@ -1,0 +1,1 @@
+jstack -l pid >> dump.txt

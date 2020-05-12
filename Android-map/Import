@@ -1,0 +1,10 @@
+import android.content.pm.PackageInfo;
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageManager;
+...
+ApplicationInfo ainfo = this.getApplicationContext().getPackageManager().getApplicationInfo
+(
+    "com.domain.app",
+    PackageManager.GET_SHARED_LIBRARY_FILES
+);
+Log.v( TAG, "native library dir " + ainfo.nativeLibraryDir );

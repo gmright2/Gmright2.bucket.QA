@@ -1,0 +1,9 @@
+import android.content.pm.PackageInfo
+import android.content.pm.ApplicationInfo
+import android.content.pm.PackageManager
+...
+val ainfo = this.applicationContext.packageManager.getApplicationInfo(
+        "com.domain.app",
+        PackageManager.GET_SHARED_LIBRARY_FILES
+)
+Log.v(TAG, "native library dir ${ainfo.nativeLibraryDir}")

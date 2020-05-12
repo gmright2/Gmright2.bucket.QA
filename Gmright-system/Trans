@@ -1,0 +1,176 @@
+html xmlns:TranslationData="http://www.autodesk.com/Inventor/Translation">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-16">
+<title>Autodesk Inventor Translation Report</title>
+<style type="text/css">
+					body 	{	background-color: white; color: black; font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-style: normal; font-weight: normal; text-align: left; text-indent: 0pt; margin-bottom: 0pt; margin-left: 12pt; margin-right: 12pt; margin-top: 6pt;	}
+					th	{	font-size: 12pt; font-weight: bold; margin-top: 12pt; margin-bottom: 3pt; text-align: left; background-color: #bbbbbb;	}
+					td {	font-size: 10pt; font-weight: normal; margin-top: 12pt; margin-bottom: 3pt;	}
+					table table th { font-size: 10pt; font-weight: bold; margin-top: 10pt; margin-bottom: 3pt; text-align: left; background-color:#eeeeee; }
+					table table td {	font-size: 10pt; font-weight: normal; margin-top: 12pt; margin-bottom: 3pt;	}
+					tr.row-style0 {	background-color: #ddddff;	}
+					tr.row-style1 {	background-color: #eeeeff;	}
+					.title 	{	color: #003399; font-size: 14pt; font-weight: bold;	}
+					.header-heading {	font-weight: bold;	}
+					.section-heading	{ color: #003399; font-size: 12pt; font-weight: bold; margin-top: 12pt; margin-bottom: 8pt;	}
+					.table-description	{ margin-top: 6pt; margin-bottom: 3pt;	}
+					.timestamp {	font-size: 9pt; font-weight: normal; color: #003399; text-align: right;	}
+					.plus-minus {	text-align: center; font-family: monospace; font-weight: bold; cursor: pointer; cursor: hand; }
+					.status-error {	color: CC0000; font-weight: bold;	}
+					.status-warning {	color: #999900; font-weight: bold;	}
+					.status-message {	color: #003366; font-weight: bold;	}
+					.status-unknown {	color: #660066; font-weight: bold;	}
+					.status-debug	{	color: #660066; font-weight: bold;	}					
+					.status-success {	color: #006600;	}
+				</style><script language="JavaScript" type="text/javascript">
+					function setDisplay(id, displayStyle)
+					{
+						el = document.getElementById(id)
+						if (el != null)
+							el.style.display = displayStyle;
+					}
+	
+					function hide(id)
+					{
+						setDisplay(id, "none");
+					}
+	
+					function show(id)
+					{
+						setDisplay(id, "");
+					}
+	
+					function Expand(row, prefix)
+					{
+						hide(prefix + "plus" + row);
+						show(prefix + "minus" + row);
+						show(prefix + "details" + row);
+					}
+	
+					function Collapse(row, prefix)
+					{
+						show(prefix + "plus" + row);
+						hide(prefix + "minus" + row);
+						hide(prefix + "details" + row);
+					}
+
+					function ChangeAll(fnChange, prefix)
+					{
+						row = 1;
+						while(document.getElementById(prefix + "row" + row) != null)
+							fnChange(row++, prefix);
+					}
+	
+					function ExpandAll(prefix)
+					{
+						ChangeAll(Expand, prefix);
+					}
+	
+					function CollapseAll(prefix)
+					{
+						ChangeAll(Collapse, prefix);
+					}
+
+				</script></head>
+<body>
+<table border="0" width="900">
+<tr>
+<td><h1 class="title">Autodesk Inventor Translation Report</h1></td>
+<td class="timestamp">Sunday, January 22, 2012 (8:22 PM)</td>
+</tr>
+</table>
+<table border="0" width="900">
+<col width="25%"><col width="25%"><col width="25%"><col width="25%">
+<tr>
+<td class="header-heading">Source File:</td>
+<td colspan="3">Z:\UserData\Documents\Inventor\team1885frc\AndyMark\PG-71-am-0914.STEP</td>
+</tr>
+<tr>
+<td class="header-heading">Translator Type:</td>
+<td>STEP</td>
+<td class="header-heading">Sending System:</td>
+<td>SolidWorks 2010</td>
+</tr>
+<tr>
+<td class="header-heading">Author:</td>
+<td>Mark</td>
+<td class="header-heading">Translation Time:</td>
+<td>00:00:00</td>
+</tr>
+</table>
+<table border="0" width="900">
+<tr></tr>
+</table>
+<table border="0" width="900">
+<col width="38%">
+<col width="62%">
+<tr>
+<td>
+<h1 class="title">Options</h1>
+</td>
+</tr>
+<tr>
+<td class="header-heading">Import Type:</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td class="header-heading">Entity Types to Import:</td>
+<td>Solids, Surfaces, Wires, Points</td>
+</tr>
+<tr>
+<td class="header-heading">Import into Repair Environment:</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td class="header-heading">Import Assembly as Single Part:</td>
+<td>No</td>
+</tr>
+<tr>
+<td class="header-heading">Create Surfaces As:</td>
+<td>Single Composite Feature</td>
+</tr>
+<tr></tr>
+<tr>
+<td class="header-heading">Import Multiple Solid Parts as Assembly:</td>
+<td>No</td>
+</tr>
+<td class="header-heading">Units:</td>
+<td>inch</td>
+<tr>
+<td class="header-heading">Check Parts during Load:</td>
+<td>No</td>
+</tr>
+<tr>
+<td class="header-heading">Auto Stitch and Promote:</td>
+<td>No</td>
+</tr>
+<tr>
+<td class="header-heading">Enable Advanced Healing:</td>
+<td>N/A</td>
+</tr>
+</table>
+<h2 class="section-heading">Components</h2>
+<p class="table-description">The following table lists the parts and assemblies created in Inventor:</p>
+<table border="0" width="900">
+<col width="7%">
+<tr>
+<th>
+<div class="plus-minus"><span onclick="ExpandAll('component-')">+</span><span>/</span><span onclick="CollapseAll('component-')">-</span></div>
+</th>
+<th>Name</th>
+<th>Inventor File</th>
+<th>Status</th>
+</tr>
+<tr id="component-row1" class="row-style1">
+<td>
+<div class="plus-minus">[ ]</div>
+</td>
+<td>PG-71-am-0914</td>
+<td><a href="Z:\UserData\Documents\Inventor\team1885frc\AndyMark\Imported Components\PG-71-am-0914\PG-71-am-0914.ipt">Z:\UserData\Documents\Inventor\team1885frc\AndyMark\Imported Components\PG-71-am-0914\PG-71-am-0914.ipt</a></td>
+<td>
+<div class="status-success">Successful</div></td>
+</tr>
+</table>
+<p></p>
+</body>
+</html>
