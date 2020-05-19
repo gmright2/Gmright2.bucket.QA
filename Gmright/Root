@@ -1,0 +1,8 @@
+$ ls -l /usr/local/bin/ruby*
+lrwxr-xr-x  1 root  wheel       76 Jan 20  2010 /usr/local/bin/ruby@ -> /usr/local/bin/ruby1.8
+-rwxr-xr-x  1 root  wheel  1213160 Jul 15 16:36 /usr/local/bin/ruby1.8*
+-rwxr-xr-x  1 root  wheel  2698624 Jul  6 19:30 /usr/local/bin/ruby1.9*
+$ ls -l /usr/local/bin/gem*
+lrwxr-xr-x  1 root  wheel   76 Jan 20  2010 /usr/local/bin/gem@ -> /usr/local/bin/gem1.9
+-rwxr-xr-x  1 root  wheel  550 Jul 15 16:36 /usr/local/bin/gem1.8*
+-rwxr-xr-x  1 root  wheel  550 Jul  6 19:30 /usr/local/bin/gem1.9*
