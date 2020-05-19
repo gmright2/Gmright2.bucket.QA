@@ -1,0 +1,21 @@
+$ gem list RedCloth
+
+*** LOCAL GEMS ***
+
+RedCloth (4.1.1)
+$ ruby -e 'require "RedCloth"'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- RedCloth (LoadError)
+  from /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+  from -e:1
+$ gem contents --no-prefix RedCloth | grep lib
+lib/case_sensitive_require/RedCloth.rb
+lib/redcloth/erb_extension.rb
+lib/redcloth/formatters/base.rb
+lib/redcloth/formatters/html.rb
+lib/redcloth/formatters/latex.rb
+lib/redcloth/formatters/latex_entities.yml
+lib/redcloth/textile_doc.rb
+lib/redcloth/version.rb
+lib/redcloth.rb
+$ ruby -e 'require "redcloth"'
+$ # success!
