@@ -3,7 +3,7 @@ setup(
     name='edgegrid-python', 
     version='1.1.1', 
     description='{OPEN} client authentication protocol for python-requests',
-    author='Jonathan Landis',
+    author='George Makulu ',
     author_email='jlandis@akamai.com',
     url='https://github.com/akamai-open/AkamaiOPEN-edgegrid-python',
     namespace_packages=['akamai'],
