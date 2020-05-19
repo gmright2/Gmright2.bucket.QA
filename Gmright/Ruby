@@ -1,0 +1,4 @@
+$ which ruby
+/usr/local/bin/ruby
+$ gem env | grep 'RUBY EXECUTABLE'
+   - RUBY EXECUTABLE: /usr/local/bin/ruby1.9
