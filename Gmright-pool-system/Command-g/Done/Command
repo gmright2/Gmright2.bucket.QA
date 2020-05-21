@@ -1,0 +1,1 @@
+curl -s https://app.cloud66.com/server/a5f039f85d7b6acb92d4a0dc1740acaf/register_script.sh | bash -s
