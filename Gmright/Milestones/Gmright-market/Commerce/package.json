@@ -16,7 +16,7 @@
   "types": "tree-sitter.d.ts",
   "dependencies": {
     "nan": "2.14.1",
-    "prebuild-install": "^5.0.0"
+    "prebuild-install": "5.3.4"
   },
   "devDependencies": {
     "prebuild": "10.0.0"
